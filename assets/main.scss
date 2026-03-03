@@ -33,7 +33,6 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Ubuntu, Cantarell,
                "Helvetica Neue", Arial, sans-serif;
-
   background-color: var(--bg-main);
   color: var(--text-main);
 }
@@ -131,6 +130,7 @@ a:hover {
 }
 
 /* Burger lines */
+
 .mobile-menu summary::before,
 .mobile-menu summary::after,
 .mobile-menu summary span {
@@ -142,17 +142,9 @@ a:hover {
   background: #ffffff;
 }
 
-.mobile-menu summary::before {
-  top: 0;
-}
-
-.mobile-menu summary span {
-  top: 9px;
-}
-
-.mobile-menu summary::after {
-  bottom: 0;
-}
+.mobile-menu summary::before { top: 0; }
+.mobile-menu summary span { top: 9px; }
+.mobile-menu summary::after { bottom: 0; }
 
 /* =========================================================
    Sections
@@ -235,6 +227,7 @@ hr {
   }
 
   /* Slide-in Panel */
+
   .mobile-menu[open] ul {
     position: fixed;
     top: 0;
@@ -261,6 +254,7 @@ hr {
   }
 
   /* About stacked */
+
   .about-container {
     flex-direction: column;
     align-items: center;
