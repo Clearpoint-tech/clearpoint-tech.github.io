@@ -15,6 +15,19 @@
 
     {%- include footer.html -%}
 
-  </body>
+    <script>
+    document.addEventListener('click', function(e) {
+      const menu = document.querySelector('.mobile-menu');
+      if (!menu || !menu.open) return;
 
+      const clickedInside = menu.contains(e.target);
+      const clickedSummary = e.target.closest('summary');
+
+      if (!clickedInside && !clickedSummary) {
+        menu.removeAttribute('open');
+      }
+    });
+    </script>
+
+  </body>
 </html>
