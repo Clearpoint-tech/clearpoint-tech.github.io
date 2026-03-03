@@ -98,6 +98,7 @@ a:hover {
 .desktop-nav {
   display: flex;
   gap: 28px;
+  margin-left: auto;
 }
 
 .desktop-nav a {
@@ -224,15 +225,16 @@ hr {
 
   .mobile-menu {
     display: block;
+    margin-left: auto;
   }
 
   /* Slide-in Panel */
 
   .mobile-menu[open] ul {
     position: fixed;
-    top: 54px;
+    top: 100%;
     right: 0;
-    width: 60%;
+    width: 55%;
     max-width: 260px;
     height: calc(100vh - 54px);
     background: var(--bg-header);
