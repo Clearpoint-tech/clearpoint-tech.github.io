@@ -197,9 +197,9 @@ details ul {
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25); /* lighter shadow */
 }
 
-/* =========================================
-   Responsive (Mobile)
-========================================= */
+/* =========================================================
+   Responsive (Mobile ≤ 900px)
+========================================================= */
 
 @media (max-width: 900px) {
 
@@ -213,13 +213,16 @@ details ul {
     line-height: 1.6;
   }
 
-  /* Section spacing rhythm */
+  /* Section rhythm */
   section,
   .page-content > div {
     margin-bottom: 60px;
   }
 
-  /* About layout */
+  /* =====================================
+     About layout (stacked)
+  ===================================== */
+
   .about-container {
     flex-direction: column;
     align-items: center;
@@ -241,29 +244,60 @@ details ul {
     height: auto;
   }
 
-  /* Accordion usability */
+  /* =====================================
+     Mobile Navigation (Simple dropdown)
+  ===================================== */
+
+  details {
+    position: relative;
+  }
+
   details summary {
-    padding: 16px 0;
+    list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 10px 0;
+  }
+
+  /* Remove default marker */
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* Dropdown panel */
+  details[open] ul {
+    position: absolute;
+    top: 42px;
+    right: 0;
+    background: #0b1a2b;
+    padding: 20px 26px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    list-style: none;
+    min-width: 220px;
+    z-index: 1000;
+  }
+
+  /* Links */
+  details ul li {
+    margin-bottom: 16px;
+  }
+
+  details ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  details ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
     font-size: 1rem;
+    transition: opacity 0.2s ease;
   }
 
-  /* Mobile navigation */
-  .site-nav {
-    background: var(--bg-header);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
-    border-radius: 10px;
-    padding: 8px 0;
-  }
-
-  .site-nav a {
-    color: var(--text-main);
-    display: block;
-    padding: 14px 22px;
-    font-size: 1rem;
-  }
-
-  .site-nav a:hover {
-    background: rgba(255, 255, 255, 0.06);
+  details ul a:hover {
+    opacity: 0.7;
   }
 
 }
