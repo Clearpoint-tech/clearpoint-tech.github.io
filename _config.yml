@@ -30,7 +30,7 @@ description: Cybersecurity, automation, and technical project delivery.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  9h1l199e
+github_username:  rtr-rep
 
 # Build settings
 theme: minima

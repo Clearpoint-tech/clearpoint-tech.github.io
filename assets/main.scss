@@ -141,3 +141,129 @@ hr {
   background: #7dd3fc;
   text-decoration: none;
 }
+
+/* ========================================================
+   Accordion spacing
+   ======================================================== */
+details {
+  margin-bottom: 14px;
+}
+
+/* =======================================================
+   Make summary feel clickable
+   ======================================================= */
+details summary {
+  cursor: pointer;
+  padding: 8px 0;
+  transition: opacity 0.2s ease;
+}
+
+/* ======================================================
+   Subtle hover effect
+   ====================================================== */
+details summary:hover {
+  opacity: 0.75;
+}
+
+/* =====================================================
+   Improve spacing inside dropdown
+   ===================================================== */
+details ul {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding-left: 20px;
+}
+
+/* ====================================================
+   About Page Layout
+   ==================================================== */
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 55px; /* from 45px */
+  margin-top: 30px;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px; /* slightly narrower text */
+}
+
+.about-image img {
+  width: 220px; /* smaller */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25); /* lighter shadow */
+}
+
+/* =========================================
+   Responsive (Mobile)
+========================================= */
+
+@media (max-width: 900px) {
+
+  /* Global spacing */
+  main {
+    padding: 0 22px;
+  }
+
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* Section spacing rhythm */
+  section,
+  .page-content > div {
+    margin-bottom: 60px;
+  }
+
+  /* About layout */
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    margin-top: 20px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-image {
+    margin-top: 10px;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  /* Accordion usability */
+  details summary {
+    padding: 16px 0;
+    font-size: 1rem;
+  }
+
+  /* Mobile navigation */
+  .site-nav {
+    background: var(--bg-header);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    padding: 8px 0;
+  }
+
+  .site-nav a {
+    color: var(--text-main);
+    display: block;
+    padding: 14px 22px;
+    font-size: 1rem;
+  }
+
+  .site-nav a:hover {
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+}

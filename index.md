@@ -19,7 +19,7 @@ and deliver complex technical projects with clarity and precision.
   Risk assessment, security fundamentals, hands-on technical support
 
 - **Automation & efficiency**  
-  Process automation, scripting, tooling, technical workflows
+  Workflow automation, low-code implementation, system integration
 
 - **Project & delivery support**  
   Bridging business needs and technical execution
@@ -28,10 +28,10 @@ and deliver complex technical projects with clarity and precision.
 
 ### How to work with me
 
-- 1:1 advisory calls  
-- Short-term technical missions  
-- Project-based engagements
-
+- 1:1 advisory call (free initial consultation)
+- Flexible engagement model
+- No long-term lock-in
+- Transparent pricing
 
 ---
 
