@@ -232,13 +232,13 @@ hr {
 
   .mobile-menu[open] ul {
     position: fixed;
-    top: 100%;
+    top: 50px;
     right: 0;
     width: 55%;
-    max-width: 260px;
-    height: calc(100vh - 54px);
+    max-width: 240px;
+    height: calc(100vh - 50px);
     background: var(--bg-header);
-    padding: 40px 28px;
+    padding: 40px 24px;
     list-style: none;
     box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4);
     overflow-y: auto;
