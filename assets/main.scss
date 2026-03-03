@@ -230,17 +230,17 @@ hr {
 
   .mobile-menu[open] ul {
     position: fixed;
-    top: 60px;
+    top: 72px;
     right: 0;
     width: 75%;
     max-width: 320px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 72px);
     background: var(--bg-header);
-    padding: 80px 28px;
+    padding: 40px 28px;
     list-style: none;
     box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4);
     overflow-y: auto;
-    z-index: 1000;
+    z-index: 999;
   }
 
 
