@@ -230,11 +230,11 @@ hr {
 
   .mobile-menu[open] ul {
     position: fixed;
-    top: 72px;
+    top: 54px;
     right: 0;
-    width: 75%;
-    max-width: 320px;
-    height: calc(100vh - 72px);
+    width: 60%;
+    max-width: 260px;
+    height: calc(100vh - 54px);
     background: var(--bg-header);
     padding: 40px 28px;
     list-style: none;
