@@ -4,8 +4,8 @@
 @import "minima";
 
 /* =========================================================
-   Clearpoint – Global base
-   ========================================================= */
+   Clearpoint – Design System
+========================================================= */
 
 :root {
   --bg-main: #0f172a;
@@ -25,7 +25,10 @@
   --accent-soft: #cbd5f5;
 }
 
-/* Base text */
+/* =========================================================
+   Base
+========================================================= */
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Ubuntu, Cantarell,
@@ -35,15 +38,14 @@ body {
   color: var(--text-main);
 }
 
-/* Content width */
 .wrapper {
   max-width: 960px;
   padding: 2rem 1.5rem;
 }
 
 /* =========================================================
-   Headings
-   ========================================================= */
+   Typography
+========================================================= */
 
 h1, h2, h3 {
   color: var(--text-heading);
@@ -54,20 +56,13 @@ h1 {
   font-size: 2.2rem;
 }
 
-h2 {
-  margin-top: 2.5rem;
-}
-
-/* =========================================================
-   Page titles (accent coral)
-   ========================================================= */
 main h1:first-of-type {
   color: var(--accent-title);
 }
 
 /* =========================================================
    Links
-   ========================================================= */
+========================================================= */
 
 a {
   color: var(--accent-main);
@@ -79,12 +74,18 @@ a:hover {
 }
 
 /* =========================================================
-   Header navigation (Minima override)
-   ========================================================= */
+   Header & Navigation
+========================================================= */
 
 .site-header {
   background-color: var(--bg-header);
   border-bottom: 1px solid var(--border-subtle);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-title,
@@ -93,19 +94,69 @@ a:hover {
   font-weight: 600;
 }
 
-/* Minima uses `.page-link` for menu items */
-.site-nav .page-link,
-.site-nav .page-link:visited {
-  color: var(--accent-soft);
+/* ---------- Desktop Nav ---------- */
+
+.desktop-nav {
+  display: flex;
+  gap: 28px;
 }
 
-.site-nav .page-link:hover {
-  color: var(--accent-main);
+.desktop-nav a {
+  color: var(--accent-soft);
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.desktop-nav a:hover {
+  opacity: 0.7;
+}
+
+/* ---------- Burger (hidden desktop) ---------- */
+
+.mobile-menu {
+  display: none;
+  position: relative;
+}
+
+.mobile-menu summary {
+  list-style: none;
+  cursor: pointer;
+  width: 28px;
+  height: 22px;
+  position: relative;
+}
+
+.mobile-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Burger lines */
+.mobile-menu summary::before,
+.mobile-menu summary::after,
+.mobile-menu summary span {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #ffffff;
+}
+
+.mobile-menu summary::before {
+  top: 0;
+}
+
+.mobile-menu summary span {
+  top: 9px;
+}
+
+.mobile-menu summary::after {
+  bottom: 0;
 }
 
 /* =========================================================
-   Sections & separators
-   ========================================================= */
+   Sections
+========================================================= */
 
 hr {
   border: none;
@@ -114,8 +165,50 @@ hr {
 }
 
 /* =========================================================
+   CTA
+========================================================= */
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.6rem;
+  background: var(--accent-main);
+  color: #020617;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.cta-button:hover {
+  background: var(--accent-hover);
+  text-decoration: none;
+}
+
+/* =========================================================
+   About Page
+========================================================= */
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  margin-top: 30px;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about-image img {
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================================================
    Footer
-   ========================================================= */
+========================================================= */
 
 .site-footer {
   background-color: var(--bg-header);
@@ -123,106 +216,51 @@ hr {
   color: var(--text-muted);
 }
 
-/* ========================================================
-   CTA
-   ======================================================== */
-
-.cta-button {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.8rem 1.6rem;
-  background: #38bdf8;
-  color: #020617;
-  font-weight: 600;
-  border-radius: 6px;
-}
-
-.cta-button:hover {
-  background: #7dd3fc;
-  text-decoration: none;
-}
-
-/* ========================================================
-   Accordion spacing
-   ======================================================== */
-details {
-  margin-bottom: 14px;
-}
-
-/* =======================================================
-   Make summary feel clickable
-   ======================================================= */
-details summary {
-  cursor: pointer;
-  padding: 8px 0;
-  transition: opacity 0.2s ease;
-}
-
-/* ======================================================
-   Subtle hover effect
-   ====================================================== */
-details summary:hover {
-  opacity: 0.75;
-}
-
-/* =====================================================
-   Improve spacing inside dropdown
-   ===================================================== */
-details ul {
-  margin-top: 8px;
-  margin-bottom: 12px;
-  padding-left: 20px;
-}
-
-/* ====================================================
-   About Page Layout
-   ==================================================== */
-
-.about-container {
-  display: flex;
-  align-items: center;
-  gap: 55px; /* from 45px */
-  margin-top: 30px;
-}
-
-.about-text {
-  flex: 1;
-  max-width: 600px; /* slightly narrower text */
-}
-
-.about-image img {
-  width: 220px; /* smaller */
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25); /* lighter shadow */
-}
-
 /* =========================================================
-   Responsive (Mobile ≤ 900px)
+   Responsive (≤ 900px)
 ========================================================= */
 
 @media (max-width: 900px) {
 
-  /* Global spacing */
   main {
     padding: 0 22px;
   }
 
-  body {
-    font-size: 16px;
-    line-height: 1.6;
+  .desktop-nav {
+    display: none;
   }
 
-  /* Section rhythm */
-  section,
-  .page-content > div {
-    margin-bottom: 60px;
+  .mobile-menu {
+    display: block;
   }
 
-  /* =====================================
-     About layout (stacked)
-  ===================================== */
+  /* Slide-in Panel */
+  .mobile-menu[open] ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75%;
+    max-width: 320px;
+    height: 100vh;
+    background: var(--bg-header);
+    padding: 80px 28px;
+    list-style: none;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4);
+    overflow-y: auto;
+    z-index: 1000;
+  }
 
+  .mobile-menu ul li {
+    margin-bottom: 22px;
+  }
+
+  .mobile-menu ul a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  /* About stacked */
   .about-container {
     flex-direction: column;
     align-items: center;
@@ -230,74 +268,8 @@ details ul {
     margin-top: 20px;
   }
 
-  .about-text {
-    max-width: 100%;
-  }
-
-  .about-image {
-    margin-top: 10px;
-  }
-
   .about-image img {
     width: 100%;
     max-width: 280px;
-    height: auto;
   }
-
-  /* =====================================
-     Mobile Navigation (Simple dropdown)
-  ===================================== */
-
-  details {
-    position: relative;
-  }
-
-  details summary {
-    list-style: none;
-    cursor: pointer;
-    font-size: 24px;
-    color: #ffffff;
-    padding: 10px 0;
-  }
-
-  /* Remove default marker */
-  details summary::-webkit-details-marker {
-    display: none;
-  }
-
-  /* Dropdown panel */
-  details[open] ul {
-    position: absolute;
-    top: 42px;
-    right: 0;
-    background: #0b1a2b;
-    padding: 20px 26px;
-    border-radius: 8px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
-    list-style: none;
-    min-width: 220px;
-    z-index: 1000;
-  }
-
-  /* Links */
-  details ul li {
-    margin-bottom: 16px;
-  }
-
-  details ul li:last-child {
-    margin-bottom: 0;
-  }
-
-  details ul a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 1rem;
-    transition: opacity 0.2s ease;
-  }
-
-  details ul a:hover {
-    opacity: 0.7;
-  }
-
 }

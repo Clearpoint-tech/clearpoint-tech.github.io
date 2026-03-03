@@ -5,12 +5,30 @@
       {{ site.title }}
     </a>
 
-    <nav class="site-nav">
-      <a class="page-link" href="{{ '/services/' | relative_url }}">Services</a>
-      <a class="page-link" href="{{ '/book/' | relative_url }}">Book a session</a>
-      <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
-      <a class="page-link" href="{{ '/legal/' | relative_url }}">Legal</a>
-    </nav>
+<nav class="site-nav nav-container">
+
+  <!-- Burger (mobile only) -->
+  <details class="mobile-menu">
+    <summary class="burger">
+      <span></span>
+    </summary>
+    <ul>
+      <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
+      <li><a href="{{ '/book/' | relative_url }}">Book a session</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li><a href="{{ '/legal/' | relative_url }}">Legal</a></li>
+    </ul>
+  </details>
+
+  <!-- Desktop nav -->
+  <div class="desktop-nav">
+    <a class="page-link" href="{{ '/services/' | relative_url }}">Services</a>
+    <a class="page-link" href="{{ '/book/' | relative_url }}">Book a session</a>
+    <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+    <a class="page-link" href="{{ '/legal/' | relative_url }}">Legal</a>
+  </div>
+
+</nav>
 
   </div>
 </header>
