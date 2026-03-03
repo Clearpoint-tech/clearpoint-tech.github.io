@@ -84,6 +84,7 @@ a:hover {
 .site-header .wrapper {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .site-title,
@@ -114,8 +115,8 @@ a:hover {
 
 .mobile-menu {
   display: none;
-  position: relative;
-  margin-left: auto;
+  position: absolute;
+  margin-left: 1.5rem;
 }
 
 .mobile-menu summary {
