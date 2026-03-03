@@ -115,8 +115,7 @@ a:hover {
 
 .mobile-menu {
   display: none;
-  position: absolute;
-  margin-left: 1.5rem;
+  margin-left: auto;
 }
 
 .mobile-menu summary {
@@ -232,11 +231,11 @@ hr {
 
   .mobile-menu[open] ul {
     position: fixed;
-    top: 0;
+    top: 60px;
     right: 0;
     width: 75%;
     max-width: 320px;
-    height: 100vh;
+    height: calc(100vh - 60px);
     background: var(--bg-header);
     padding: 80px 28px;
     list-style: none;
@@ -244,6 +243,7 @@ hr {
     overflow-y: auto;
     z-index: 1000;
   }
+
 
   .mobile-menu ul li {
     margin-bottom: 22px;
