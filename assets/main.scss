@@ -147,6 +147,21 @@ a:hover {
 .mobile-menu summary span { top: 9px; }
 .mobile-menu summary::after { bottom: 0; }
 
+/* ---------- Services dropdown spacing ---------- */
+
+details summary {
+  margin-top: 14px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* Hover effect */
+
+details summary:hover {
+  color: var(--accent-main);
+}
+
 /* =========================================================
    Sections
 ========================================================= */
@@ -226,17 +241,19 @@ hr {
   .mobile-menu {
     display: block;
     margin-left: auto;
+    position: relative;
+    z-index: 1001;
   }
 
   /* Slide-in Panel */
 
   .mobile-menu[open] ul {
     position: fixed;
-    top: 50px;
+    top: 124px;
     right: 0;
     width: 55%;
     max-width: 240px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 124px);
     background: var(--bg-header);
     padding: 40px 24px;
     list-style: none;
