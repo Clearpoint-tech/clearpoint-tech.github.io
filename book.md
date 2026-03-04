@@ -13,10 +13,14 @@ Book a short, no-pressure conversation to discuss your needs.
 - Automation ideas & tooling  
 - Technical project delivery support  
 
+---
+
 ### Format
 - 30–60 minutes  
 - Remote (video call)  
 - No obligation  
+
+---
 
 ### Availability
 Booking will open soon.  

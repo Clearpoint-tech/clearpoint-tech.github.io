@@ -18,7 +18,7 @@
   --text-heading: #f8fafc;
   --text-muted: #94a3b8;
 
-  --accent-title: #ff6b6b;
+  --accent-title: #d9480f;
   --accent-main: #38bdf8;
   --accent-cta: #60a5fa;
   --accent-hover: #7dd3fc;
@@ -147,28 +147,24 @@ a:hover {
 .mobile-menu summary span { top: 9px; }
 .mobile-menu summary::after { bottom: 0; }
 
-/* Services dropdown styling */
-
+/* Services dropdown styling (Services page) */
 main details {
-  margin-bottom: 4px;
+  margin: 0 0 6px 0;      /* spacing between dropdowns (reduce/increase here) */
 }
 
-main ul li {
-  margin-bottom: 4px;
-}
-
-main details summary,
-main ul > li {
+main details > summary {
   cursor: pointer;
   color: var(--text-main);
-  padding: 3px 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
   transition: background 0.15s ease;
 }
 
-main details summary:hover,
-main ul li > strong:hover {
+/* Desktop hover + Mobile tap/focus */
+main details > summary:hover,
+main details > summary:active,
+main details > summary:focus-visible {
   background: rgba(56,189,248,0.12);
-  border-radius: 4px;
 }
 
 /* =========================================================
