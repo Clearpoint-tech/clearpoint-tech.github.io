@@ -147,19 +147,28 @@ a:hover {
 .mobile-menu summary span { top: 9px; }
 .mobile-menu summary::after { bottom: 0; }
 
-/* ---------- Services dropdown spacing ---------- */
+/* Services dropdown styling */
 
-details summary {
-  margin-top: 14px;
-  margin-bottom: 6px;
-  cursor: pointer;
-  transition: color 0.2s ease;
+main details {
+  margin-bottom: 4px;
 }
 
-/* Hover effect */
+main ul li {
+  margin-bottom: 4px;
+}
 
-details summary:hover {
-  color: var(--accent-main);
+main details summary,
+main ul > li {
+  cursor: pointer;
+  color: var(--text-main);
+  padding: 3px 6px;
+  transition: background 0.15s ease;
+}
+
+main details summary:hover,
+main ul li > strong:hover {
+  background: rgba(56,189,248,0.12);
+  border-radius: 4px;
 }
 
 /* =========================================================
