@@ -241,6 +241,11 @@ hr {
   display: none;
 }
 
+.site-footer .footer-col:first-child p:first-child {
+  color: var(--text-heading);
+  font-weight: 600;
+}
+
 /* =========================================================
    Responsive (≤ 900px)
 ========================================================= */
