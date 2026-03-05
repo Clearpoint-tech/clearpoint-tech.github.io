@@ -4,7 +4,7 @@ title: Legal
 permalink: /legal/
 ---
 
-## Legal Notice
+## Notice
 
 **Clearpoint**  
 Independent cybersecurity, automation, and technical services  
