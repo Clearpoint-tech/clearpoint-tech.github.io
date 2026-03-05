@@ -229,6 +229,14 @@ hr {
   color: var(--text-muted);
 }
 
+.site-footer a {
+  color: var(--accent-main);
+}
+
+.site-footer a:hover {
+  color: var(--accent-hover);
+}
+
 /* =========================================================
    Responsive (≤ 900px)
 ========================================================= */
