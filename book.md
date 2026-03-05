@@ -16,15 +16,15 @@ Book a short, no-pressure conversation to discuss your needs.
 ---
 
 ### Format
-- 30–60 minutes  
+- 30 minutes  
 - Remote (video call)  
 - No obligation  
 
 ---
 
 ### Availability
-Booking will open soon.  
-For now, reach out by email: **contact@clearpoint.ch**
+If you'd like to explore how we could work together, book a short session.
+Or email: **contact@clearpoint.ch**
 
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Book a session

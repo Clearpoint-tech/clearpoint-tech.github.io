@@ -45,4 +45,4 @@ For larger or more complex engagements, additional expertise can be integrated w
 
 ## Let’s connect
 
-If you would like to discuss a potential collaboration, feel free to book an initial advisory call.
+If you would like to discuss a potential collaboration, feel free to book an initial session call.
