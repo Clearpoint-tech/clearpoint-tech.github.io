@@ -26,4 +26,6 @@ Book a short, no-pressure conversation to discuss your needs.
 Booking will open soon.  
 For now, reach out by email: **contact@clearpoint.ch**
 
-<a href="/book/" class="cta-button">Book a session</a>
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Book a session
+</a>
