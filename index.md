@@ -39,4 +39,8 @@ and deliver complex technical projects with clarity and precision.
 
 If you want help with cybersecurity, automation, or technical delivery, let’s start with a short conversation.
 
-<a href="/book/" class="cta-button">Book a session</a>
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Book a session
+</a>
+
+<p class="booking-note">30-minute session call – free</p>
