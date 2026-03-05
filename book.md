@@ -24,6 +24,6 @@ Book a short, no-pressure conversation to discuss your needs.
 
 ### Availability
 Booking will open soon.  
-For now, reach out by email: **your-email@example.com**
+For now, reach out by email: **contact@clearpoint.ch**
 
 <a href="/book/" class="cta-button">Book a session</a>

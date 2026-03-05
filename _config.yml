@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Clearpoint
-email: your-email@example.com
+email: contact@clearpoint.ch
 description: Cybersecurity, automation, and technical project delivery.
 
 # >- # this means to ignore newlines until "baseurl:"
@@ -30,7 +30,7 @@ description: Cybersecurity, automation, and technical project delivery.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  rtr-rep
+#github_username:  rtr-rep
 
 # Build settings
 theme: minima
