@@ -229,21 +229,28 @@ hr {
   color: var(--text-muted);
 }
 
-.site-footer a {
-  color: var(--accent-main);
-}
-
-.site-footer a:hover {
-  color: var(--accent-hover);
-}
-
+/* remove duplicate minima title */
 .footer-heading {
   display: none;
 }
 
-.site-footer .footer-col p:first-child {
+/* left column */
+.footer-col-1 {
   color: var(--text-heading);
-  font-weight: 600;
+}
+
+/* email */
+.footer-col-1 a {
+  color: var(--accent-main);
+}
+
+.footer-col-1 a:hover {
+  color: var(--accent-hover);
+}
+
+/* right column description */
+.footer-col-3 {
+  color: var(--text-muted);
 }
 
 /* =========================================================
