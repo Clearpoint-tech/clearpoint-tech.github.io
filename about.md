@@ -39,7 +39,7 @@ The goal is not to introduce complexity, but to bring clarity and structure.
 
 Clearpoint operates as an independent consultancy, with access to a trusted network of specialised professionals.
 
-For larger or more complex engagements, additional expertise can be integrated when required — ensuring the right skillset is available while maintaining structured coordination and accountability.
+For larger or more complex engagements, additional expertise can be integrated when required, ensuring the right skillset is available while maintaining structured coordination and accountability.
 
 ---
 
