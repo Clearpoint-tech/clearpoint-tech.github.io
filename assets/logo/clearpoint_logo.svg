@@ -3,7 +3,7 @@
   <circle cx="150" cy="150" r="125"
           fill="none"
           stroke="white"
-          stroke-width="8"/>
+          stroke-width="6"/>
   
   <!-- C shape -->
   <circle cx="150" cy="150" r="75"
@@ -11,7 +11,7 @@
           stroke="white"
           stroke-width="50"
           stroke-linecap="round"
-          stroke-dasharray="360 200"
+          stroke-dasharray="340 220"
           transform="rotate(45 150 150)"/>
   
   <!-- Center dot -->
