@@ -1,0 +1,137 @@
+---
+layout: page
+lang: it
+permalink: /it/services/
+title: Servizi
+---
+
+## Cybersicurezza
+
+Aiuto le PMI a migliorare la propria postura di sicurezza attraverso valutazioni strutturate, misure di hardening pratiche e supporto chiaro nella gestione degli incidenti, traducendo i rischi tecnici in decisioni aziendali.
+
+<details>
+<summary><strong>Valutazione della sicurezza & consulenza sui rischi</strong></summary>
+<ul>
+  <li>Revisione della postura di sicurezza</li>
+  <li>Identificazione & prioritizzazione delle vulnerabilità</li>
+  <li>Revisione della gestione delle patch</li>
+  <li>Raccomandazioni basate sui rischi</li>
+  <li>Reportistica orientata al business</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Hardening di sistemi & reti</strong></summary>
+<ul>
+  <li>Hardening del sistema operativo (Linux / Windows)</li>
+  <li>Hardening del server web</li>
+  <li>Revisione della configurazione sicura</li>
+  <li>Miglioramenti a password & autenticazione</li>
+  <li>Revisione della configurazione di crittografia & certificati</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Indagine su email & phishing</strong></summary>
+<ul>
+  <li>Analisi degli header email</li>
+  <li>Guida al rilevamento del phishing</li>
+  <li>Triage degli allegati sospetti</li>
+  <li>Revisione SPF / DKIM / DMARC</li>
+  <li>Raccomandazioni per la sensibilizzazione degli utenti</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Supporto alla risposta agli incidenti</strong></summary>
+<ul>
+  <li>Valutazione & triage della gravità dell'incidente</li>
+  <li>Guida al contenimento iniziale</li>
+  <li>Revisione dei log & analisi di rilevamento</li>
+  <li>Definizione delle procedure di risposta di base</li>
+  <li>Coordinamento IT ↔ management</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Revisione della sicurezza delle applicazioni web</strong></summary>
+<ul>
+  <li>Valutazione di base della sicurezza delle applicazioni web</li>
+  <li>Identificazione delle vulnerabilità a livello OWASP</li>
+  <li>Test di sensibilizzazione all'SQL injection</li>
+  <li>Revisione della Content Security Policy</li>
+  <li>Raccomandazioni per la configurazione sicura</li>
+</ul>
+</details>
+
+---
+
+## Automazione
+
+Aiuto le organizzazioni a ridurre il carico di lavoro manuale e le frizioni operative implementando soluzioni di automazione pratiche e low-code utilizzando strumenti consolidati.
+
+<details>
+<summary><strong>Ottimizzazione dei workflow</strong></summary>
+<ul>
+  <li>Identificazione dei processi manuali ripetitivi</li>
+  <li>Mappatura & ottimizzazione dei processi</li>
+  <li>Riduzione dei colli di bottiglia operativi</li>
+  <li>Riprogettazione dei workflow interni orientata all'efficienza</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Implementazione di automazione basata su strumenti</strong></summary>
+<ul>
+  <li>Implementazione di piattaforme di automazione no-code / low-code</li>
+  <li>Integrazione tra sistemi aziendali (CRM, email, strumenti cloud)</li>
+  <li>Notifiche automatizzate & flussi di approvazione</li>
+  <li>Sincronizzazione dei dati tra sistemi</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Efficienza operativa & monitoraggio</strong></summary>
+<ul>
+  <li>Revisione delle prestazioni di automazione</li>
+  <li>Miglioramenti alla gestione degli errori & affidabilità</li>
+  <li>Documentazione strutturata dei workflow automatizzati</li>
+  <li>Governance di base & considerazioni di sicurezza</li>
+</ul>
+</details>
+
+---
+
+## Supporto Progettuale
+
+Supporto le organizzazioni nella realizzazione di iniziative IT e di sicurezza strutturate, assicurando che l'esecuzione tecnica sia allineata agli obiettivi aziendali e ai vincoli operativi.
+
+<details>
+<summary><strong>Coordinamento tecnico del progetto</strong></summary>
+<ul>
+  <li>Coordinamento tra team tecnici e stakeholder aziendali</li>
+  <li>Pianificazione strutturata & definizione dei milestone</li>
+  <li>Identificazione dei rischi & monitoraggio delle mitigazioni</li>
+  <li>Allineamento del perimetro tecnico con le priorità aziendali</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Supporto alla delivery & implementazione</strong></summary>
+<ul>
+  <li>Supporto durante implementazioni di sicurezza o automazione</li>
+  <li>Coordinamento di fornitori & soluzioni</li>
+  <li>Monitoraggio dei progressi e dei deliverable</li>
+  <li>Documentazione e reportistica strutturata</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Traduzione Business ↔ Tecnologia</strong></summary>
+<ul>
+  <li>Traduzione dei rischi tecnici in impatto aziendale</li>
+  <li>Supporto nella valutazione di soluzioni di sicurezza e automazione</li>
+  <li>Supporto decisionale strutturato per il management</li>
+  <li>Comunicazione chiara tra livelli tecnici ed esecutivi</li>
+</ul>
+</details>

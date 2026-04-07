@@ -8,24 +8,68 @@
       {{ site.title }}
     </a>
 
+    {% assign l = page.lang | default: 'en' %}
+    {% if l == 'fr' %}
+      {% assign nav_services = 'Services' %}
+      {% assign nav_book = 'Réserver' %}
+      {% assign nav_about = 'À propos' %}
+      {% assign nav_legal = 'Mentions légales' %}
+      {% assign lp = '/fr' %}
+    {% elsif l == 'de' %}
+      {% assign nav_services = 'Leistungen' %}
+      {% assign nav_book = 'Termin buchen' %}
+      {% assign nav_about = 'Über mich' %}
+      {% assign nav_legal = 'Rechtliches' %}
+      {% assign lp = '/de' %}
+    {% elsif l == 'it' %}
+      {% assign nav_services = 'Servizi' %}
+      {% assign nav_book = 'Prenota' %}
+      {% assign nav_about = 'Chi sono' %}
+      {% assign nav_legal = 'Legale' %}
+      {% assign lp = '/it' %}
+    {% else %}
+      {% assign nav_services = 'Services' %}
+      {% assign nav_book = 'Book a session' %}
+      {% assign nav_about = 'About' %}
+      {% assign nav_legal = 'Legal' %}
+      {% assign lp = '' %}
+    {% endif %}
+
+    {% assign raw_path = page.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' %}
+    {% if raw_path == '' %}{% assign raw_path = '/' %}{% endif %}
+
     <!-- Desktop Navigation -->
     <nav class="desktop-nav">
-      <a href="{{ '/services/' | relative_url }}">Services</a>
-      <a href="{{ '/book/' | relative_url }}">Book a session</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/legal/' | relative_url }}">Legal</a>
+      <a href="{{ lp }}/services/">{{ nav_services }}</a>
+      <a href="{{ lp }}/book/">{{ nav_book }}</a>
+      <a href="{{ lp }}/about/">{{ nav_about }}</a>
+      <a href="{{ lp }}/legal/">{{ nav_legal }}</a>
+
+      <div class="lang-switcher">
+        <button class="lang-btn">{{ l | upcase }} ▾</button>
+        <div class="lang-dropdown">
+          {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
+          {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
+          {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
+          {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
+        </div>
+      </div>
     </nav>
 
     <!-- Mobile Navigation -->
     <details class="mobile-menu">
-      <summary>
-        <span></span>
-      </summary>
+      <summary><span></span></summary>
       <ul>
-        <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
-        <li><a href="{{ '/book/' | relative_url }}">Book a session</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/legal/' | relative_url }}">Legal</a></li>
+        <li><a href="{{ lp }}/services/">{{ nav_services }}</a></li>
+        <li><a href="{{ lp }}/book/">{{ nav_book }}</a></li>
+        <li><a href="{{ lp }}/about/">{{ nav_about }}</a></li>
+        <li><a href="{{ lp }}/legal/">{{ nav_legal }}</a></li>
+        <li class="lang-mobile-row">
+          {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
+          {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
+          {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
+          {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
+        </li>
       </ul>
     </details>
 
