@@ -19,14 +19,24 @@
     document.addEventListener('click', function(e) {
       const menu = document.querySelector('.mobile-menu');
       if (!menu || !menu.open) return;
-
       const clickedInside = menu.contains(e.target);
       const clickedSummary = e.target.closest('summary');
-
       if (!clickedInside && !clickedSummary) {
         menu.removeAttribute('open');
       }
     });
+
+    const langBtn = document.querySelector('.lang-btn');
+    const langDropdown = document.querySelector('.lang-dropdown');
+    if (langBtn && langDropdown) {
+      langBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        langDropdown.classList.toggle('open');
+      });
+      document.addEventListener('click', function() {
+        langDropdown.classList.remove('open');
+      });
+    }
     </script>
 
   </body>
