@@ -36,4 +36,4 @@ Clearpoint unterstützt Organisationen dabei, ihre Systeme zu sichern, Abläufe 
 
 Wenn Sie Unterstützung in den Bereichen Cybersicherheit, Automatisierung oder technische Projektabwicklung benötigen, beginnen wir mit einem kurzen Gespräch.
 
-[Termin buchen](https://calendar.app.google/vsrnZMvv2QyYiyjH6)
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Termin buchen</a>

@@ -36,4 +36,4 @@ Clearpoint aide les organisations à sécuriser leurs systèmes, automatiser leu
 
 Si vous avez besoin d'aide en cybersécurité, automatisation ou livraison technique, commençons par une courte conversation.
 
-[Réserver une session](https://calendar.app.google/vsrnZMvv2QyYiyjH6)
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Réserver une session</a>

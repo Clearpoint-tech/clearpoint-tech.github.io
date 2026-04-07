@@ -36,4 +36,4 @@ Clearpoint aiuta le organizzazioni a proteggere i propri sistemi, automatizzare 
 
 Se hai bisogno di supporto in cybersicurezza, automazione o gestione di progetti tecnici, iniziamo con una breve conversazione.
 
-[Prenota una sessione](https://calendar.app.google/vsrnZMvv2QyYiyjH6)
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Prenota una sessione</a>
