@@ -380,3 +380,19 @@ hr {
 .lang-dropdown.open {
   display: block !important;
 }
+
+/* ── Lang dropdown dark fix ── */
+.lang-switcher .lang-dropdown {
+  background-color: #0d1b2a !important;
+  border: 1px solid rgba(255,255,255,0.2) !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5) !important;
+}
+.lang-switcher .lang-dropdown a,
+.lang-switcher .lang-dropdown a:visited {
+  color: rgba(255,255,255,0.75) !important;
+  background: none !important;
+}
+.lang-switcher .lang-dropdown a:hover {
+  color: #ffffff !important;
+  background-color: rgba(255,255,255,0.1) !important;
+}
