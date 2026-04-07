@@ -1,13 +1,6 @@
 <header class="site-header">
   <div class="wrapper">
 
-    <a class="site-title" href="{{ '/' | relative_url }}">
-      <img src="/assets/logo/clearpoint_logo.svg"
-           alt="Clearpoint"
-           style="height:36px; vertical-align:middle; margin-right:10px;">
-      {{ site.title }}
-    </a>
-
     {% assign l = page.lang | default: 'en' %}
     {% if l == 'fr' %}
       {% assign nav_services = 'Services' %}
@@ -37,6 +30,13 @@
 
     {% assign raw_path = page.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' %}
     {% if raw_path == '' %}{% assign raw_path = '/' %}{% endif %}
+
+    <a class="site-title" href="{{ lp }}/">
+      <img src="/assets/logo/clearpoint_logo.svg"
+           alt="Clearpoint"
+           style="height:36px; vertical-align:middle; margin-right:10px;">
+      {{ site.title }}
+    </a>
 
     <!-- Desktop Navigation -->
     <nav class="desktop-nav">
