@@ -5,7 +5,6 @@ permalink: /de/
 title: Clearpoint
 ---
 
-# Clearpoint
 
 **Cybersicherheit · Automatisierung · Technisches Projektmanagement**
 
