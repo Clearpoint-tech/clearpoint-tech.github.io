@@ -34,7 +34,7 @@ Clearpoint aide les organisations à sécuriser leurs systèmes, automatiser leu
 
 ---
 
-### Prêt à échanger ?
+### Prêt à échanger?
 
 Si vous avez besoin d'aide en cybersécurité, automatisation ou livraison technique, commençons par une courte conversation.
 
