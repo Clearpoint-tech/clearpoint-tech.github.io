@@ -16,8 +16,10 @@ Clearpoint unterstützt Organisationen dabei, ihre Systeme zu sichern, Abläufe 
 
 * **Cybersicherheitsleistungen**  
   Risikobewertung, Sicherheitsgrundlagen, praktischer technischer Support
+
 * **Automatisierung & Effizienz**  
   Workflow-Automatisierung, Low-Code-Implementierung, Systemintegration
+
 * **Projekt- & Liefersupport**  
   Brücke zwischen Geschäftsanforderungen und technischer Umsetzung
 

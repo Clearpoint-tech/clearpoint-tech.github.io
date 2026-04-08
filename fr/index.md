@@ -16,14 +16,16 @@ Clearpoint aide les organisations à sécuriser leurs systèmes, automatiser leu
 
 * **Services de cybersécurité**  
   Évaluation des risques, fondamentaux de sécurité, support technique opérationnel
+
 * **Automatisation & efficacité**  
   Automatisation des workflows, implémentation low-code, intégration de systèmes
+
 * **Support projet & livraison**  
   Faire le lien entre les besoins métier et l'exécution technique
 
 ---
 
-### Comment travailler avec moi
+### Comment travailler avec moi?
 
 * Appel conseil individuel (première consultation gratuite)
 * Modèle d'engagement flexible
