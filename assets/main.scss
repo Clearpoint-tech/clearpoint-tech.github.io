@@ -419,3 +419,42 @@ hr {
   min-width: 0 !important;
   width: 100% !important;
 }
+
+/* ── Scroll fade-ins ── */
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── CTA pulse ── */
+.cta-button {
+  animation: pulse 2.8s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(96,165,250,0.0); }
+  50% { box-shadow: 0 0 0 7px rgba(96,165,250,0.18); }
+}
+
+/* ── Nav underline animation ── */
+.desktop-nav a {
+  position: relative;
+  text-decoration: none;
+}
+.desktop-nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent-main);
+  transition: width 0.25s ease;
+}
+.desktop-nav a:hover::after {
+  width: 100%;
+}
