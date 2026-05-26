@@ -3,6 +3,7 @@ layout: page
 lang: de
 permalink: /de/book/
 title: Termin buchen
+description: "Buchen Sie ein kurzes Erstgespräch zu Cybersicherheit, Automatisierung oder technischer Projektunterstützung mit Clearpoint."
 ---
 
 ### So funktioniert es

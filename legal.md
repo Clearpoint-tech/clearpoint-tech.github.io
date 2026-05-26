@@ -2,6 +2,7 @@
 layout: page
 title: Legal
 permalink: /legal/
+description: "Legal notice, privacy information, disclaimer, and copyright information for Clearpoint."
 ---
 
 ## Notice

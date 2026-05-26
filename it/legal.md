@@ -3,6 +3,7 @@ layout: page
 lang: it
 permalink: /it/legal/
 title: Legale
+description: "Avviso legale, informazioni sulla privacy, disclaimer e copyright di Clearpoint."
 ---
 
 ## Avviso legale

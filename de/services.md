@@ -3,6 +3,7 @@ layout: page
 lang: de
 permalink: /de/services/
 title: Leistungen
+description: "Cybersicherheitsbewertungen, Systemhärtung, Workflow-Automatisierung und technische Projektunterstützung für KMU."
 ---
 
 ## Cybersicherheit

@@ -2,6 +2,7 @@
 layout: page
 title: Services
 permalink: /services/
+description: "Cybersecurity assessments, system hardening, workflow automation, and technical project delivery support for SMEs."
 ---
 
 ## Cybersecurity

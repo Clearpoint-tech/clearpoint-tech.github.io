@@ -3,6 +3,7 @@ layout: page
 lang: it
 permalink: /it/services/
 title: Servizi
+description: "Valutazioni di cybersicurezza, hardening dei sistemi, automazione dei workflow e supporto alla delivery tecnica per PMI."
 ---
 
 ## Cybersicurezza

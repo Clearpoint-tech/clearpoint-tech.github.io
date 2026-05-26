@@ -3,6 +3,7 @@ layout: page
 lang: it
 permalink: /it/about/
 title: Chi sono
+description: "Chi è Clearpoint: consulenza tecnica indipendente e pratica tra cybersicurezza, automazione e gestione di progetti."
 ---
 
 <div class="about-container">

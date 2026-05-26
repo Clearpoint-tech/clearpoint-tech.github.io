@@ -3,6 +3,7 @@ layout: page
 lang: de
 permalink: /de/about/
 title: Über mich
+description: "Über Clearpoint: unabhängige, praxisnahe technische Beratung an der Schnittstelle von Cybersicherheit, Automatisierung und Projektumsetzung."
 ---
 
 <div class="about-container">

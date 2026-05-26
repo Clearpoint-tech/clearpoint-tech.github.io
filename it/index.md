@@ -3,6 +3,7 @@ layout: page
 lang: it
 permalink: /it/
 title: Clearpoint
+description: "Cybersicurezza, automazione e gestione di progetti tecnici pratici per PMI e organizzazioni in crescita."
 ---
 
 
