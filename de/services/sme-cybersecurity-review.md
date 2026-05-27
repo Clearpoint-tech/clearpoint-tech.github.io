@@ -6,7 +6,7 @@ description: "Ein praktischer Cybersicherheitsreview für Schweizer KMU, die kla
 permalink: /de/services/sme-cybersecurity-review/
 ---
 
-## KMU-Cybersicherheitsreview für Schweizer Unternehmen
+## Praktische Cybersicherheitsprioritäten für Schweizer KMU
 
 Ein praktischer Cybersicherheitsreview für Schweizer KMU, die ihre Exponierung verstehen, die Grundlagen verbessern und die wichtigsten Massnahmen priorisieren möchten.
 

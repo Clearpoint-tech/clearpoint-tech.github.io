@@ -5,7 +5,7 @@ description: "A practical review for Swiss SMEs using AI tools, workflow automat
 permalink: /services/ai-automation-security-review/
 ---
 
-## AI & Automation Security Review for Swiss SMEs
+## Practical risk review for Swiss SMEs using AI tools and automation
 
 A practical review for organisations that want to use AI tools, workflow automation, and connected systems safely — without creating unnecessary data exposure, access risks, or unmanaged technical dependencies.
 

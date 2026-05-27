@@ -6,7 +6,7 @@ description: "Une revue pratique pour les PME suisses qui utilisent des outils d
 permalink: /fr/services/ai-automation-security-review/
 ---
 
-## Revue sécurité IA et automatisation pour PME suisses
+## Revue pratique des risques pour PME suisses utilisant l’IA et l’automatisation
 
 Une revue pratique pour les organisations qui veulent utiliser les outils d’IA, l’automatisation des workflows et les systèmes connectés en toute sécurité — sans créer d’exposition inutile des données, de risques d’accès ou de dépendances techniques non maîtrisées.
 

@@ -6,7 +6,7 @@ description: "Una revisione pratica di cybersicurezza per PMI svizzere che hanno
 permalink: /it/services/sme-cybersecurity-review/
 ---
 
-## Revisione di cybersicurezza per PMI svizzere
+## Priorità pratiche di cybersicurezza per PMI svizzere
 
 Una revisione pratica di cybersicurezza per PMI svizzere che vogliono comprendere la propria esposizione, correggere le basi e dare priorità ai miglioramenti più importanti.
 
