@@ -2,6 +2,7 @@
 layout: page
 title: Book a session
 permalink: /book/
+description: "Book a short initial conversation about cybersecurity, automation, or technical project delivery support with Clearpoint."
 ---
 
 ### How it works

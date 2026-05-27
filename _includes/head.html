@@ -1,0 +1,59 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- assign page_title = page.title | default: site.title -%}
+  {%- if page_title == site.title -%}
+    {%- assign full_title = site.title | append: " | Cybersecurity, automation, and technical project delivery" -%}
+  {%- else -%}
+    {%- assign full_title = page_title | append: " | " | append: site.title -%}
+  {%- endif -%}
+  {%- assign meta_description = page.description | default: site.description | strip_newlines | escape -%}
+  {%- assign canonical_url = page.url | absolute_url -%}
+
+  <title>{{ full_title | escape }}</title>
+  <meta name="description" content="{{ meta_description }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  {%- comment -%}Multilingual alternates for equivalent EN/FR/DE/IT pages.{%- endcomment -%}
+  {%- assign raw_path = page.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' -%}
+  {%- if raw_path == '' -%}{%- assign raw_path = '/' -%}{%- endif -%}
+  <link rel="alternate" hreflang="en" href="{{ raw_path | absolute_url }}">
+  <link rel="alternate" hreflang="fr" href="{{ '/fr' | append: raw_path | absolute_url }}">
+  <link rel="alternate" hreflang="de" href="{{ '/de' | append: raw_path | absolute_url }}">
+  <link rel="alternate" hreflang="it" href="{{ '/it' | append: raw_path | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ raw_path | absolute_url }}">
+
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ meta_description }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ site.locale | default: 'en_US' }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page_title | escape }}">
+  <meta name="twitter:description" content="{{ meta_description }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Clearpoint",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.logo | absolute_url }}",
+    "email": "{{ site.email }}",
+    "areaServed": "Switzerland",
+    "description": "{{ site.description | escape }}",
+    "sameAs": ["https://www.linkedin.com/in/philip-ritter/"],
+    "serviceType": [
+      "Cybersecurity advisory",
+      "Workflow automation",
+      "Technical project management"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  {%- feed_meta -%}
+</head>

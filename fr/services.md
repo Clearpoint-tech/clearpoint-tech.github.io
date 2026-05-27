@@ -3,6 +3,7 @@ layout: page
 lang: fr
 permalink: /fr/services/
 title: Services
+description: "Évaluations de cybersécurité, durcissement système, automatisation des flux de travail et support de livraison technique pour PME."
 ---
 
 ## Cybersécurité

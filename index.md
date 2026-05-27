@@ -2,6 +2,7 @@
 layout: page
 title: Clearpoint
 permalink: /
+description: "Practical cybersecurity, automation, and technical project delivery for Swiss SMEs and growing organizations."
 ---
 
 

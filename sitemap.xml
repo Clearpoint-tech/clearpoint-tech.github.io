@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- assign pages = site.pages | where_exp: "p", "p.url != '/sitemap.xml'" | where_exp: "p", "p.url != '/robots.txt'" | sort: "url" -%}
+{%- for p in pages -%}
+  {%- unless p.url contains '/404.html' or p.url contains '/assets/' -%}
+  {%- assign raw_path = p.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' -%}
+  {%- if raw_path == '' -%}{%- assign raw_path = '/' -%}{%- endif -%}
+  <url>
+    <loc>{{ p.url | absolute_url }}</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ raw_path | absolute_url }}" />
+    <xhtml:link rel="alternate" hreflang="fr" href="{{ '/fr' | append: raw_path | absolute_url }}" />
+    <xhtml:link rel="alternate" hreflang="de" href="{{ '/de' | append: raw_path | absolute_url }}" />
+    <xhtml:link rel="alternate" hreflang="it" href="{{ '/it' | append: raw_path | absolute_url }}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ raw_path | absolute_url }}" />
+  </url>
+  {%- endunless -%}
+{%- endfor -%}
+</urlset>

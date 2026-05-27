@@ -3,6 +3,7 @@ layout: page
 lang: fr
 permalink: /fr/about/
 title: À propos
+description: "À propos de Clearpoint: conseil technique indépendant et pratique en cybersécurité, automatisation et gestion de projets."
 ---
 
 <div class="about-container">

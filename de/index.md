@@ -3,6 +3,7 @@ layout: page
 lang: de
 permalink: /de/
 title: Clearpoint
+description: "Praktische Cybersicherheit, Automatisierung und technisches Projektmanagement für KMU und wachsende Organisationen."
 ---
 
 

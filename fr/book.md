@@ -3,6 +3,7 @@ layout: page
 lang: fr
 permalink: /fr/book/
 title: Réserver une session
+description: "Réserver une courte conversation initiale sur la cybersécurité, l’automatisation ou le support de projets techniques avec Clearpoint."
 ---
 
 ### Comment ça fonctionne

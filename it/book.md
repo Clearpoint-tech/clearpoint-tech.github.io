@@ -3,6 +3,7 @@ layout: page
 lang: it
 permalink: /it/book/
 title: Prenota una sessione
+description: "Prenota una breve conversazione iniziale su cybersicurezza, automazione o supporto alla gestione di progetti tecnici con Clearpoint."
 ---
 
 ### Come funziona

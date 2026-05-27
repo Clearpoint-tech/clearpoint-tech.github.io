@@ -3,6 +3,7 @@ layout: page
 lang: fr
 permalink: /fr/legal/
 title: Mentions légales
+description: "Mentions légales, informations de confidentialité, disclaimer et copyright de Clearpoint."
 ---
 
 ## Mentions légales

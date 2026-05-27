@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: "About Clearpoint: independent, practical technical advisory at the intersection of cybersecurity, automation, and project delivery."
 ---
 
 <div class="about-container">

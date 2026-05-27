@@ -3,6 +3,7 @@ layout: page
 lang: de
 permalink: /de/legal/
 title: Rechtliches
+description: "Rechtliche Hinweise, Datenschutzinformationen, Disclaimer und Copyright-Informationen von Clearpoint."
 ---
 
 ## Impressum
