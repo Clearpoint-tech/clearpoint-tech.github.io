@@ -16,14 +16,16 @@
   <meta name="description" content="{{ meta_description }}">
   <link rel="canonical" href="{{ canonical_url }}">
 
-  {%- comment -%}Multilingual alternates for equivalent EN/FR/DE/IT pages.{%- endcomment -%}
-  {%- assign raw_path = page.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' -%}
-  {%- if raw_path == '' -%}{%- assign raw_path = '/' -%}{%- endif -%}
+  {%- comment -%}Multilingual alternates for equivalent EN/FR/DE/IT pages. English-only campaign pages can set multilingual: false.{%- endcomment -%}
+  {%- unless page.multilingual == false -%}
+    {%- assign raw_path = page.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' -%}
+    {%- if raw_path == '' -%}{%- assign raw_path = '/' -%}{%- endif -%}
   <link rel="alternate" hreflang="en" href="{{ raw_path | absolute_url }}">
   <link rel="alternate" hreflang="fr" href="{{ '/fr' | append: raw_path | absolute_url }}">
   <link rel="alternate" hreflang="de" href="{{ '/de' | append: raw_path | absolute_url }}">
   <link rel="alternate" hreflang="it" href="{{ '/it' | append: raw_path | absolute_url }}">
   <link rel="alternate" hreflang="x-default" href="{{ raw_path | absolute_url }}">
+  {%- endunless -%}
 
   <meta property="og:title" content="{{ page_title | escape }}">
   <meta property="og:description" content="{{ meta_description }}">

@@ -3,12 +3,28 @@ layout: page
 lang: it
 permalink: /it/services/
 title: Servizi
-description: "Valutazioni di cybersicurezza, hardening dei sistemi, automazione dei workflow e supporto alla delivery tecnica per PMI."
+description: "Valutazioni di cybersicurezza, hardening dei sistemi, automazione dei workflow assistita dall’IA e supporto alla delivery tecnica per PMI svizzere e organizzazioni in crescita."
+---
+
+Clearpoint fornisce supporto tecnico pratico a PMI e organizzazioni in crescita che hanno bisogno di priorità più chiare, sistemi più sicuri, workflow migliori, automazione assistita dall’IA responsabile o delivery di progetto strutturata.
+
+I servizi qui sotto possono iniziare come sessione di consulenza focalizzata, breve assessment o engagement più operativo a seconda della situazione.
+
 ---
 
 ## Cybersicurezza
 
 Aiuto le PMI a migliorare la propria postura di sicurezza attraverso valutazioni strutturate, misure di hardening pratiche e supporto chiaro nella gestione degli incidenti, traducendo i rischi tecnici in decisioni aziendali.
+
+Buoni punti di partenza includono:
+
+- non è chiaro quali miglioramenti di sicurezza contino per primi,
+- serve una revisione indipendente prima di investire in strumenti o fornitori,
+- sono state ricevute email sospette o tentativi di phishing,
+- serve hardening di base per un sito web, server o sistema interno,
+- serve un piano d’azione chiaro che management e team tecnici possano comprendere.
+
+Per un punto d’ingresso focalizzato, vedere lo [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
 
 <details>
 <summary><strong>Valutazione della sicurezza & consulenza sui rischi</strong></summary>
@@ -46,7 +62,7 @@ Aiuto le PMI a migliorare la propria postura di sicurezza attraverso valutazioni
 <details>
 <summary><strong>Supporto alla risposta agli incidenti</strong></summary>
 <ul>
-  <li>Valutazione & triage della gravità dell'incidente</li>
+  <li>Valutazione & triage della gravità dell’incidente</li>
   <li>Guida al contenimento iniziale</li>
   <li>Revisione dei log & analisi di rilevamento</li>
   <li>Definizione delle procedure di risposta di base</li>
@@ -59,17 +75,30 @@ Aiuto le PMI a migliorare la propria postura di sicurezza attraverso valutazioni
 <ul>
   <li>Valutazione di base della sicurezza delle applicazioni web</li>
   <li>Identificazione delle vulnerabilità a livello OWASP</li>
-  <li>Test di sensibilizzazione all'SQL injection</li>
+  <li>Test di sensibilizzazione all’SQL injection</li>
   <li>Revisione della Content Security Policy</li>
   <li>Raccomandazioni per la configurazione sicura</li>
 </ul>
 </details>
 
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Discutere un’esigenza di cybersicurezza
+</a>
+
 ---
 
-## Automazione
+## Automazione e workflow assistiti dall’IA
 
-Aiuto le organizzazioni a ridurre il carico di lavoro manuale e le frizioni operative implementando soluzioni di automazione pratiche e low-code utilizzando strumenti consolidati.
+Aiuto le organizzazioni a ridurre il carico di lavoro manuale e le frizioni operative implementando soluzioni di automazione pratiche con strumenti consolidati. Dove crea valore reale, questo può includere agenti IA, prompt engineering e workflow assistiti dall’IA.
+
+Buoni punti di partenza includono:
+
+- il lavoro manuale ripetitivo rallenta le operazioni,
+- le informazioni vengono copiate tra email, fogli di calcolo, CRM o strumenti cloud,
+- approvazioni o notifiche sono incoerenti,
+- le automazioni esistenti sono fragili o non documentate,
+- i team stanno sperimentando strumenti di IA ma mancano struttura o regole d’uso sicure,
+- serve automazione semplice con governance, sicurezza e affidabilità di base.
 
 <details>
 <summary><strong>Ottimizzazione dei workflow</strong></summary>
@@ -77,7 +106,7 @@ Aiuto le organizzazioni a ridurre il carico di lavoro manuale e le frizioni oper
   <li>Identificazione dei processi manuali ripetitivi</li>
   <li>Mappatura & ottimizzazione dei processi</li>
   <li>Riduzione dei colli di bottiglia operativi</li>
-  <li>Riprogettazione dei workflow interni orientata all'efficienza</li>
+  <li>Riprogettazione dei workflow interni orientata all’efficienza</li>
 </ul>
 </details>
 
@@ -92,6 +121,17 @@ Aiuto le organizzazioni a ridurre il carico di lavoro manuale e le frizioni oper
 </details>
 
 <details>
+<summary><strong>Agenti IA & prompt engineering</strong></summary>
+<ul>
+  <li>Identificazione di casi d’uso pratici per agenti IA</li>
+  <li>Progettazione di prompt per attività aziendali ripetibili</li>
+  <li>Prototipazione di workflow assistiti dall’IA</li>
+  <li>Revisione umana e punti di controllo</li>
+  <li>Guida di base su sicurezza e gestione dei dati per strumenti di IA</li>
+</ul>
+</details>
+
+<details>
 <summary><strong>Efficienza operativa & monitoraggio</strong></summary>
 <ul>
   <li>Revisione delle prestazioni di automazione</li>
@@ -101,11 +141,23 @@ Aiuto le organizzazioni a ridurre il carico di lavoro manuale e le frizioni oper
 </ul>
 </details>
 
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Discutere un’opportunità di automazione
+</a>
+
 ---
 
 ## Supporto Progettuale
 
-Supporto le organizzazioni nella realizzazione di iniziative IT e di sicurezza strutturate, assicurando che l'esecuzione tecnica sia allineata agli obiettivi aziendali e ai vincoli operativi.
+Supporto le organizzazioni nella realizzazione di iniziative IT e di sicurezza strutturate, assicurando che l’esecuzione tecnica sia allineata agli obiettivi aziendali e ai vincoli operativi.
+
+Buoni punti di partenza includono:
+
+- un progetto tecnico ha bisogno di ambito, milestone o ownership più chiari,
+- stakeholder business e tecnici non sono allineati,
+- un’iniziativa di sicurezza o automazione ha bisogno di coordinamento,
+- il management ha bisogno di una visione più chiara di rischi, opzioni e compromessi,
+- serve supporto pratico alla delivery senza aggiungere processo inutile.
 
 <details>
 <summary><strong>Coordinamento tecnico del progetto</strong></summary>
@@ -136,3 +188,17 @@ Supporto le organizzazioni nella realizzazione di iniziative IT e di sicurezza s
   <li>Comunicazione chiara tra livelli tecnici ed esecutivi</li>
 </ul>
 </details>
+
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Discutere supporto progettuale
+</a>
+
+---
+
+## Non sapete da dove iniziare?
+
+Una breve conversazione iniziale è spesso sufficiente per identificare se la priorità è sicurezza, automazione, struttura di progetto o una combinazione delle tre.
+
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Prenota una prima conversazione gratuita
+</a>
