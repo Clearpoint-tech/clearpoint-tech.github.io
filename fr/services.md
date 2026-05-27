@@ -24,7 +24,7 @@ Bons points de départ :
 - vous avez besoin d’un durcissement de base pour un site web, un serveur ou un système interne,
 - vous avez besoin d’un plan d’action clair compréhensible par le management et les équipes techniques.
 
-Pour un point d’entrée ciblé, voir le [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
+Pour un point d’entrée ciblé, voir la [Revue de cybersécurité PME](/fr/services/sme-cybersecurity-review/).
 
 <details>
 <summary><strong>Évaluation de la sécurité & conseil en risques</strong></summary>
