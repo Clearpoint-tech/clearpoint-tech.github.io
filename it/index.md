@@ -30,7 +30,7 @@ Comprendere l’esposizione attuale, correggere le basi e dare priorità ai migl
 
 Identificare processi ripetitivi, collegare strumenti e implementare automazioni semplici e manutenibili. Dove crea valore reale, questo può includere agenti IA, prompt engineering e workflow assistiti dall’IA che aiutano i team a lavorare più velocemente senza perdere controllo, sicurezza o chiarezza.
 
-[Esplora i servizi di automazione](/it/services/#automazione-e-workflow-assistiti-dallia)
+[Esplora i servizi di automazione](/it/services/#automazione-e-workflow-assistiti-dallia) · [Revisione sicurezza IA e automazione](/it/services/ai-automation-security-review/)
 
 ### Delivery di progetti tecnici con struttura
 

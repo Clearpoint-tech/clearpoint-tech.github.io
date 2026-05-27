@@ -32,10 +32,8 @@
     {% if raw_path == '' %}{% assign raw_path = '/' %}{% endif %}
 
     <a class="site-title" href="{{ lp }}/">
-      <img src="/assets/logo/clearpoint_logo.svg"
-           alt="Clearpoint"
-           style="height:36px; vertical-align:middle; margin-right:10px;">
-      {{ site.title }}
+      <img class="site-logo" src="/assets/logo/clearpoint_logo.svg" alt="Clearpoint">
+      <span>{{ site.title }}</span>
     </a>
 
     <!-- Desktop Navigation -->

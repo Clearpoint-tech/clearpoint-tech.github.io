@@ -30,7 +30,7 @@ Comprendre votre exposition actuelle, corriger les fondamentaux et prioriser les
 
 Identifier les processus répétitifs, connecter les outils et mettre en place des automatisations simples et maintenables. Lorsque c’est utile, cela peut inclure des agents IA, l’ingénierie de prompts et des workflows assistés par l’IA qui aident les équipes à travailler plus vite sans perdre le contrôle, la sécurité ou la clarté.
 
-[Explorer les services d’automatisation](/fr/services/#automatisation-et-workflows-assistés-par-lia)
+[Explorer les services d’automatisation](/fr/services/#automatisation-et-workflows-assistés-par-lia) · [Revue sécurité IA et automatisation](/fr/services/ai-automation-security-review/)
 
 ### Livraison de projets techniques avec structure
 

@@ -93,12 +93,15 @@ J’aide les organisations à réduire la charge de travail manuelle et les fric
 
 Bons points de départ :
 
+- les équipes utilisent l’IA ou l’automatisation sans règles claires sur les données et les responsabilités,
 - un travail manuel répétitif ralentit les opérations,
 - des informations sont copiées entre email, tableurs, CRM ou outils cloud,
 - les validations ou notifications sont incohérentes,
 - les automatisations existantes sont fragiles ou non documentées,
 - les équipes expérimentent des outils d’IA mais manquent de structure ou de règles d’usage sûres,
 - vous avez besoin d’une automatisation simple avec un minimum de gouvernance, sécurité et fiabilité.
+
+Pour un point d’entrée ciblé, voir la [Revue sécurité IA et automatisation](/fr/services/ai-automation-security-review/).
 
 <details>
 <summary><strong>Optimisation des workflows</strong></summary>

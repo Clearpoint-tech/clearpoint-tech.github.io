@@ -93,12 +93,15 @@ Ich helfe Organisationen, manuelle Arbeitslasten und operative Reibung durch pra
 
 Gute Einstiegspunkte sind:
 
+- Teams nutzen KI oder Automatisierung ohne klare Regeln zu Daten und Verantwortlichkeiten,
 - repetitive manuelle Arbeit bremst operative Abläufe,
 - Informationen werden zwischen E-Mail, Tabellen, CRM oder Cloud-Tools kopiert,
 - Freigaben oder Benachrichtigungen sind inkonsistent,
 - bestehende Automatisierungen sind fragil oder undokumentiert,
 - Teams experimentieren mit KI-Tools, aber es fehlt Struktur oder sichere Nutzungsregeln,
 - Sie benötigen einfache Automatisierung mit grundlegender Governance, Sicherheit und Zuverlässigkeit.
+
+Als fokussierten Einstieg siehe den [Sicherheitsreview für KI und Automatisierung](/de/services/ai-automation-security-review/).
 
 <details>
 <summary><strong>Workflow-Optimierung</strong></summary>
