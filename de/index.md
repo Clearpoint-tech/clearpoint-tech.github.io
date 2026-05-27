@@ -30,7 +30,7 @@ Verstehen Sie Ihre aktuelle Exponierung, beheben Sie die Grundlagen und priorisi
 
 Repetitive Prozesse identifizieren, Tools verbinden und einfache, wartbare Automatisierungen umsetzen. Wo es echten Mehrwert schafft, kann dies KI-Agenten, Prompt Engineering und KI-gestützte Workflows umfassen, die Teams schneller arbeiten lassen, ohne Kontrolle, Sicherheit oder Klarheit zu verlieren.
 
-[Automatisierungsleistungen ansehen](/de/services/#automatisierung--ki-gestützte-workflows)
+[Automatisierungsleistungen ansehen](/de/services/#automatisierung--ki-gestützte-workflows) · [Sicherheitsreview für KI und Automatisierung](/de/services/ai-automation-security-review/)
 
 ### Technische Projektumsetzung mit Struktur
 

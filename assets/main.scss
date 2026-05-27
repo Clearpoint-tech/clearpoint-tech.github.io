@@ -91,6 +91,18 @@ a:hover {
 .site-title:visited {
   color: var(--text-heading);
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1;
+}
+
+.site-logo {
+  display: block;
+  height: 36px;
+  width: 36px;
+  flex: 0 0 auto;
+  transform: translateY(-1px);
 }
 
 /* ---------- Desktop Nav ---------- */

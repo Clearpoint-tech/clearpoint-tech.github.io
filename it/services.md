@@ -93,12 +93,15 @@ Aiuto le organizzazioni a ridurre il carico di lavoro manuale e le frizioni oper
 
 Buoni punti di partenza includono:
 
+- i team usano IA o automazione senza regole chiare su dati e responsabilità,
 - il lavoro manuale ripetitivo rallenta le operazioni,
 - le informazioni vengono copiate tra email, fogli di calcolo, CRM o strumenti cloud,
 - approvazioni o notifiche sono incoerenti,
 - le automazioni esistenti sono fragili o non documentate,
 - i team stanno sperimentando strumenti di IA ma mancano struttura o regole d’uso sicure,
 - serve automazione semplice con governance, sicurezza e affidabilità di base.
+
+Per un punto d’ingresso focalizzato, vedere la [Revisione sicurezza IA e automazione](/it/services/ai-automation-security-review/).
 
 <details>
 <summary><strong>Ottimizzazione dei workflow</strong></summary>

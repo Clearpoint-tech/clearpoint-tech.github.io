@@ -29,7 +29,7 @@ Understand your current exposure, fix the basics, and prioritise the improvement
 
 Identify repetitive processes, connect tools, and implement simple, maintainable automations. Where useful, this can include AI agents, prompt engineering, and AI-assisted workflows that help teams work faster without losing control, security, or clarity.
 
-[Explore automation services](/services/#automation)
+[Explore automation services](/services/#automation) · [AI & Automation Security Review](/services/ai-automation-security-review/)
 
 ### Technical project delivery with structure
 

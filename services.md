@@ -102,12 +102,15 @@ I help organisations reduce manual workload and operational friction by implemen
 
 Good starting points include:
 
+- teams are using AI or automation without clear data-handling and ownership rules,
 - repetitive manual work is slowing down operations,
 - information is copied between email, spreadsheets, CRM, or cloud tools,
 - approvals or notifications are inconsistent,
 - existing automations are fragile or undocumented,
 - teams are experimenting with AI tools but lack structure or safe usage patterns,
 - you need simple automation with basic governance, security, and reliability in mind.
+
+For a focused entry point, see the [AI & Automation Security Review](/services/ai-automation-security-review/).
 
 <details>
 <summary><strong>Workflow Optimisation</strong></summary>
