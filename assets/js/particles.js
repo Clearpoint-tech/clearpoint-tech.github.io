@@ -45,7 +45,9 @@
     canvas.style.height = H + 'px';
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
 
-    const contentRight = Math.min(W, W / 2 + 420);
+    // Keep the motif in a narrow right-side column so it supports the page
+    // without feeling like a second content column.
+    const contentRight = Math.min(W, W / 2 + 462);
     marginLeft = contentRight;
     active = W - marginLeft >= MIN_MARGIN;
 
@@ -57,26 +59,28 @@
     pathNodes = [];
     if (!active) return;
 
-    const left = marginLeft + 28;
-    const right = W - 42;
-    const width = Math.max(160, right - left);
-    const centerY = Math.min(Math.max(H * 0.32, 150), H - 210);
-    const height = Math.min(360, Math.max(220, H * 0.42));
+    const left = marginLeft + 20;
+    const right = W - 34;
+    const width = Math.max(130, right - left);
+    const top = 110;
+    const bottom = Math.max(top + 320, H - 88);
+    const height = bottom - top;
 
-    // A deliberate "clear path" through complexity: three service pillars
-    // becoming one prioritized route.
+    // A deliberate "clear path" through complexity: the route now uses the
+    // full vertical space of the right-side column instead of sitting only in
+    // the hero corner.
     pathNodes = [
-      { x: left + width * 0.12, y: centerY + height * 0.28, label: 'risk', color: COLORS.coral },
-      { x: left + width * 0.42, y: centerY + height * 0.04, label: 'secure', color: COLORS.blue },
-      { x: left + width * 0.64, y: centerY + height * 0.35, label: 'automate', color: COLORS.softBlue },
-      { x: left + width * 0.86, y: centerY + height * 0.10, label: 'deliver', color: COLORS.text }
+      { x: left + width * 0.22, y: top + height * 0.08, label: 'risk', color: COLORS.coral },
+      { x: left + width * 0.76, y: top + height * 0.30, label: 'secure', color: COLORS.blue },
+      { x: left + width * 0.30, y: top + height * 0.57, label: 'automate', color: COLORS.softBlue },
+      { x: left + width * 0.70, y: top + height * 0.86, label: 'deliver', color: COLORS.text }
     ];
 
-    for (let i = 0; i < 18; i++) {
+    for (let i = 0; i < 22; i++) {
       riskPoints.push({
         x: left + rand(0, width),
-        y: centerY - height * 0.12 + rand(0, height * 0.75),
-        r: rand(1.2, 2.8),
+        y: top + rand(0, height),
+        r: rand(1.0, 2.5),
         phase: rand(0, Math.PI * 2),
         color: i % 5 === 0 ? COLORS.coral : (i % 3 === 0 ? COLORS.muted : COLORS.blue)
       });
@@ -92,10 +96,10 @@
   }
 
   function drawGrid() {
-    const left = marginLeft + 18;
-    const right = W - 22;
-    const top = 92;
-    const bottom = Math.min(H - 56, 620);
+    const left = marginLeft + 12;
+    const right = W - 24;
+    const top = 84;
+    const bottom = H - 42;
     const step = 42;
 
     ctx.save();
@@ -195,7 +199,7 @@
     }
 
     const mark = pathNodes[pathNodes.length - 1];
-    drawClearpointMark(mark.x + 42, mark.y - 46, 28, reduceMotion ? 0.4 : 0.5 + 0.5 * Math.sin(elapsed * 0.35));
+    drawClearpointMark(mark.x + 28, mark.y - 28, 24, reduceMotion ? 0.4 : 0.5 + 0.5 * Math.sin(elapsed * 0.35));
     ctx.restore();
   }
 
