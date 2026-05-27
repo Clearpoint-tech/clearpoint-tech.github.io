@@ -4,24 +4,28 @@
     {% assign l = page.lang | default: 'en' %}
     {% if l == 'fr' %}
       {% assign nav_services = 'Services' %}
+      {% assign nav_ai = 'IA & automatisation' %}
       {% assign nav_book = 'Réserver' %}
       {% assign nav_about = 'À propos' %}
       {% assign nav_legal = 'Mentions légales' %}
       {% assign lp = '/fr' %}
     {% elsif l == 'de' %}
       {% assign nav_services = 'Leistungen' %}
+      {% assign nav_ai = 'KI & Automatisierung' %}
       {% assign nav_book = 'Termin buchen' %}
       {% assign nav_about = 'Über mich' %}
       {% assign nav_legal = 'Rechtliches' %}
       {% assign lp = '/de' %}
     {% elsif l == 'it' %}
       {% assign nav_services = 'Servizi' %}
+      {% assign nav_ai = 'IA & automazione' %}
       {% assign nav_book = 'Prenota' %}
       {% assign nav_about = 'Chi sono' %}
       {% assign nav_legal = 'Legale' %}
       {% assign lp = '/it' %}
     {% else %}
       {% assign nav_services = 'Services' %}
+      {% assign nav_ai = 'AI & Automation' %}
       {% assign nav_book = 'Book a session' %}
       {% assign nav_about = 'About' %}
       {% assign nav_legal = 'Legal' %}
@@ -39,6 +43,7 @@
     <!-- Desktop Navigation -->
     <nav class="desktop-nav">
       <a href="{{ lp }}/services/">{{ nav_services }}</a>
+      <a href="{{ lp }}/services/ai-automation-security-review/">{{ nav_ai }}</a>
       <a href="{{ lp }}/book/">{{ nav_book }}</a>
       <a href="{{ lp }}/about/">{{ nav_about }}</a>
       <a href="{{ lp }}/legal/">{{ nav_legal }}</a>
@@ -61,6 +66,7 @@
       <summary><span></span></summary>
       <ul>
         <li><a href="{{ lp }}/services/">{{ nav_services }}</a></li>
+        <li><a href="{{ lp }}/services/ai-automation-security-review/">{{ nav_ai }}</a></li>
         <li><a href="{{ lp }}/book/">{{ nav_book }}</a></li>
         <li><a href="{{ lp }}/about/">{{ nav_about }}</a></li>
         <li><a href="{{ lp }}/legal/">{{ nav_legal }}</a></li>

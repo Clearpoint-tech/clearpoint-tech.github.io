@@ -6,7 +6,7 @@ description: "Une revue de cybersécurité pratique pour les PME suisses qui ont
 permalink: /fr/services/sme-cybersecurity-review/
 ---
 
-## Revue de cybersécurité PME pour entreprises suisses
+## Priorités pratiques de cybersécurité pour PME suisses
 
 Une revue de cybersécurité pratique pour les PME suisses qui veulent comprendre leur exposition, corriger les fondamentaux et prioriser les améliorations les plus importantes.
 

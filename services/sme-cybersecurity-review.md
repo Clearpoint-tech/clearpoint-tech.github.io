@@ -5,7 +5,7 @@ description: "A practical cybersecurity review for Swiss SMEs that need clear pr
 permalink: /services/sme-cybersecurity-review/
 ---
 
-## SME Cybersecurity Review for Swiss businesses
+## Practical cybersecurity priorities for Swiss SMEs
 
 A practical cybersecurity review for Swiss SMEs that want to understand their exposure, fix the basics, and prioritise the improvements that matter most.
 

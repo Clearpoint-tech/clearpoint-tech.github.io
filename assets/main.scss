@@ -59,6 +59,33 @@ main h1:first-of-type {
   color: var(--accent-title);
 }
 
+.post-header {
+  margin-bottom: 1.6rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.post-title {
+  color: var(--accent-title);
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.post-content > h2:first-child {
+  margin-top: 0;
+  color: var(--text-heading);
+  font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+  line-height: 1.25;
+}
+
+.post-content > p:first-child {
+  margin-top: 0;
+  color: var(--text-main);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
 /* =========================================================
    Links
 ========================================================= */
@@ -90,17 +117,23 @@ a:hover {
 .site-title,
 .site-title:visited {
   color: var(--text-heading);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.08rem;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 11px;
   line-height: 1;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: none;
 }
 
 .site-logo {
   display: block;
-  height: 36px;
-  width: 36px;
+  height: 42px;
+  width: 42px;
   flex: 0 0 auto;
   transform: translateY(-1px);
 }
@@ -109,13 +142,17 @@ a:hover {
 
 .desktop-nav {
   display: flex;
-  gap: 28px;
+  align-items: center;
+  gap: 18px;
   margin-left: auto;
 }
 
 .desktop-nav a {
   color: var(--accent-soft);
   font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  white-space: nowrap;
   transition: opacity 0.2s ease;
 }
 

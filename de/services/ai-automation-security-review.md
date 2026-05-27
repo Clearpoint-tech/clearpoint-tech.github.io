@@ -6,7 +6,7 @@ description: "Ein praktischer Review für Schweizer KMU, die KI-Tools, Workflow-
 permalink: /de/services/ai-automation-security-review/
 ---
 
-## Sicherheitsreview für KI und Automatisierung für Schweizer KMU
+## Praktischer Risikoreview für Schweizer KMU mit KI-Tools und Automatisierung
 
 Ein praktischer Review für Organisationen, die KI-Tools, Workflow-Automatisierung und verbundene Systeme sicher nutzen möchten – ohne unnötige Datenexponierung, Zugriffsrisiken oder unkontrollierte technische Abhängigkeiten zu schaffen.
 
