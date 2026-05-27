@@ -45,15 +45,17 @@
       <a href="{{ lp }}/about/">{{ nav_about }}</a>
       <a href="{{ lp }}/legal/">{{ nav_legal }}</a>
 
-      <div class="lang-switcher">
-        <button class="lang-btn">{{ l | upcase }} ▾</button>
-        <div class="lang-dropdown">
-          {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
-          {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
-          {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
-          {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
+      {% unless page.multilingual == false %}
+        <div class="lang-switcher">
+          <button class="lang-btn">{{ l | upcase }} ▾</button>
+          <div class="lang-dropdown">
+            {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
+            {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
+            {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
+            {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
+          </div>
         </div>
-      </div>
+      {% endunless %}
     </nav>
 
     <!-- Mobile Navigation -->
@@ -64,12 +66,14 @@
         <li><a href="{{ lp }}/book/">{{ nav_book }}</a></li>
         <li><a href="{{ lp }}/about/">{{ nav_about }}</a></li>
         <li><a href="{{ lp }}/legal/">{{ nav_legal }}</a></li>
-        <li class="lang-mobile-row">
-          {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
-          {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
-          {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
-          {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
-        </li>
+        {% unless page.multilingual == false %}
+          <li class="lang-mobile-row">
+            {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
+            {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
+            {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
+            {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
+          </li>
+        {% endunless %}
       </ul>
     </details>
 

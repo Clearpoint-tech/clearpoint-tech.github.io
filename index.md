@@ -23,7 +23,7 @@ Book a free initial conversation
 
 Understand your current exposure, fix the basics, and prioritise the improvements that matter most. Typical work includes security assessments, system hardening, email security review, phishing investigation support, and incident triage.
 
-[Explore cybersecurity services](/services/#cybersecurity)
+[Explore cybersecurity services](/services/#cybersecurity) · [SME Cybersecurity Review](/services/sme-cybersecurity-review/)
 
 ### Automation and AI agents that reduce manual workload
 
