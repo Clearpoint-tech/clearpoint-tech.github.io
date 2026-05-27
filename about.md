@@ -1,23 +1,23 @@
 ---
 layout: page
 title: About
-permalink: /about/
 description: "About Clearpoint: independent, practical technical advisory at the intersection of cybersecurity, automation, and project delivery."
+permalink: /about/
 ---
 
 <div class="about-container">
   <div class="about-text">
 
-Clearpoint was founded with a simple objective: provide structured, practical, and proportionate technical advisory without unnecessary complexity.
+Clearpoint is an independent technical advisory practice focused on practical cybersecurity, AI-assisted automation, and technical project delivery for Swiss SMEs and growing organisations.
 
-I work at the intersection of cybersecurity, automation, and technical project delivery helping organisations secure their systems, streamline operations, and execute initiatives with clarity.
+The objective is simple: help organisations make better technical decisions, reduce avoidable risk, remove operational friction, and deliver useful improvements without unnecessary complexity.
 
-My background combines technical hands-on experience with project coordination and business alignment. This allows me to translate technical risks into business impact.
+I work at the intersection of hands-on technical work, business alignment, and structured delivery. This makes Clearpoint useful when a problem does not fit neatly into one box: security, tooling, AI-assisted workflows, operations, stakeholders, and implementation often need to be handled together.
 
   </div>
 
   <div class="about-image">
-    <img src="/assets/images/philip-ritter.jpeg" alt="Philip Ritter">
+    <img src="/assets/images/philip-ritter.jpeg" alt="Philip Ritter, founder of Clearpoint">
   </div>
 </div>
 
@@ -27,12 +27,27 @@ My background combines technical hands-on experience with project coordination a
 
 I believe in:
 
-- Clear scope definition  
-- Risk-aware decision-making  
-- Practical and proportionate solutions  
-- Transparent collaboration  
+- clear scope definition,
+- risk-aware decision-making,
+- practical and proportionate solutions,
+- transparent collaboration,
+- recommendations that can actually be implemented.
 
 The goal is not to introduce complexity, but to bring clarity and structure.
+
+---
+
+## How Clearpoint works
+
+Clearpoint can support a short advisory question, a focused assessment, or a more hands-on implementation and delivery engagement.
+
+Typical work starts by clarifying:
+
+- what problem needs to be solved,
+- what risk or friction it creates,
+- what systems and stakeholders are involved,
+- what a useful next step looks like,
+- what can be done pragmatically with the resources available.
 
 ---
 
@@ -46,4 +61,8 @@ For larger or more complex engagements, additional expertise can be integrated w
 
 ## Let’s connect
 
-If you would like to discuss a potential collaboration, feel free to book an initial session call.
+If you would like to discuss a potential collaboration, start with a short initial conversation.
+
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Book a free initial conversation
+</a>
