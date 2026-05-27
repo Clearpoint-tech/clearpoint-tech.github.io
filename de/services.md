@@ -24,7 +24,7 @@ Gute Einstiegspunkte sind:
 - Sie benötigen grundlegende Härtung für eine Website, einen Server oder ein internes System,
 - Sie brauchen einen klaren Aktionsplan, den Management und technische Teams verstehen.
 
-Als fokussierten Einstieg siehe den [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
+Als fokussierten Einstieg siehe den [KMU-Cybersicherheitsreview](/de/services/sme-cybersecurity-review/).
 
 <details>
 <summary><strong>Sicherheitsbewertung & Risikoberatung</strong></summary>

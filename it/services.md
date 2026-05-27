@@ -24,7 +24,7 @@ Buoni punti di partenza includono:
 - serve hardening di base per un sito web, server o sistema interno,
 - serve un piano d’azione chiaro che management e team tecnici possano comprendere.
 
-Per un punto d’ingresso focalizzato, vedere lo [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
+Per un punto d’ingresso focalizzato, vedere la [Revisione di cybersicurezza per PMI](/it/services/sme-cybersecurity-review/).
 
 <details>
 <summary><strong>Valutazione della sicurezza & consulenza sui rischi</strong></summary>

@@ -24,7 +24,7 @@ Réserver une première conversation gratuite
 
 Comprendre votre exposition actuelle, corriger les fondamentaux et prioriser les améliorations qui comptent le plus. Les travaux typiques incluent les évaluations de sécurité, le durcissement des systèmes, la revue de la sécurité email, le support lors d’investigations de phishing et le triage initial d’incidents.
 
-[Explorer les services de cybersécurité](/fr/services/#cybersécurité) · [SME Cybersecurity Review](/services/sme-cybersecurity-review/)
+[Explorer les services de cybersécurité](/fr/services/#cybersécurité) · [Revue de cybersécurité PME](/fr/services/sme-cybersecurity-review/)
 
 ### Automatisation et agents IA pour réduire le travail manuel
 

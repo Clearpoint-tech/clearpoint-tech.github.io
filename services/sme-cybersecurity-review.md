@@ -3,7 +3,6 @@ layout: page
 title: SME Cybersecurity Review
 description: "A practical cybersecurity review for Swiss SMEs that need clear priorities, safer systems, and a management-friendly action plan."
 permalink: /services/sme-cybersecurity-review/
-multilingual: false
 ---
 
 ## SME Cybersecurity Review for Swiss businesses

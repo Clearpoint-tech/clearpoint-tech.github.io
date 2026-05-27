@@ -24,7 +24,7 @@ Kostenloses Erstgespräch buchen
 
 Verstehen Sie Ihre aktuelle Exponierung, beheben Sie die Grundlagen und priorisieren Sie die Verbesserungen, die am wichtigsten sind. Typische Arbeiten umfassen Sicherheitsbewertungen, Systemhärtung, Überprüfung der E-Mail-Sicherheit, Unterstützung bei Phishing-Abklärungen und erste Incident-Triage.
 
-[Cybersicherheitsleistungen ansehen](/de/services/#cybersicherheit) · [SME Cybersecurity Review](/services/sme-cybersecurity-review/)
+[Cybersicherheitsleistungen ansehen](/de/services/#cybersicherheit) · [KMU-Cybersicherheitsreview](/de/services/sme-cybersecurity-review/)
 
 ### Automatisierung und KI-Agenten zur Reduktion manueller Arbeit
 

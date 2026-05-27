@@ -24,7 +24,7 @@ Prenota una prima conversazione gratuita
 
 Comprendere l’esposizione attuale, correggere le basi e dare priorità ai miglioramenti più importanti. Le attività tipiche includono valutazioni di sicurezza, hardening dei sistemi, revisione della sicurezza email, supporto per indagini di phishing e triage iniziale degli incidenti.
 
-[Esplora i servizi di cybersicurezza](/it/services/#cybersicurezza) · [SME Cybersecurity Review](/services/sme-cybersecurity-review/)
+[Esplora i servizi di cybersicurezza](/it/services/#cybersicurezza) · [Revisione di cybersicurezza per PMI](/it/services/sme-cybersecurity-review/)
 
 ### Automazione e agenti IA per ridurre il lavoro manuale
 
