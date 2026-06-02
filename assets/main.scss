@@ -98,9 +98,8 @@ a:visited {
 
 a:hover,
 a:focus-visible {
-  color: var(--accent-hover);
-  text-decoration: underline;
-  text-underline-offset: 0.18em;
+  color: #0ea5e9;
+  text-decoration: none;
 }
 
 /* =========================================================
@@ -234,7 +233,8 @@ hr {
    CTA
 ========================================================= */
 
-.cta-button {
+.cta-button,
+.cta-button:visited {
   display: inline-block;
   margin-top: 1.5rem;
   padding: 0.8rem 1.6rem;
@@ -244,8 +244,10 @@ hr {
   border-radius: 6px;
 }
 
-.cta-button:hover {
+.cta-button:hover,
+.cta-button:focus-visible {
   background: var(--accent-hover);
+  color: #020617;
   text-decoration: none;
 }
 
