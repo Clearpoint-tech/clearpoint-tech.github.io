@@ -90,13 +90,17 @@ main h1:first-of-type {
    Links
 ========================================================= */
 
-a {
+a,
+a:visited {
   color: var(--accent-main);
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
+  color: var(--accent-hover);
   text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 /* =========================================================
