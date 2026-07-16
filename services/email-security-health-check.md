@@ -87,6 +87,21 @@ It is not a penetration test, full cybersecurity audit, legal certification, or 
 
 ---
 
+## Pricing
+
+Introductory beta price for the first 5 clients:
+
+- **CHF 150** for the report-only Email Security Health Check
+
+Standard pricing after the introductory slots:
+
+- **CHF 350** for the report-only check
+- **CHF 650** for the report, explanation call, and provider-ready fix notes
+
+Later options can include a paid re-check after DNS changes or a quarterly re-check plan.
+
+---
+
 ## Request a check {#request-check}
 
 Send the basics below and Clearpoint can confirm the next step. Please do not include passwords, confidential files, client data, mailbox exports, API keys, or sensitive screenshots.
