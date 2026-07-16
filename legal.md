@@ -20,8 +20,10 @@ contact@clearpoint.ch
 
 This website does not use tracking cookies or analytics.
 
-Personal data may be processed when users contact Clearpoint by email or book a session.  
+Personal data may be processed when users contact Clearpoint by email, book a session, or submit a service request form.
 Such data is used solely to respond to requests or provide services and is handled in accordance with the Swiss Federal Act on Data Protection (FADP).
+
+Some request forms may be provided through Tally, a third-party form service. Information submitted through those forms is processed by Tally for form delivery and submission handling. Please do not submit passwords, API keys, confidential files, customer data, mailbox exports, logs, or other sensitive material through standard forms.
 
 ---
 

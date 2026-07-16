@@ -23,7 +23,7 @@ Good starting points include:
 - you need basic hardening for a website, server, or internal system,
 - you need a clear action plan that management and technical teams can both understand.
 
-For a focused entry point, see the [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
+For focused entry points, see the [Email Security Health Check](/services/email-security-health-check/) or the broader [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
 
 <details>
 <summary><strong>Security Assessment & Risk Advisory</strong></summary>

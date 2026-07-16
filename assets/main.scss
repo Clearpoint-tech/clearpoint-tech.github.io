@@ -252,6 +252,31 @@ hr {
 }
 
 /* =========================================================
+   Request cards
+========================================================= */
+
+.request-card {
+  margin-top: 1.5rem;
+  padding: 1.4rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  background: rgba(2, 10, 31, 0.86);
+}
+
+.request-card h3 {
+  margin-top: 0;
+}
+
+.request-card p:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-note {
+  color: var(--text-muted);
+  margin-top: 1rem;
+}
+
+/* =========================================================
    About Page
 ========================================================= */
 

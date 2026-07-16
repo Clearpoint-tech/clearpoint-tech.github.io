@@ -21,9 +21,9 @@ Book a free initial conversation
 
 ### Cybersecurity that is practical and proportionate
 
-Understand your current exposure, fix the basics, and prioritise the improvements that matter most. Typical work includes security assessments, system hardening, email security review, phishing investigation support, and incident triage.
+Understand your current exposure, fix the basics, and prioritise the improvements that matter most. Typical work includes security assessments, system hardening, email-domain protection, phishing investigation support, and incident triage.
 
-[Explore cybersecurity services](/services/#cybersecurity) · [SME Cybersecurity Review](/services/sme-cybersecurity-review/)
+[Explore cybersecurity services](/services/#cybersecurity) · [Email Security Health Check](/services/email-security-health-check/) · [SME Cybersecurity Review](/services/sme-cybersecurity-review/)
 
 ### Automation and AI agents that reduce manual workload
 
