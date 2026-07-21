@@ -10,7 +10,9 @@ multilingual: false
 
 Your company email is used for invoices, client communication, contracts, supplier requests, and daily operations. If your domain is not correctly protected, attackers may be able to impersonate your business or damage trust with clients.
 
-Clearpoint checks whether your business email domain is easy to impersonate and gives you a plain-English report with the risks, priorities, and recommended fixes.
+In a recent Clearpoint spot-check of visible Swiss .ch domains, roughly half were not enforcing DMARC protection. That means fake-looking messages may be easier to deliver, and legitimate business emails, for example invoices sent to clients, may be less trusted by receiving inboxes.
+
+Clearpoint checks whether your business email domain is easy to impersonate, whether your outgoing email is set up to be trusted, and gives you a plain-English report with the risks, priorities, and recommended fixes.
 
 The technical checks include SPF, DKIM and DMARC. In simple terms: SPF is the approved-sender list, DKIM is the email signature, and DMARC is the rule that tells inboxes what to do when a message looks fake.
 
@@ -87,31 +89,60 @@ It is not a penetration test, full cybersecurity audit, legal certification, or 
 
 ---
 
-## Pricing
+## Choose your package
 
-Introductory beta price for the first 5 clients:
+Choose a package, pay securely, and send the domain details needed to start.
 
-- **CHF 150** for the report-only Email Security Health Check
-
-Standard pricing after the introductory slots:
-
-- **CHF 350** for the report-only check
-- **CHF 650** for the report, explanation call, and provider-ready fix notes
+<div class="service-grid">
+  <div class="service-card">
+    <h3>Introductory Report Only</h3>
+    <p class="price">CHF 150</p>
+    <p>Introductory price for the first 5 businesses. After these places are filled, the report-only price is CHF 350.</p>
+    <ul>
+      <li>Passive public email-domain check</li>
+      <li>Plain-English report</li>
+      <li>Risk score and top fixes</li>
+      <li>Short written clarification if needed</li>
+    </ul>
+  </div>
+  <div class="service-card">
+    <h3>Standard Report Only</h3>
+    <p class="price">CHF 350</p>
+    <p>For businesses that want a clear answer and fix list without a meeting.</p>
+    <ul>
+      <li>Passive public email-domain check</li>
+      <li>Plain-English report</li>
+      <li>Risk score and top fixes</li>
+      <li>Provider-ready recommendations</li>
+    </ul>
+  </div>
+  <div class="service-card">
+    <h3>Report + Explanation Call</h3>
+    <p class="price">CHF 650</p>
+    <p>For businesses that want the report plus a short walkthrough.</p>
+    <ul>
+      <li>Everything in the report-only check</li>
+      <li>Provider-ready fix notes</li>
+      <li>20-minute explanation call</li>
+      <li>Clear next steps for your IT, web or email provider</li>
+    </ul>
+  </div>
+</div>
 
 Later options can include a paid re-check after DNS changes or a quarterly re-check plan.
 
 ---
 
-## Request a check {#request-check}
+## Start your check {#request-check}
 
-Send the basics below and Clearpoint can confirm the next step. Please do not include passwords, confidential files, client data, mailbox exports, API keys, or sensitive screenshots.
+Choose your package, pay securely, and send the basics Clearpoint needs to start.
 
 <div class="request-card">
   <h3>Ready to check your domain?</h3>
-  <p>The request form opens in Tally and asks only for the basics: company name, domain, website, contact email, known email provider, and whether you prefer a report only or a report with a short explanation call.</p>
+  <p>The secure form opens in Tally and asks only for the basics: selected package, company name, domain, website, contact email, known email provider, and any non-sensitive context.</p>
   <p><strong>Please do not send passwords, mailbox access, API keys, confidential files, customer data, logs, or screenshots.</strong></p>
   <a href="https://tally.so/r/EkEGXA" class="cta-button" target="_blank">
-    Open the request form
+    Choose package and pay securely
   </a>
 </div>
 

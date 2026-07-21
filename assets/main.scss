@@ -252,6 +252,43 @@ hr {
 }
 
 /* =========================================================
+   Service/package cards
+========================================================= */
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.service-card {
+  padding: 1.2rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  background: rgba(2, 10, 31, 0.7);
+}
+
+.service-card h3 {
+  margin-top: 0;
+}
+
+.service-card .price {
+  color: var(--accent-main);
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin: 0.35rem 0 0.75rem;
+}
+
+.service-card ul {
+  padding-left: 1.15rem;
+}
+
+.service-card li {
+  margin-bottom: 0.35rem;
+}
+
+/* =========================================================
    Request cards
 ========================================================= */
 
@@ -380,6 +417,10 @@ hr {
     color: #ffffff;
     font-size: 18px;
     font-weight: 500;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
   }
 
   /* About stacked */
