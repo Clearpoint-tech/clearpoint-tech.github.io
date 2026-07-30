@@ -4,6 +4,7 @@
     {% assign l = page.lang | default: 'en' %}
     {% if l == 'fr' %}
       {% assign nav_services = 'Services' %}
+      {% assign nav_email = 'Check email' %}
       {% assign nav_ai = 'IA & automatisation' %}
       {% assign nav_book = 'Réserver' %}
       {% assign nav_about = 'À propos' %}
@@ -11,6 +12,7 @@
       {% assign lp = '/fr' %}
     {% elsif l == 'de' %}
       {% assign nav_services = 'Leistungen' %}
+      {% assign nav_email = 'E-Mail-Check' %}
       {% assign nav_ai = 'KI & Automatisierung' %}
       {% assign nav_book = 'Termin buchen' %}
       {% assign nav_about = 'Über mich' %}
@@ -18,6 +20,7 @@
       {% assign lp = '/de' %}
     {% elsif l == 'it' %}
       {% assign nav_services = 'Servizi' %}
+      {% assign nav_email = 'Check email' %}
       {% assign nav_ai = 'IA & automazione' %}
       {% assign nav_book = 'Prenota' %}
       {% assign nav_about = 'Chi sono' %}
@@ -25,6 +28,7 @@
       {% assign lp = '/it' %}
     {% else %}
       {% assign nav_services = 'Services' %}
+      {% assign nav_email = 'Email Check' %}
       {% assign nav_ai = 'AI & Automation' %}
       {% assign nav_book = 'Book a session' %}
       {% assign nav_about = 'About' %}
@@ -43,6 +47,7 @@
     <!-- Desktop Navigation -->
     <nav class="desktop-nav">
       <a href="{{ lp }}/services/">{{ nav_services }}</a>
+      <a href="/services/email-security-health-check/">{{ nav_email }}</a>
       <a href="{{ lp }}/services/ai-automation-security-review/">{{ nav_ai }}</a>
       <a href="{{ lp }}/book/">{{ nav_book }}</a>
       <a href="{{ lp }}/about/">{{ nav_about }}</a>
@@ -66,6 +71,7 @@
       <summary><span></span></summary>
       <ul>
         <li><a href="{{ lp }}/services/">{{ nav_services }}</a></li>
+        <li><a href="/services/email-security-health-check/">{{ nav_email }}</a></li>
         <li><a href="{{ lp }}/services/ai-automation-security-review/">{{ nav_ai }}</a></li>
         <li><a href="{{ lp }}/book/">{{ nav_book }}</a></li>
         <li><a href="{{ lp }}/about/">{{ nav_about }}</a></li>

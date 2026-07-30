@@ -15,6 +15,22 @@ If you need a practical technical partner who can move between risk, tools, stak
 Book a free initial conversation
 </a>
 
+<div class="launch-banner">
+  <p class="eyebrow">New fixed-price check</p>
+  <h2>Email Security Health Check</h2>
+  <p>
+    Find out whether fake-looking emails can be sent using your business domain.
+    Clearpoint checks SPF, DKIM and DMARC, explains the risks in plain English,
+    and gives your IT or email provider clear next steps.
+  </p>
+  <p class="launch-price">
+    Introductory report: CHF 150 for the first 5 businesses. Standard report: CHF 350.
+  </p>
+  <a href="/services/email-security-health-check/" class="cta-button">
+    View the email check
+  </a>
+</div>
+
 ---
 
 ## Where Clearpoint helps

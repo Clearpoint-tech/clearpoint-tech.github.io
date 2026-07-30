@@ -252,6 +252,49 @@ hr {
 }
 
 /* =========================================================
+   Launch banner
+========================================================= */
+
+.launch-banner {
+  margin: 2rem 0 0;
+  padding: 1.5rem;
+  border: 1px solid rgba(56, 189, 248, 0.32);
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.16), transparent 34%),
+    rgba(2, 10, 31, 0.82);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22);
+}
+
+.launch-banner .eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--accent-hover);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.launch-banner h2 {
+  margin: 0 0 0.75rem;
+  color: var(--text-heading);
+}
+
+.launch-banner p {
+  max-width: 720px;
+}
+
+.launch-banner .launch-price {
+  color: var(--text-heading);
+  font-weight: 650;
+  margin-top: 0.9rem;
+}
+
+.launch-banner .cta-button {
+  margin-top: 0.5rem;
+}
+
+/* =========================================================
    Service/package cards
 ========================================================= */
 
