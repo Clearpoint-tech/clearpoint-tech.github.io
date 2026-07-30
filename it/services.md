@@ -81,10 +81,6 @@ Per un punto d’ingresso focalizzato, vedere la [Revisione di cybersicurezza pe
 </ul>
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discutere un’esigenza di cybersicurezza
-</a>
-
 ---
 
 ## Automazione e workflow assistiti dall’IA
@@ -144,10 +140,6 @@ Per un punto d’ingresso focalizzato, vedere la [Revisione sicurezza IA e autom
 </ul>
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discutere un’opportunità di automazione
-</a>
-
 ---
 
 ## Supporto Progettuale
@@ -191,10 +183,6 @@ Buoni punti di partenza includono:
   <li>Comunicazione chiara tra livelli tecnici ed esecutivi</li>
 </ul>
 </details>
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discutere supporto progettuale
-</a>
 
 ---
 

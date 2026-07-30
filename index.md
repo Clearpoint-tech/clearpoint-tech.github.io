@@ -11,10 +11,6 @@ Clearpoint helps Swiss SMEs and growing organisations secure their systems, auto
 
 If you need a practical technical partner who can move between risk, tools, stakeholders, and delivery, Clearpoint provides clear priorities and hands-on support.
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Book a free initial conversation
-</a>
-
 <div class="launch-banner">
   <p class="eyebrow">New fixed-price check</p>
   <h2>Email Security Health Check</h2>
@@ -39,19 +35,19 @@ Book a free initial conversation
 
 Understand your current exposure, fix the basics, and prioritise the improvements that matter most. Typical work includes security assessments, system hardening, email-domain protection, phishing investigation support, and incident triage.
 
-[Explore cybersecurity services](/services/#cybersecurity) · [Email Security Health Check](/services/email-security-health-check/) · [SME Cybersecurity Review](/services/sme-cybersecurity-review/)
+[See cybersecurity services](/services/#cybersecurity)
 
 ### Automation and AI agents that reduce manual workload
 
 Identify repetitive processes, connect tools, and implement simple, maintainable automations. Where useful, this can include AI agents, prompt engineering, and AI-assisted workflows that help teams work faster without losing control, security, or clarity.
 
-[Explore automation services](/services/#automation) · [AI & Automation Security Review](/services/ai-automation-security-review/)
+[See automation services](/services/#automation)
 
 ### Technical project delivery with structure
 
 Translate business needs into technical execution, coordinate stakeholders, and keep delivery moving. Clearpoint can support security, automation, infrastructure, and operational improvement initiatives.
 
-[Explore project support](/services/#project-support)
+[See project support](/services/#project-support)
 
 ---
 

@@ -12,9 +12,20 @@ Clearpoint unterstützt Schweizer KMU und wachsende Organisationen dabei, System
 
 Wenn Sie einen praktischen technischen Partner benötigen, der zwischen Risiken, Tools, Stakeholdern und Umsetzung vermitteln kann, liefert Clearpoint klare Prioritäten und konkrete Unterstützung.
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Kostenloses Erstgespräch buchen
-</a>
+<div class="launch-banner">
+  <p class="eyebrow">Neuer Fixpreis-Check</p>
+  <h2>Email Security Health Check</h2>
+  <p>
+    Prüfen Sie, ob täuschend echte E-Mails mit Ihrer Unternehmensdomain versendet werden könnten.
+    Clearpoint prüft SPF, DKIM und DMARC, erklärt die Risiken verständlich und gibt Ihrem IT- oder E-Mail-Anbieter klare nächste Schritte.
+  </p>
+  <p class="launch-price">
+    Einführungsbericht: CHF 150 für die ersten 5 Unternehmen. Standardbericht: CHF 350.
+  </p>
+  <a href="/services/email-security-health-check/" class="cta-button">
+    E-Mail-Check ansehen
+  </a>
+</div>
 
 ---
 

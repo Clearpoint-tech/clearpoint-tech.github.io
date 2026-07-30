@@ -90,10 +90,6 @@ For focused entry points, see the [Email Security Health Check](/services/email-
 
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discuss a cybersecurity need
-</a>
-
 ---
 
 ## Automation & AI-assisted workflows
@@ -161,10 +157,6 @@ For a focused entry point, see the [AI & Automation Security Review](/services/a
 
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discuss an automation opportunity
-</a>
-
 ---
 
 ## Project Support
@@ -214,10 +206,6 @@ Good starting points include:
 </ul>
 
 </details>
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discuss project support
-</a>
 
 ---
 

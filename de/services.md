@@ -81,10 +81,6 @@ Als fokussierten Einstieg siehe den [KMU-Cybersicherheitsreview](/de/services/sm
 </ul>
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Cybersicherheitsbedarf besprechen
-</a>
-
 ---
 
 ## Automatisierung & KI-gestützte Workflows
@@ -144,10 +140,6 @@ Als fokussierten Einstieg siehe den [Sicherheitsreview für KI und Automatisieru
 </ul>
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Automatisierungsmöglichkeit besprechen
-</a>
-
 ---
 
 ## Projektunterstützung
@@ -191,10 +183,6 @@ Gute Einstiegspunkte sind:
   <li>Klare Kommunikation zwischen technischen und Führungsebenen</li>
 </ul>
 </details>
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Projektunterstützung besprechen
-</a>
 
 ---
 

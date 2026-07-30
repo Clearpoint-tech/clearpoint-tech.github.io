@@ -12,9 +12,20 @@ Clearpoint aiuta le PMI svizzere e le organizzazioni in crescita a proteggere i 
 
 Se avete bisogno di un partner tecnico pratico, capace di muoversi tra rischi, strumenti, stakeholder e delivery, Clearpoint offre priorità chiare e supporto concreto.
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Prenota una prima conversazione gratuita
-</a>
+<div class="launch-banner">
+  <p class="eyebrow">Nuovo controllo a prezzo fisso</p>
+  <h2>Email Security Health Check</h2>
+  <p>
+    Verificate se email dall’aspetto falso potrebbero essere inviate usando il dominio della vostra azienda.
+    Clearpoint controlla SPF, DKIM e DMARC, spiega i rischi in modo semplice e fornisce al vostro provider IT o email passi successivi chiari.
+  </p>
+  <p class="launch-price">
+    Report introduttivo: CHF 150 per le prime 5 aziende. Report standard: CHF 350.
+  </p>
+  <a href="/services/email-security-health-check/" class="cta-button">
+    Vedi il controllo email
+  </a>
+</div>
 
 ---
 

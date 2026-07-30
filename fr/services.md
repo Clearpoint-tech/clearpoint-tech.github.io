@@ -81,10 +81,6 @@ Pour un point d’entrée ciblé, voir la [Revue de cybersécurité PME](/fr/ser
 </ul>
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discuter d’un besoin en cybersécurité
-</a>
-
 ---
 
 ## Automatisation et workflows assistés par l’IA
@@ -144,10 +140,6 @@ Pour un point d’entrée ciblé, voir la [Revue sécurité IA et automatisation
 </ul>
 </details>
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discuter d’une opportunité d’automatisation
-</a>
-
 ---
 
 ## Support Projet
@@ -191,10 +183,6 @@ Bons points de départ :
   <li>Communication claire entre niveaux techniques et exécutifs</li>
 </ul>
 </details>
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Discuter d’un support projet
-</a>
 
 ---
 
