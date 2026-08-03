@@ -74,9 +74,7 @@ Typical connections include:
 
 A simple one-page map is often enough for a first review:
 
-```text
-Source system → AI/automation tool → destination → owner → data involved → risk
-```
+**Source system → AI/automation tool → destination → owner → data involved → risk**
 
 This helps the business see where data moves, who owns the workflow, and where controls may be missing.
 
