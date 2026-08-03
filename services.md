@@ -25,6 +25,8 @@ Good starting points include:
 
 For focused entry points, see the [Email Security Health Check](/services/email-security-health-check/) or the broader [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
 
+**Typical engagement:** an SME wants an independent view after suspicious emails, unclear account protection, or customer/security questions. Clearpoint reviews the agreed priority areas, explains business impact, and turns findings into a short action list with quick wins and next-step priorities.
+
 <details>
 <summary><strong>Security Assessment & Risk Advisory</strong></summary>
 
@@ -107,6 +109,10 @@ Good starting points include:
 - you need simple automation with basic governance, security, and reliability in mind.
 
 For a focused entry point, see the [AI & Automation Security Review](/services/ai-automation-security-review/).
+
+**Typical engagement:** a team already uses AI tools and a few small automations, but ownership, data handling, API keys, and recovery steps are unclear. Clearpoint maps the practical dependencies and provides simple usage rules, risk priorities, and safer operating controls.
+
+Related article: [What Swiss SMEs should check before connecting AI tools to company data](/articles/what-swiss-smes-should-check-before-connecting-ai-tools-to-company-data/).
 
 <details>
 <summary><strong>Workflow Optimisation</strong></summary>

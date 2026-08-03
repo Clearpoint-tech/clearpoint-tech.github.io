@@ -101,6 +101,14 @@ The focus is practical: clear next steps, not unnecessary complexity.
 
 ---
 
+## Typical engagement scenario
+
+A Swiss SME has received several suspicious emails, uses Microsoft 365 or Google Workspace, and is unsure whether account protection, backups, patching, and website/server exposure are in good shape. Management wants a realistic view before buying tools or asking a vendor for a larger project.
+
+A focused review checks the agreed priority areas, explains the business impact in clear terms, and separates quick fixes from longer-term improvements. The outcome is a short findings summary and action list — for example strengthening multi-factor authentication, clarifying backup restore readiness, prioritising patching, reducing unnecessary exposed services, and deciding where specialist support is actually needed.
+
+---
+
 ## How the engagement can work
 
 A typical starting path:

@@ -101,6 +101,16 @@ The objective is practical: keep useful automation moving while reducing avoidab
 
 ---
 
+## Typical engagement scenario
+
+A Swiss SME already uses AI tools for drafting, research, and internal summaries. A few automations also move information between email, spreadsheets, CRM, and cloud storage. The tools are useful, but management is not fully sure what data is being entered, which accounts own the workflows, or what happens if a key employee leaves.
+
+A focused review maps the main tools, data flows, accounts, API keys, and business-critical automations. The outcome is a short risk summary, practical usage rules, ownership recommendations, and a prioritised list of quick wins — for example limiting sensitive data in AI tools, moving critical automations away from personal accounts, improving access recovery, and documenting the workflows that matter most.
+
+For a practical starting checklist, see [what Swiss SMEs should check before connecting AI tools to company data](/articles/what-swiss-smes-should-check-before-connecting-ai-tools-to-company-data/).
+
+---
+
 ## How the engagement can work
 
 A typical starting path:
