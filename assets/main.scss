@@ -328,9 +328,9 @@ table {
   width: 100%;
   margin: 1.4rem 0;
   border-collapse: collapse;
-  color: var(--text-main);
-  background: rgba(2, 10, 31, 0.58);
-  border: 1px solid rgba(148, 163, 184, 0.22);
+  color: #f1f5f9;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.34);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -338,28 +338,34 @@ table {
 table th,
 table td {
   padding: 0.8rem 0.9rem;
-  border: 1px solid rgba(148, 163, 184, 0.28);
-  color: var(--text-main);
+  border: 1px solid rgba(203, 213, 225, 0.24);
+  color: #f1f5f9 !important;
   vertical-align: top;
 }
 
 table th {
-  color: var(--text-heading);
-  background-color: rgba(15, 23, 42, 0.98);
+  color: #f8fafc !important;
+  background-color: rgba(30, 41, 59, 0.98) !important;
   font-weight: 650;
 }
 
+table tbody tr,
+table tbody tr:nth-child(even),
+table tbody tr:nth-child(odd) {
+  color: #f1f5f9 !important;
+}
+
 table tbody tr:nth-child(even) {
-  background-color: rgba(30, 41, 59, 0.72);
+  background-color: rgba(51, 65, 85, 0.92) !important;
 }
 
 table tbody tr:nth-child(odd) {
-  background-color: rgba(15, 23, 42, 0.5);
+  background-color: rgba(15, 23, 42, 0.88) !important;
 }
 
 table tbody tr:nth-child(even) td,
 table tbody tr:nth-child(odd) td {
-  color: #edf2f7;
+  color: #f1f5f9 !important;
 }
 
 @media (max-width: 700px) {
