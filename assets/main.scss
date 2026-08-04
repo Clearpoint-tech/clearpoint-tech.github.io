@@ -321,6 +321,56 @@ hr {
 }
 
 /* =========================================================
+   Tables
+========================================================= */
+
+table {
+  width: 100%;
+  margin: 1.4rem 0;
+  border-collapse: collapse;
+  color: var(--text-main);
+  background: rgba(2, 10, 31, 0.58);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  padding: 0.8rem 0.9rem;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  color: var(--text-main);
+  vertical-align: top;
+}
+
+table th {
+  color: var(--text-heading);
+  background-color: rgba(15, 23, 42, 0.98);
+  font-weight: 650;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgba(30, 41, 59, 0.72);
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: rgba(15, 23, 42, 0.5);
+}
+
+table tbody tr:nth-child(even) td,
+table tbody tr:nth-child(odd) td {
+  color: #edf2f7;
+}
+
+@media (max-width: 700px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* =========================================================
    Service/package cards
 ========================================================= */
 
