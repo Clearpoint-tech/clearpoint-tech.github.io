@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Email Security Health Check
-description: "A focused email-domain protection check for Swiss SMEs that want to understand spoofing, impersonation, SPF, DKIM, DMARC, and deliverability risks in plain English."
+description: "A fixed-price email fraud and domain trust check for Swiss SMEs that want to reduce fake invoice, domain impersonation, SPF, DKIM, DMARC, and deliverability risks."
 permalink: /services/email-security-health-check/
 multilingual: false
 ---
 
-## Can your business email be trusted?
+## Email Fraud & Domain Trust Check for Swiss SMEs
+
+Can scammers send fake invoices or supplier emails that look like they come from your business?
 
 Your company email is used for invoices, client communication, contracts, supplier requests, and daily operations. If your domain is not correctly protected, attackers may be able to impersonate your business or damage trust with clients.
 
@@ -130,6 +132,35 @@ Choose a package, pay securely, and send the domain details needed to start.
 </div>
 
 Later options can include a paid re-check after DNS changes or a quarterly re-check plan.
+
+---
+
+## What happens after payment
+
+1. You choose a package and submit only non-sensitive basics: company name, domain, website, contact email, email provider if known, and useful context.
+2. Clearpoint checks visible email-domain configuration and optional harmless email-header evidence.
+3. You receive a short report with business impact, evidence, risk score, and provider-ready fixes.
+4. If you choose the call package, Clearpoint walks through the findings and next steps with you.
+
+---
+
+## Example findings
+
+Typical findings can include:
+
+- no DMARC record,
+- DMARC present but only monitoring,
+- missing or unclear DKIM signing,
+- too many authorised senders in SPF,
+- old providers still authorised,
+- newsletter, CRM, booking or invoicing tools not aligned,
+- business emails that may be harder for receiving inboxes to trust.
+
+A free checklist is also available if you want to review the basics first:
+
+<a href="/resources/swiss-sme-email-fraud-readiness-checklist/" class="cta-button">
+View the email fraud readiness checklist
+</a>
 
 ---
 
