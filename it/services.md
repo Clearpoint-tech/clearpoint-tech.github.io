@@ -19,7 +19,7 @@ I servizi qui sotto possono iniziare come sessione di consulenza focalizzata, br
 ### Scegliere un punto di partenza rapido
 
 <div class="services-start-grid">
-  <article><h3>Controllo rapido email/dominio</h3><p>Se email sospette, rischio di frode fatture o domande dei clienti sono la priorità immediata.</p><a href="/services/email-security-health-check/">Check email</a></article>
+  <article><h3>Controllo rapido email/dominio</h3><p>Se email sospette, rischio di frode fatture o domande dei clienti sono la priorità immediata.</p><a href="/it/services/email-security-health-check/">Check email</a></article>
   <article><h3>Priorità generali di cybersicurezza</h3><p>Se i rischi principali non sono chiari o serve un piano d’azione concreto.</p><a href="/it/services/sme-cybersecurity-review/">Review cyber PMI</a></article>
   <article><h3>IA, automazione, script o integrazioni</h3><p>Se strumenti, workflow, chiavi API, dati o ownership devono essere strutturati meglio.</p><a href="/it/services/ai-automation-security-review/">Review IA & automazione</a></article>
   <article><h3>Supporto progetto tecnico</h3><p>Se un’iniziativa sicurezza, automazione o IT ha bisogno di scope e coordinamento più chiari.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Iniziare con una breve conversazione</a></article>

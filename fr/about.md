@@ -51,7 +51,7 @@ Le travail commence généralement par clarifier :
 
 <div class="about-service-links">
   <a href="/fr/services/sme-cybersecurity-review/">Revue cyber PME</a>
-  <a href="/services/email-security-health-check/">Check email</a>
+  <a href="/fr/services/email-security-health-check/">Check email</a>
   <a href="/fr/services/ai-automation-security-review/">Revue IA & automatisation</a>
   <a href="/fr/services/">Vue d’ensemble des services</a>
 </div>

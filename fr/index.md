@@ -11,14 +11,14 @@ description: "Cybersécurité, automatisation assistée par l’IA et livraison 
   <p class="home-lead"><strong>Cybersécurité · automatisation assistée par l’IA · livraison de projets techniques</strong></p>
   <p>Clearpoint aide les organisations en croissance à réduire l’incertitude technique : sécuriser les fondamentaux, utiliser l’IA de manière responsable, automatiser le travail opérationnel et transformer les projets complexes en prochaines étapes claires.</p>
   <div class="home-hero-actions">
-    <a href="/services/email-security-health-check/" class="cta-button">Voir le contrôle email</a>
+    <a href="/fr/services/email-security-health-check/" class="cta-button">Voir le contrôle email</a>
     <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="secondary-button" target="_blank">Réserver une première conversation</a>
   </div>
 </div>
 
 <div class="launch-banner launch-banner-modern">
   <div><p class="eyebrow">Nouveau contrôle à prix fixe</p><h2>Email Security Health Check</h2><p>Vérifiez si des emails ressemblant à des messages de votre entreprise pourraient être envoyés avec votre domaine. Clearpoint contrôle SPF, DKIM et DMARC, explique les risques simplement, et donne à votre prestataire IT ou email des prochaines étapes claires.</p><p class="launch-price">Rapport introductif : CHF 150 pour les 5 premières entreprises. Rapport standard : CHF 350.</p></div>
-  <div class="launch-aside-card"><span class="mini-label">Vous recevez</span><strong>Un résumé des risques lisible côté métier</strong><p>Des corrections priorisées, des notes techniques prêtes pour le prestataire et une explication claire de ce qui compte d’abord.</p><a href="/services/email-security-health-check/" class="cta-button">Voir le contrôle</a></div>
+  <div class="launch-aside-card"><span class="mini-label">Vous recevez</span><strong>Un résumé des risques lisible côté métier</strong><p>Des corrections priorisées, des notes techniques prêtes pour le prestataire et une explication claire de ce qui compte d’abord.</p><a href="/fr/services/email-security-health-check/" class="cta-button">Voir le contrôle</a></div>
 </div>
 
 ## Les problèmes que Clearpoint aide à clarifier

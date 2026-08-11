@@ -19,7 +19,7 @@ Die folgenden Leistungen können je nach Situation als fokussierte Beratungssitz
 ### Schnellen Einstiegspunkt wählen
 
 <div class="services-start-grid">
-  <article><h3>Schneller E-Mail-/Domain-Check</h3><p>Wenn verdächtige E-Mails, Rechnungsbetrug oder Kundenfragen die unmittelbare Priorität sind.</p><a href="/services/email-security-health-check/">E-Mail-Check</a></article>
+  <article><h3>Schneller E-Mail-/Domain-Check</h3><p>Wenn verdächtige E-Mails, Rechnungsbetrug oder Kundenfragen die unmittelbare Priorität sind.</p><a href="/de/services/email-security-health-check/">E-Mail-Check</a></article>
   <article><h3>Allgemeine Cybersicherheitsprioritäten</h3><p>Wenn die wichtigsten Risiken unklar sind oder ein klarer Aktionsplan benötigt wird.</p><a href="/de/services/sme-cybersecurity-review/">KMU Cyber-Review</a></article>
   <article><h3>KI, Automatisierung, Skripte oder Integrationen</h3><p>Wenn Tools, Workflows, API-Schlüssel, Datenflüsse oder Verantwortlichkeiten sicherer strukturiert werden sollen.</p><a href="/de/services/ai-automation-security-review/">KI & Automatisierung</a></article>
   <article><h3>Technische Projektunterstützung</h3><p>Wenn eine Sicherheits-, Automatisierungs- oder IT-Initiative klareren Umfang und Koordination benötigt.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Mit kurzem Gespräch starten</a></article>

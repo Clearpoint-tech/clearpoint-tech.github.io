@@ -19,7 +19,7 @@ Les services ci-dessous peuvent commencer par une session de conseil ciblée, un
 ### Choisir un point de départ rapide
 
 <div class="services-start-grid">
-  <article><h3>Contrôle rapide email/domaine</h3><p>Si les emails suspects, la fraude aux factures ou les questions clients sont la priorité immédiate.</p><a href="/services/email-security-health-check/">Check email</a></article>
+  <article><h3>Contrôle rapide email/domaine</h3><p>Si les emails suspects, la fraude aux factures ou les questions clients sont la priorité immédiate.</p><a href="/fr/services/email-security-health-check/">Check email</a></article>
   <article><h3>Priorités cybersécurité générales</h3><p>Si vous ne savez pas où se situent les principaux risques ou avez besoin d’un plan clair.</p><a href="/fr/services/sme-cybersecurity-review/">Revue cyber PME</a></article>
   <article><h3>IA, automatisation, scripts ou intégrations</h3><p>Si les outils, workflows, clés API, données ou responsabilités doivent être mieux structurés.</p><a href="/fr/services/ai-automation-security-review/">Revue IA & automatisation</a></article>
   <article><h3>Support de projet technique</h3><p>Si une initiative sécurité, automatisation ou IT nécessite un meilleur cadrage et une meilleure coordination.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Commencer par une courte conversation</a></article>

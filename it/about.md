@@ -51,7 +51,7 @@ Il lavoro inizia normalmente chiarendo:
 
 <div class="about-service-links">
   <a href="/it/services/sme-cybersecurity-review/">Review cyber PMI</a>
-  <a href="/services/email-security-health-check/">Check email</a>
+  <a href="/it/services/email-security-health-check/">Check email</a>
   <a href="/it/services/ai-automation-security-review/">Review IA & automazione</a>
   <a href="/it/services/">Panoramica servizi</a>
 </div>

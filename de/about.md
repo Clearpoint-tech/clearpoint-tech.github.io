@@ -51,7 +51,7 @@ Typische Arbeit beginnt mit der Klärung:
 
 <div class="about-service-links">
   <a href="/de/services/sme-cybersecurity-review/">KMU Cyber-Review</a>
-  <a href="/services/email-security-health-check/">E-Mail-Check</a>
+  <a href="/de/services/email-security-health-check/">E-Mail-Check</a>
   <a href="/de/services/ai-automation-security-review/">KI & Automatisierung</a>
   <a href="/de/services/">Leistungsübersicht</a>
 </div>

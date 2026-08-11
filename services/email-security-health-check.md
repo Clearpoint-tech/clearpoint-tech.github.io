@@ -3,7 +3,6 @@ layout: page
 title: Email Security Health Check
 description: "A fixed-price email fraud and domain trust check for Swiss SMEs that want to reduce fake invoice, domain impersonation, SPF, DKIM, DMARC, and deliverability risks."
 permalink: /services/email-security-health-check/
-multilingual: false
 ---
 
 <div class="email-check-page" markdown="1">
