@@ -5,136 +5,104 @@ description: "A practical cybersecurity review for Swiss SMEs that need clear pr
 permalink: /services/sme-cybersecurity-review/
 ---
 
-## Practical cybersecurity priorities for Swiss SMEs
+<div class="cyber-review-page" markdown="1">
 
-A practical cybersecurity review for Swiss SMEs that want to understand their exposure, fix the basics, and prioritise the improvements that matter most.
+<div class="cyber-review-hero" markdown="1">
 
-This is designed for organisations that do not need a large audit programme, but do need clear, independent guidance and a realistic action plan.
+## SME Cybersecurity Review for Swiss SMEs
+
+Understand your main security risks, fix the basics, and get a clear action plan without starting a large audit programme.
+
+Clearpoint reviews agreed priority areas such as email protection, access and identity, patching, exposed systems, backups, and management-level risk priorities — then turns findings into practical next steps.
 
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Book a free initial conversation
 </a>
 
----
+</div>
 
-## Who this is for
-
-This review is a good fit if:
-
-- you run or support an SME and are unsure where your main security risks are,
-- your systems have grown over time without a recent security review,
-- you have received suspicious emails, phishing attempts, or unusual account activity,
-- you want to improve security before investing in tools, vendors, or larger projects,
-- management needs a clear explanation of practical risks and next steps,
-- you need an independent technical view without long-term lock-in.
-
----
-
-## Typical triggers
-
-SMEs usually ask for help when something makes security feel more urgent:
-
-- a phishing email reaches employees,
-- a password or account may have been exposed,
-- a website, server, or cloud tool has not been reviewed for a while,
-- backups, access rights, or patching are unclear,
-- cyber insurance, customers, or partners ask security questions,
-- an internal IT or automation project raises security concerns.
-
-The goal is to turn uncertainty into a short, prioritised action plan.
+<div class="cyber-compact-grid">
+  <section>
+    <h2>Who this is for</h2>
+    <ul>
+      <li>SMEs unsure where their main security risks are</li>
+      <li>Systems that have grown without a recent security review</li>
+      <li>Businesses seeing suspicious emails, phishing attempts, or unusual account activity</li>
+      <li>Management that needs clear priorities before buying tools or starting larger projects</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Typical triggers</h2>
+    <ul>
+      <li>Phishing reaches employees</li>
+      <li>A password or account may have been exposed</li>
+      <li>Backups, access rights, or patching are unclear</li>
+      <li>Cyber insurance, customers, or partners ask security questions</li>
+    </ul>
+  </section>
+  <section>
+    <h2>What you receive</h2>
+    <ul>
+      <li>Short findings summary</li>
+      <li>Prioritised action list</li>
+      <li>Quick wins and medium-term improvements</li>
+      <li>Business-readable impact explanation</li>
+      <li>Optional support to coordinate implementation</li>
+    </ul>
+  </section>
+</div>
 
 ---
 
 ## What can be reviewed
 
-The exact scope depends on your environment, but a practical SME review can cover:
-
-### Email and phishing resilience
-
-- SPF, DKIM, and DMARC configuration
-- suspicious email and header review
-- phishing exposure and basic awareness gaps
-- account-protection recommendations
-
-### Access and identity basics
-
-- password and multi-factor authentication practices
-- privileged account handling
-- user access review priorities
-- basic account-recovery risks
-
-### Systems, patching, and configuration
-
-- operating system and application patching practices
-- website or server hardening basics
-- exposed services and unnecessary access paths
-- encryption and certificate configuration checks
-
-### Backups and recovery readiness
-
-- backup presence and separation
-- basic restore-readiness questions
-- ransomware resilience priorities
-- practical recovery documentation gaps
-
-### Management-friendly prioritisation
-
-- which risks matter most,
-- what can be fixed quickly,
-- what should be planned next,
-- where specialist or vendor support may be useful.
-
----
-
-## What you receive
-
-Depending on the agreed scope, the output can include:
-
-- a short findings summary,
-- a prioritised action list,
-- quick wins and medium-term improvements,
-- clear explanation of business impact,
-- recommendations suitable for management and technical teams,
-- optional support to coordinate implementation.
-
-The focus is practical: clear next steps, not unnecessary complexity.
-
----
-
-## Typical engagement scenario
-
-A Swiss SME has received several suspicious emails, uses Microsoft 365 or Google Workspace, and is unsure whether account protection, backups, patching, and website/server exposure are in good shape. Management wants a realistic view before buying tools or asking a vendor for a larger project.
-
-A focused review checks the agreed priority areas, explains the business impact in clear terms, and separates quick fixes from longer-term improvements. The outcome is a short findings summary and action list — for example strengthening multi-factor authentication, clarifying backup restore readiness, prioritising patching, reducing unnecessary exposed services, and deciding where specialist support is actually needed.
-
----
-
-## How the engagement can work
-
-A typical starting path:
-
-1. **Initial conversation**  
-   Clarify your situation, urgency, systems, and goals.
-
-2. **Lightweight scope definition**  
-   Agree what should be reviewed and what should stay out of scope.
-
-3. **Review and analysis**  
-   Check the agreed systems, configurations, processes, or evidence.
-
-4. **Prioritised recommendations**  
-   Turn findings into practical next steps.
-
-5. **Optional follow-up**  
-   Support implementation, vendor coordination, or management communication.
-
----
-
-## Important: do not send secrets through forms
-
-Please do not submit passwords, API keys, confidential logs, customer data, or sensitive files through the booking form or normal email.
-
-If sensitive information is needed, we can agree on a safer way to handle it.
+<div class="review-area-grid">
+  <section>
+    <h3>Email and phishing resilience</h3>
+    <ul>
+      <li>SPF, DKIM, and DMARC configuration</li>
+      <li>suspicious email and header review</li>
+      <li>phishing exposure and basic awareness gaps</li>
+      <li>account-protection recommendations</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Access and identity basics</h3>
+    <ul>
+      <li>password and multi-factor authentication practices</li>
+      <li>privileged account handling</li>
+      <li>user access review priorities</li>
+      <li>basic account-recovery risks</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Systems, patching, and configuration</h3>
+    <ul>
+      <li>operating system and application patching practices</li>
+      <li>website or server hardening basics</li>
+      <li>exposed services and unnecessary access paths</li>
+      <li>encryption and certificate configuration checks</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Backups and recovery readiness</h3>
+    <ul>
+      <li>backup presence and separation</li>
+      <li>basic restore-readiness questions</li>
+      <li>ransomware resilience priorities</li>
+      <li>practical recovery documentation gaps</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Management-friendly prioritisation</h3>
+    <ul>
+      <li>which risks matter most</li>
+      <li>what can be fixed quickly</li>
+      <li>what should be planned next</li>
+      <li>where specialist or vendor support may be useful</li>
+    </ul>
+  </section>
+</div>
 
 ---
 
@@ -145,3 +113,5 @@ If you are unsure whether this review fits your situation, start with a free ini
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Book a free initial conversation
 </a>
+
+</div>

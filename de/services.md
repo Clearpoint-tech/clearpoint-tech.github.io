@@ -6,9 +6,34 @@ title: Leistungen
 description: "Cybersicherheitsbewertungen, Systemhärtung, KI-gestützte Workflow-Automatisierung und technische Projektunterstützung für Schweizer KMU und wachsende Organisationen."
 ---
 
+<div class="services-detail-page" markdown="1">
+
 Clearpoint bietet praktische technische Unterstützung für KMU und wachsende Organisationen, die klarere Prioritäten, sicherere Systeme, bessere Workflows, verantwortungsvolle KI-gestützte Automatisierung oder strukturierte Projektumsetzung benötigen.
 
 Die folgenden Leistungen können je nach Situation als fokussierte Beratungssitzung, kurze Bewertung oder stärker operative Unterstützung starten.
+
+---
+
+<div class="services-start-guide" markdown="1">
+
+### Schnellen Einstiegspunkt wählen
+
+<div class="services-start-grid">
+  <article><h3>Schneller E-Mail-/Domain-Check</h3><p>Wenn verdächtige E-Mails, Rechnungsbetrug oder Kundenfragen die unmittelbare Priorität sind.</p><a href="/services/email-security-health-check/">E-Mail-Check</a></article>
+  <article><h3>Allgemeine Cybersicherheitsprioritäten</h3><p>Wenn die wichtigsten Risiken unklar sind oder ein klarer Aktionsplan benötigt wird.</p><a href="/de/services/sme-cybersecurity-review/">KMU Cyber-Review</a></article>
+  <article><h3>KI, Automatisierung, Skripte oder Integrationen</h3><p>Wenn Tools, Workflows, API-Schlüssel, Datenflüsse oder Verantwortlichkeiten sicherer strukturiert werden sollen.</p><a href="/de/services/ai-automation-security-review/">KI & Automatisierung</a></article>
+  <article><h3>Technische Projektunterstützung</h3><p>Wenn eine Sicherheits-, Automatisierungs- oder IT-Initiative klareren Umfang und Koordination benötigt.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Mit kurzem Gespräch starten</a></article>
+</div>
+
+</div>
+
+<div class="services-core-intro" markdown="1">
+
+### Kernleistungen
+
+Die Einstiegspunkte oben sind fokussierte Türen in die Zusammenarbeit. Das Clearpoint-Angebot bleibt breiter: praktische Cybersicherheit, sicherere Automatisierung und KI-gestützte Workflows sowie strukturierte technische Projektunterstützung.
+
+</div>
 
 ---
 
@@ -193,3 +218,6 @@ Ein kurzes Erstgespräch reicht oft aus, um zu erkennen, ob Sicherheit, Automati
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Kostenloses Erstgespräch buchen
 </a>
+
+
+</div>

@@ -6,9 +6,34 @@ title: Servizi
 description: "Valutazioni di cybersicurezza, hardening dei sistemi, automazione dei workflow assistita dall’IA e supporto alla delivery tecnica per PMI svizzere e organizzazioni in crescita."
 ---
 
+<div class="services-detail-page" markdown="1">
+
 Clearpoint fornisce supporto tecnico pratico a PMI e organizzazioni in crescita che hanno bisogno di priorità più chiare, sistemi più sicuri, workflow migliori, automazione assistita dall’IA responsabile o delivery di progetto strutturata.
 
 I servizi qui sotto possono iniziare come sessione di consulenza focalizzata, breve assessment o engagement più operativo a seconda della situazione.
+
+---
+
+<div class="services-start-guide" markdown="1">
+
+### Scegliere un punto di partenza rapido
+
+<div class="services-start-grid">
+  <article><h3>Controllo rapido email/dominio</h3><p>Se email sospette, rischio di frode fatture o domande dei clienti sono la priorità immediata.</p><a href="/services/email-security-health-check/">Check email</a></article>
+  <article><h3>Priorità generali di cybersicurezza</h3><p>Se i rischi principali non sono chiari o serve un piano d’azione concreto.</p><a href="/it/services/sme-cybersecurity-review/">Review cyber PMI</a></article>
+  <article><h3>IA, automazione, script o integrazioni</h3><p>Se strumenti, workflow, chiavi API, dati o ownership devono essere strutturati meglio.</p><a href="/it/services/ai-automation-security-review/">Review IA & automazione</a></article>
+  <article><h3>Supporto progetto tecnico</h3><p>Se un’iniziativa sicurezza, automazione o IT ha bisogno di scope e coordinamento più chiari.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Iniziare con una breve conversazione</a></article>
+</div>
+
+</div>
+
+<div class="services-core-intro" markdown="1">
+
+### Servizi principali
+
+I punti di partenza sopra sono ingressi focalizzati. L’offerta Clearpoint resta più ampia: cybersicurezza pratica, automazione e workflow IA più sicuri, e supporto strutturato ai progetti tecnici.
+
+</div>
 
 ---
 
@@ -193,3 +218,6 @@ Una breve conversazione iniziale è spesso sufficiente per identificare se la pr
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Prenota una prima conversazione gratuita
 </a>
+
+
+</div>

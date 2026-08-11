@@ -20,10 +20,11 @@
 
 title: Clearpoint
 email: contact@clearpoint.ch
-description: Practical cybersecurity, automation, and technical project delivery for SMEs and growing organizations.
+description: Practical cybersecurity, automation, and Technical project delivery for SMEs and growing organizations.
 logo: /assets/logo/clearpoint_logo.svg
 lang: en
 locale: en_US
+
 
 # >- # this means to ignore newlines until "baseurl:"
 
@@ -40,7 +41,6 @@ theme: minima
 header_pages:
   - index.md
   - services.md
-  - book.md
   - about.md
   - legal.md
 plugins:

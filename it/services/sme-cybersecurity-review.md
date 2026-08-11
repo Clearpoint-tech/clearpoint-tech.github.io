@@ -6,135 +6,44 @@ description: "Una revisione pratica di cybersicurezza per PMI svizzere che hanno
 permalink: /it/services/sme-cybersecurity-review/
 ---
 
-## Priorità pratiche di cybersicurezza per PMI svizzere
+<div class="cyber-review-page" markdown="1">
 
-Una revisione pratica di cybersicurezza per PMI svizzere che vogliono comprendere la propria esposizione, correggere le basi e dare priorità ai miglioramenti più importanti.
+<div class="cyber-review-hero" markdown="1">
 
-È pensata per organizzazioni che non hanno bisogno di un grande programma di audit, ma necessitano di guida indipendente, chiara e di un piano d’azione realistico.
+## Revisione di cybersicurezza per PMI svizzere
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Prenota una prima conversazione gratuita
-</a>
+Comprendere i principali rischi di sicurezza, correggere le basi e ricevere un piano d’azione chiaro senza avviare un grande programma di audit.
 
----
+Clearpoint verifica le priorità concordate: protezione email, accessi e identità, patching, sistemi esposti, backup e priorità comprensibili per il management.
 
-## A chi si rivolge
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Prenota una prima conversazione gratuita</a>
 
-Questa revisione è adatta se:
+</div>
 
-- gestite o supportate una PMI e non siete sicuri di dove si trovino i principali rischi di sicurezza,
-- i sistemi sono cresciuti nel tempo senza una revisione di sicurezza recente,
-- avete ricevuto email sospette, tentativi di phishing o attività insolite su account,
-- volete migliorare la sicurezza prima di investire in strumenti, fornitori o progetti più grandi,
-- il management ha bisogno di una spiegazione chiara dei rischi pratici e dei prossimi passi,
-- serve una visione tecnica indipendente senza vincoli a lungo termine.
-
----
-
-## Trigger tipici
-
-Le PMI di solito chiedono aiuto quando qualcosa rende la sicurezza più urgente:
-
-- un’email di phishing raggiunge i dipendenti,
-- una password o un account potrebbe essere stato esposto,
-- un sito web, server o strumento cloud non viene revisionato da tempo,
-- backup, diritti di accesso o patching non sono chiari,
-- assicurazione cyber, clienti o partner pongono domande sulla sicurezza,
-- un progetto IT o di automazione interno solleva dubbi di sicurezza.
-
-L’obiettivo è trasformare l’incertezza in un piano d’azione breve e prioritizzato.
+<div class="cyber-compact-grid">
+  <section><h2>A chi si rivolge</h2><ul><li>PMI che non vedono chiaramente i principali rischi</li><li>Sistemi cresciuti senza una revisione recente</li><li>Email sospette, phishing o attività insolita sugli account</li><li>Management che vuole priorità chiare prima di investire in strumenti o progetti</li></ul></section>
+  <section><h2>Trigger tipici</h2><ul><li>Il phishing raggiunge i dipendenti</li><li>Una password o un account potrebbe essere esposto</li><li>Backup, accessi o patching non sono chiari</li><li>Assicurazione cyber, clienti o partner fanno domande di sicurezza</li></ul></section>
+  <section><h2>Cosa ricevete</h2><ul><li>Breve riepilogo dei risultati</li><li>Lista di azioni prioritarizzata</li><li>Quick win e miglioramenti a medio termine</li><li>Spiegazione dell’impatto aziendale</li><li>Supporto opzionale per coordinare l’implementazione</li></ul></section>
+</div>
 
 ---
 
 ## Cosa può essere revisionato
 
-Il perimetro esatto dipende dall’ambiente, ma una revisione pratica per PMI può coprire:
-
-### Resilienza email e phishing
-
-- configurazione SPF, DKIM e DMARC
-- revisione di email sospette e header
-- esposizione al phishing e gap di consapevolezza di base
-- raccomandazioni per la protezione degli account
-
-### Basi di accesso e identità
-
-- pratiche di password e autenticazione multifattore
-- gestione degli account privilegiati
-- priorità per la revisione degli accessi utente
-- rischi di base nel recupero degli account
-
-### Sistemi, patching e configurazione
-
-- pratiche di patching per sistemi operativi e applicazioni
-- basi di hardening per sito web o server
-- servizi esposti e percorsi di accesso non necessari
-- controlli di crittografia e configurazione dei certificati
-
-### Backup e preparazione al recovery
-
-- presenza e separazione dei backup
-- domande di base sulla capacità di ripristino
-- priorità di resilienza contro ransomware
-- lacune nella documentazione pratica di recovery
-
-### Prioritizzazione comprensibile per il management
-
-- quali rischi contano di più,
-- cosa può essere corretto rapidamente,
-- cosa dovrebbe essere pianificato dopo,
-- dove può essere utile supporto specialistico o di fornitori.
-
----
-
-## Cosa ricevete
-
-A seconda del perimetro concordato, l’output può includere:
-
-- un breve riepilogo dei risultati,
-- una lista di azioni prioritizzata,
-- quick win e miglioramenti a medio termine,
-- una spiegazione chiara dell’impatto aziendale,
-- raccomandazioni adatte a management e team tecnici,
-- supporto opzionale per coordinare l’implementazione.
-
-Il focus è pratico: prossimi passi chiari, non complessità inutile.
-
----
-
-## Come può funzionare l’engagement
-
-Un percorso iniziale tipico:
-
-1. **Conversazione iniziale**
-   Chiarire situazione, urgenza, sistemi e obiettivi.
-
-2. **Definizione leggera del perimetro**
-   Concordare cosa revisionare e cosa lasciare fuori perimetro.
-
-3. **Revisione e analisi**
-   Verificare sistemi, configurazioni, processi o evidenze concordate.
-
-4. **Raccomandazioni prioritarizzate**
-   Trasformare i risultati in prossimi passi pratici.
-
-5. **Follow-up opzionale**
-   Supportare implementazione, coordinamento fornitori o comunicazione al management.
-
----
-
-## Importante: non inviate segreti tramite moduli
-
-Non inviate password, chiavi API, log confidenziali, dati clienti o file sensibili tramite il modulo di prenotazione o email normale.
-
-Se sono necessarie informazioni sensibili, possiamo concordare un modo più sicuro per gestirle.
+<div class="review-area-grid">
+  <section><h3>Resilienza email e phishing</h3><ul><li>configurazione SPF, DKIM e DMARC</li><li>revisione di email sospette e header</li><li>esposizione al phishing e gap di consapevolezza</li><li>raccomandazioni per la protezione account</li></ul></section>
+  <section><h3>Accessi e identità</h3><ul><li>password e autenticazione multifattore</li><li>gestione degli account privilegiati</li><li>priorità per la revisione degli accessi</li><li>rischi di recupero account</li></ul></section>
+  <section><h3>Sistemi, patching e configurazione</h3><ul><li>patching di sistemi e applicazioni</li><li>hardening di sito web o server</li><li>servizi esposti e accessi inutili</li><li>crittografia e certificati</li></ul></section>
+  <section><h3>Backup e recovery</h3><ul><li>presenza e separazione dei backup</li><li>capacità di ripristino</li><li>priorità contro ransomware</li><li>documentazione pratica di recovery</li></ul></section>
+  <section><h3>Prioritizzazione per il management</h3><ul><li>quali rischi contano di più</li><li>cosa correggere rapidamente</li><li>cosa pianificare dopo</li><li>dove può servire supporto specialistico o di fornitori</li></ul></section>
+</div>
 
 ---
 
 ## Iniziare con una breve conversazione
 
-Se non siete sicuri che questa revisione sia adatta alla vostra situazione, iniziate con una prima conversazione gratuita. Possiamo identificare la priorità probabile e decidere se una revisione focalizzata è utile.
+Se non siete sicuri che questa revisione sia adatta alla vostra situazione, iniziate con una prima conversazione gratuita.
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Prenota una prima conversazione gratuita
-</a>
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Prenota una prima conversazione gratuita</a>
+
+</div>

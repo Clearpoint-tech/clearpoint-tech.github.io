@@ -1,32 +1,21 @@
 ---
-layout: page
+layout: null
 lang: de
 permalink: /de/book/
 title: Termin buchen
-description: "Buchen Sie ein kurzes Erstgespräch zu Cybersicherheit, Automatisierung oder technischer Projektunterstützung mit Clearpoint."
+sitemap: false
 ---
-
-### So funktioniert es
-
-Buchen Sie ein kurzes, unverbindliches Gespräch, um Ihre Bedürfnisse zu besprechen.
-
-**Typische Themen**
-- Fragen oder Beratung zur Cybersicherheit
-- Automatisierungsideen & -tools
-- Unterstützung bei der technischen Projektabwicklung
-
----
-
-### Format
-- 30 Minuten
-- Remote (Videoanruf)
-- Keine Verpflichtung
-
----
-
-### Verfügbarkeit
-
-Wenn Sie erkunden möchten, wie wir zusammenarbeiten könnten, buchen Sie eine kurze Session.
-Oder per E-Mail: **contact@clearpoint.ch**
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Termin buchen</a>
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,follow">
+  <meta http-equiv="refresh" content="0; url=https://calendar.app.google/vsrnZMvv2QyYiyjH6">
+  <link rel="canonical" href="https://calendar.app.google/vsrnZMvv2QyYiyjH6">
+  <title>Weiterleitung zum Kalender · Clearpoint</title>
+</head>
+<body>
+  <p>Weiterleitung zum Clearpoint-Kalender. <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6">Kalender öffnen</a>.</p>
+  <script>window.location.replace('https://calendar.app.google/vsrnZMvv2QyYiyjH6');</script>
+</body>
+</html>

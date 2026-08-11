@@ -6,135 +6,44 @@ description: "Ein praktischer Cybersicherheitsreview für Schweizer KMU, die kla
 permalink: /de/services/sme-cybersecurity-review/
 ---
 
-## Praktische Cybersicherheitsprioritäten für Schweizer KMU
+<div class="cyber-review-page" markdown="1">
 
-Ein praktischer Cybersicherheitsreview für Schweizer KMU, die ihre Exponierung verstehen, die Grundlagen verbessern und die wichtigsten Massnahmen priorisieren möchten.
+<div class="cyber-review-hero" markdown="1">
 
-Dieses Angebot ist für Organisationen gedacht, die kein grosses Auditprogramm benötigen, aber klare, unabhängige Orientierung und einen realistischen Aktionsplan brauchen.
+## KMU-Cybersicherheitsreview für Schweizer KMU
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Kostenloses Erstgespräch buchen
-</a>
+Die wichtigsten Sicherheitsrisiken verstehen, Grundlagen verbessern und einen klaren Aktionsplan erhalten — ohne grosses Auditprogramm.
 
----
+Clearpoint prüft vereinbarte Prioritäten: E-Mail-Schutz, Zugriff und Identität, Patching, exponierte Systeme, Backups und managementtaugliche Risikoprioritäten.
 
-## Für wen
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Kostenloses Erstgespräch buchen</a>
 
-Dieser Review passt gut, wenn:
+</div>
 
-- Sie ein KMU führen oder unterstützen und unsicher sind, wo die wichtigsten Sicherheitsrisiken liegen,
-- Ihre Systeme über die Zeit gewachsen sind, ohne dass kürzlich ein Sicherheitsreview stattgefunden hat,
-- Sie verdächtige E-Mails, Phishing-Versuche oder ungewöhnliche Kontoaktivitäten festgestellt haben,
-- Sie die Sicherheit verbessern möchten, bevor Sie in Tools, Anbieter oder grössere Projekte investieren,
-- das Management eine klare Erklärung praktischer Risiken und nächster Schritte benötigt,
-- Sie eine unabhängige technische Sicht ohne langfristige Bindung wünschen.
-
----
-
-## Typische Auslöser
-
-KMU fragen meist dann nach Unterstützung, wenn ein Ereignis Sicherheit dringlicher macht:
-
-- eine Phishing-E-Mail erreicht Mitarbeitende,
-- ein Passwort oder Konto könnte kompromittiert worden sein,
-- eine Website, ein Server oder ein Cloud-Tool wurde längere Zeit nicht überprüft,
-- Backups, Zugriffsrechte oder Patching sind unklar,
-- Cyberversicherung, Kunden oder Partner stellen Sicherheitsfragen,
-- ein internes IT- oder Automatisierungsprojekt wirft Sicherheitsbedenken auf.
-
-Ziel ist es, Unsicherheit in einen kurzen, priorisierten Aktionsplan zu übersetzen.
+<div class="cyber-compact-grid">
+  <section><h2>Für wen</h2><ul><li>KMU, die ihre wichtigsten Sicherheitsrisiken nicht klar sehen</li><li>Systeme, die ohne aktuellen Sicherheitsreview gewachsen sind</li><li>Verdächtige E-Mails, Phishing oder ungewöhnliche Kontoaktivität</li><li>Management, das klare Prioritäten vor Tool- oder Projektinvestitionen braucht</li></ul></section>
+  <section><h2>Typische Auslöser</h2><ul><li>Phishing erreicht Mitarbeitende</li><li>Ein Passwort oder Konto könnte exponiert sein</li><li>Backups, Zugriffsrechte oder Patching sind unklar</li><li>Cyberversicherung, Kunden oder Partner stellen Sicherheitsfragen</li></ul></section>
+  <section><h2>Was Sie erhalten</h2><ul><li>Kurze Zusammenfassung der Befunde</li><li>Priorisierte Aktionsliste</li><li>Quick Wins und mittelfristige Verbesserungen</li><li>Erklärung der geschäftlichen Auswirkungen</li><li>Optionale Unterstützung bei der Umsetzung</li></ul></section>
+</div>
 
 ---
 
 ## Was geprüft werden kann
 
-Der genaue Umfang hängt von Ihrer Umgebung ab, aber ein praktischer KMU-Review kann Folgendes abdecken:
-
-### E-Mail- und Phishing-Resilienz
-
-- SPF-, DKIM- und DMARC-Konfiguration
-- Prüfung verdächtiger E-Mails und Header
-- Phishing-Exponierung und grundlegende Awareness-Lücken
-- Empfehlungen zum Kontoschutz
-
-### Grundlagen von Zugriff und Identität
-
-- Passwort- und Multi-Faktor-Authentifizierungspraktiken
-- Umgang mit privilegierten Konten
-- Prioritäten für die Überprüfung von Benutzerzugriffen
-- grundlegende Risiken bei Konto-Wiederherstellung
-
-### Systeme, Patching und Konfiguration
-
-- Patch-Praktiken für Betriebssysteme und Anwendungen
-- Grundlagen der Website- oder Server-Härtung
-- exponierte Dienste und unnötige Zugriffspfade
-- Prüfungen von Verschlüsselung und Zertifikatskonfiguration
-
-### Backups und Wiederherstellungsbereitschaft
-
-- Vorhandensein und Trennung von Backups
-- grundlegende Fragen zur Wiederherstellbarkeit
-- Prioritäten für Ransomware-Resilienz
-- Lücken in der praktischen Wiederherstellungsdokumentation
-
-### Managementtaugliche Priorisierung
-
-- welche Risiken am wichtigsten sind,
-- was schnell behoben werden kann,
-- was als Nächstes geplant werden sollte,
-- wo Spezialisten- oder Anbieterunterstützung sinnvoll sein kann.
-
----
-
-## Was Sie erhalten
-
-Je nach vereinbartem Umfang kann das Ergebnis Folgendes enthalten:
-
-- eine kurze Zusammenfassung der Befunde,
-- eine priorisierte Aktionsliste,
-- Quick Wins und mittelfristige Verbesserungen,
-- eine klare Erklärung der geschäftlichen Auswirkungen,
-- Empfehlungen für Management und technische Teams,
-- optional Unterstützung bei der Koordination der Umsetzung.
-
-Der Fokus ist praktisch: klare nächste Schritte statt unnötiger Komplexität.
-
----
-
-## Wie die Zusammenarbeit ablaufen kann
-
-Ein typischer Einstieg:
-
-1. **Erstgespräch**
-   Situation, Dringlichkeit, Systeme und Ziele klären.
-
-2. **Schlanke Umfangsdefinition**
-   Vereinbaren, was geprüft wird und was ausserhalb des Umfangs bleibt.
-
-3. **Review und Analyse**
-   Die vereinbarten Systeme, Konfigurationen, Prozesse oder Nachweise prüfen.
-
-4. **Priorisierte Empfehlungen**
-   Befunde in praktische nächste Schritte übersetzen.
-
-5. **Optionales Follow-up**
-   Unterstützung bei Umsetzung, Anbieterkoordination oder Managementkommunikation.
-
----
-
-## Wichtig: keine Geheimnisse über Formulare senden
-
-Bitte senden Sie keine Passwörter, API-Schlüssel, vertraulichen Logs, Kundendaten oder sensiblen Dateien über das Buchungsformular oder normale E-Mail.
-
-Falls sensible Informationen benötigt werden, können wir eine sicherere Vorgehensweise vereinbaren.
+<div class="review-area-grid">
+  <section><h3>E-Mail- und Phishing-Resilienz</h3><ul><li>SPF-, DKIM- und DMARC-Konfiguration</li><li>Prüfung verdächtiger E-Mails und Header</li><li>Phishing-Exponierung und Awareness-Lücken</li><li>Empfehlungen zum Kontoschutz</li></ul></section>
+  <section><h3>Zugriff und Identität</h3><ul><li>Passwort- und MFA-Praktiken</li><li>Umgang mit privilegierten Konten</li><li>Prioritäten für Benutzerzugriffsreviews</li><li>Risiken bei Konto-Wiederherstellung</li></ul></section>
+  <section><h3>Systeme, Patching und Konfiguration</h3><ul><li>Patch-Praktiken für Systeme und Anwendungen</li><li>Website- oder Server-Härtung</li><li>exponierte Dienste und unnötige Zugriffe</li><li>Verschlüsselung und Zertifikate</li></ul></section>
+  <section><h3>Backups und Wiederherstellung</h3><ul><li>Vorhandensein und Trennung von Backups</li><li>Wiederherstellbarkeit</li><li>Ransomware-Resilienzprioritäten</li><li>praktische Wiederherstellungsdokumentation</li></ul></section>
+  <section><h3>Managementtaugliche Priorisierung</h3><ul><li>welche Risiken am wichtigsten sind</li><li>was schnell behoben werden kann</li><li>was als Nächstes geplant werden sollte</li><li>wo Spezialisten- oder Anbieterunterstützung sinnvoll ist</li></ul></section>
+</div>
 
 ---
 
 ## Mit einem kurzen Gespräch starten
 
-Wenn Sie unsicher sind, ob dieser Review zu Ihrer Situation passt, beginnen Sie mit einem kostenlosen Erstgespräch. Wir können die wahrscheinliche Priorität identifizieren und entscheiden, ob ein fokussierter Review sinnvoll ist.
+Wenn Sie unsicher sind, ob dieser Review zu Ihrer Situation passt, beginnen Sie mit einem kostenlosen Erstgespräch.
 
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Kostenloses Erstgespräch buchen
-</a>
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Kostenloses Erstgespräch buchen</a>
+
+</div>

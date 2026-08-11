@@ -6,44 +6,72 @@ title: À propos
 description: "À propos de Clearpoint: conseil technique indépendant et pratique en cybersécurité, automatisation et gestion de projets."
 ---
 
-<div class="about-container">
-  <div class="about-text">
+<div class="about-page" markdown="1">
 
-Clearpoint a été fondé avec un objectif simple : fournir un conseil technique structuré, pratique et proportionné, sans complexité inutile.
+<div class="about-hero">
+  <div class="about-hero-text" markdown="1">
 
-J'interviens à l'intersection de la cybersécurité, de l'automatisation et de la gestion de projets techniques, en aidant les organisations à sécuriser leurs systèmes, optimiser leurs opérations et conduire leurs initiatives avec clarté.
+## Conseil technique indépendant pour des décisions plus claires et plus sûres
 
-Mon parcours combine une expérience technique opérationnelle avec la coordination de projets et l'alignement métier. Cela me permet de traduire les risques techniques en impact business.
+Clearpoint est une pratique de conseil technique indépendante pour les PME suisses et organisations en croissance qui ont besoin d’un soutien pratique en cybersécurité, automatisation assistée par l’IA et livraison de projets techniques.
+
+L’objectif est simple : réduire les risques évitables, supprimer les frictions opérationnelles et transformer les questions techniques floues en décisions et prochaines étapes compréhensibles par le management et les équipes techniques.
+
+Clearpoint est dirigé par **Philip Ritter** et conçu pour les situations où sécurité, outils, workflows, parties prenantes et mise en œuvre doivent être traités ensemble.
 
   </div>
   <div class="about-image">
-    <img src="/assets/images/philip-ritter.jpeg" alt="Philip Ritter">
+    <img src="/assets/images/philip-ritter.jpeg" alt="Philip Ritter, fondateur de Clearpoint">
   </div>
+</div>
+
+<div class="about-trust-grid">
+  <article><h3>Pratique</h3><p>Des recommandations claires, réalisables avec le temps, le budget et les systèmes disponibles.</p></article>
+  <article><h3>Indépendant</h3><p>Le conseil n’est pas lié à la vente d’un outil, d’un package fournisseur ou d’un engagement long terme.</p></article>
+  <article><h3>Compréhensible</h3><p>Les risques techniques et compromis sont traduits en priorités, impact et prochaines actions.</p></article>
 </div>
 
 ---
 
-## Approche
+## Comment Clearpoint travaille
 
-Je crois en :
+Clearpoint peut soutenir une question de conseil courte, une évaluation ciblée ou un engagement plus opérationnel.
 
-- Une définition claire du périmètre
-- Une prise de décision consciente des risques
-- Des solutions pratiques et proportionnées
-- Une collaboration transparente
+Le travail commence généralement par clarifier :
 
-L'objectif n'est pas d'introduire de la complexité, mais d'apporter clarté et structure.
+- le problème à résoudre,
+- le risque ou la friction créée,
+- les systèmes et parties prenantes concernés,
+- la prochaine étape utile,
+- ce qui peut être fait de manière pragmatique avec les ressources disponibles.
+
+---
+
+## Où Clearpoint aide
+
+<div class="about-service-links">
+  <a href="/fr/services/sme-cybersecurity-review/">Revue cyber PME</a>
+  <a href="/services/email-security-health-check/">Check email</a>
+  <a href="/fr/services/ai-automation-security-review/">Revue IA & automatisation</a>
+  <a href="/fr/services/">Vue d’ensemble des services</a>
+</div>
 
 ---
 
 ## Expertise évolutive
 
-Clearpoint opère comme un cabinet de conseil indépendant, avec accès à un réseau de confiance de professionnels spécialisés.
+Clearpoint opère comme une pratique de conseil indépendante avec accès à un réseau de confiance de professionnels spécialisés.
 
-Pour des missions plus importantes ou plus complexes, des expertises complémentaires peuvent être intégrées selon les besoins, garantissant les compétences nécessaires tout en maintenant une coordination et une responsabilité structurées.
+Pour des missions plus grandes ou plus complexes, des compétences complémentaires peuvent être intégrées si nécessaire, tout en gardant une coordination, un périmètre et une responsabilité structurés.
 
 ---
 
 ## Prenons contact
 
-Si vous souhaitez discuter d'une collaboration potentielle, n'hésitez pas à réserver un appel initial.
+Si vous souhaitez discuter si Clearpoint correspond à votre situation, commencez par une courte conversation initiale.
+
+<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
+Réserver une première conversation gratuite
+</a>
+
+</div>

@@ -2,12 +2,53 @@
 layout: page
 title: Services
 permalink: /services/
-description: "Cybersecurity assessments, system hardening, AI-assisted workflow automation, and technical project delivery support for Swiss SMEs and growing organisations."
+description: "Cybersecurity assessments, system hardening, AI-assisted workflow automation, and Technical project delivery support for Swiss SMEs and growing organisations."
 ---
+
+<div class="services-detail-page" markdown="1">
 
 Clearpoint provides practical technical support for SMEs and growing organisations that need clearer priorities, safer systems, better workflows, responsible AI-assisted automation, or structured project delivery.
 
 The services below can start as a focused advisory session, a short assessment, or a more hands-on engagement depending on the situation.
+
+---
+
+<div class="services-start-guide" markdown="1">
+
+### Choose a fast starting point
+
+<div class="services-start-grid">
+  <article>
+    <h3>Fast email/domain trust check</h3>
+    <p>If suspicious emails, fake invoice risk, or client questions are the immediate concern.</p>
+    <a href="/services/email-security-health-check/">Email Security Health Check</a>
+  </article>
+  <article>
+    <h3>General cybersecurity priorities</h3>
+    <p>If you are unsure where your main security risks are or need a clear action plan.</p>
+    <a href="/services/sme-cybersecurity-review/">SME Cybersecurity Review</a>
+  </article>
+  <article>
+    <h3>AI, automation, scripts or integrations</h3>
+    <p>If tools, workflows, API keys, data handling or ownership need safer structure.</p>
+    <a href="/services/ai-automation-security-review/">AI & Automation Security Review</a>
+  </article>
+  <article>
+    <h3>Technical project support</h3>
+    <p>If a security, automation or IT initiative needs clearer scope, coordination and delivery.</p>
+    <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Start with a short conversation</a>
+  </article>
+</div>
+
+</div>
+
+<div class="services-core-intro" markdown="1">
+
+### Core service areas
+
+The starting points above are focused entry doors. The core Clearpoint offer remains broader: practical cybersecurity, safer automation and AI-assisted workflows, and structured technical project support.
+
+</div>
 
 ---
 
@@ -25,7 +66,7 @@ Good starting points include:
 
 For focused entry points, see the [Email Security Health Check](/services/email-security-health-check/) or the broader [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
 
-**Typical engagement:** an SME wants an independent view after suspicious emails, unclear account protection, or customer/security questions. Clearpoint reviews the agreed priority areas, explains business impact, and turns findings into a short action list with quick wins and next-step priorities.
+**Typical engagement:** turn unclear security concerns into agreed priorities, quick wins, and a short management-friendly action list.
 
 <details>
 <summary><strong>Security Assessment & Risk Advisory</strong></summary>
@@ -110,7 +151,7 @@ Good starting points include:
 
 For a focused entry point, see the [AI & Automation Security Review](/services/ai-automation-security-review/).
 
-**Typical engagement:** a team already uses AI tools and a few small automations, but ownership, data handling, API keys, and recovery steps are unclear. Clearpoint maps the practical dependencies and provides simple usage rules, risk priorities, and safer operating controls.
+**Typical engagement:** map AI and automation dependencies, clarify ownership and data handling, and define safer operating controls.
 
 Related article: [What Swiss SMEs should check before connecting AI tools to company data](/articles/what-swiss-smes-should-check-before-connecting-ai-tools-to-company-data/).
 
@@ -222,3 +263,6 @@ A short initial conversation is often enough to identify whether the priority is
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Book a free initial conversation
 </a>
+
+
+</div>

@@ -6,21 +6,19 @@ permalink: /services/email-security-health-check/
 multilingual: false
 ---
 
+<div class="email-check-page" markdown="1">
+
+<div class="email-check-hero" markdown="1">
+
 ## Email Fraud & Domain Trust Check for Swiss SMEs
 
 Can scammers send fake invoices or supplier emails that look like they come from your business?
 
-Your company email is used for invoices, client communication, contracts, supplier requests, and daily operations. If your domain is not correctly protected, attackers may be able to impersonate your business or damage trust with clients.
+Clearpoint checks whether your business email domain is easy to impersonate, whether outgoing email is trusted by receiving inboxes, and what your IT or email provider should fix first.
 
-In a recent Clearpoint spot-check of visible Swiss .ch domains, roughly half were not enforcing DMARC protection. That means fake-looking messages may be easier to deliver, and legitimate business emails, for example invoices sent to clients, may be less trusted by receiving inboxes.
-
-Clearpoint checks whether your business email domain is easy to impersonate, whether your outgoing email is set up to be trusted, and gives you a plain-English report with the risks, priorities, and recommended fixes.
-
-The technical checks include SPF, DKIM and DMARC. In simple terms: SPF is the approved-sender list, DKIM is the email signature, and DMARC is the rule that tells inboxes what to do when a message looks fake.
+The check focuses on SPF, DKIM and DMARC — the three basic controls that help receiving inboxes decide whether email from your domain is legitimate.
 
 No passwords. No mailbox access. No disruption.
-
-Just a clear answer to one important question:
 
 > Can your business email be trusted?
 
@@ -28,66 +26,40 @@ Just a clear answer to one important question:
 Check my business email domain
 </a>
 
----
+</div>
 
-## Who this is for
-
-This is useful if:
-
-- your business relies on email for invoices, contracts, clients or suppliers,
-- you use Microsoft 365, Google Workspace, Infomaniak, Hostpoint, IONOS, OVH or another hosted email provider,
-- several tools may send email for you, such as newsletters, CRM, invoicing or booking systems,
-- you are unsure whether SPF, DKIM and DMARC are correctly configured,
-- you want a clear fix list for your IT provider without starting a large audit.
-
----
-
-## What is checked
-
-The starter check uses public email-domain configuration and optional harmless email-header evidence.
-
-- business email impersonation checks, explained in simple language,
-- approved-sender list check (SPF),
-- email signature check (DKIM),
-- fake-email handling rule check (DMARC),
-- obvious sender/authentication gaps,
-- optional harmless email-header validation,
-- basic public contact-email exposure notes.
-
----
-
-## What you receive
-
-- A short plain-English report
-- Risk score and business impact summary
-- Findings table
-- Top recommended fixes
-- Provider-ready implementation notes
-- Optional explanation call
-
-The goal is not to create a large audit. The goal is to make the first risks and fixes clear.
-
----
-
-## Why this matters
-
-Many small businesses assume their email domain is protected because email works. But working email and protected email are not the same thing.
-
-Think of it like company ID at the front desk:
-
-- SPF is the guest list: which systems are allowed to send email for your domain.
-- DKIM is the sealed envelope: a signature that helps prove the message was not changed on the way.
-- DMARC is the house rule: what inboxes should do when an email fails the checks.
-
-If these are weak or unfinished, fake invoices, supplier messages, or client requests have a better chance of looking legitimate. A focused check gives management and IT providers a shared, practical starting point.
-
----
-
-## Important boundaries
-
-This starter check does not require passwords, mailbox access, admin access or vulnerability scanning.
-
-It is not a penetration test, full cybersecurity audit, legal certification, or guarantee against phishing. It is a focused email-domain protection review designed to identify visible configuration risks and recommended next steps.
+<div class="email-compact-grid">
+  <section>
+    <h2>Who this is for</h2>
+    <ul>
+      <li>Businesses relying on email for invoices, contracts, clients or suppliers</li>
+      <li>Microsoft 365, Google Workspace, Infomaniak, Hostpoint, IONOS, OVH or similar setups</li>
+      <li>Domains used by newsletters, CRM, invoicing, booking or cloud tools</li>
+      <li>Teams that want a clear fix list without starting a large audit</li>
+    </ul>
+  </section>
+  <section>
+    <h2>What you receive</h2>
+    <ul>
+      <li>Short plain-English report</li>
+      <li>Risk score and business impact summary</li>
+      <li>Findings table and top fixes</li>
+      <li>Provider-ready implementation notes</li>
+      <li>Optional explanation call</li>
+    </ul>
+  </section>
+  <section>
+    <h2>What is checked</h2>
+    <ul>
+      <li>Business email impersonation risk</li>
+      <li>SPF approved-sender list</li>
+      <li>DKIM email signature</li>
+      <li>DMARC fake-email handling rule</li>
+      <li>Obvious authentication gaps</li>
+      <li>Optional harmless email-header validation</li>
+    </ul>
+  </section>
+</div>
 
 ---
 
@@ -135,35 +107,6 @@ Later options can include a paid re-check after DNS changes or a quarterly re-ch
 
 ---
 
-## What happens after payment
-
-1. You choose a package and submit only non-sensitive basics: company name, domain, website, contact email, email provider if known, and useful context.
-2. Clearpoint checks visible email-domain configuration and optional harmless email-header evidence.
-3. You receive a short report with business impact, evidence, risk score, and provider-ready fixes.
-4. If you choose the call package, Clearpoint walks through the findings and next steps with you.
-
----
-
-## Example findings
-
-Typical findings can include:
-
-- no DMARC record,
-- DMARC present but only monitoring,
-- missing or unclear DKIM signing,
-- too many authorised senders in SPF,
-- old providers still authorised,
-- newsletter, CRM, booking or invoicing tools not aligned,
-- business emails that may be harder for receiving inboxes to trust.
-
-A free checklist is also available if you want to review the basics first:
-
-<a href="/resources/swiss-sme-email-fraud-readiness-checklist/" class="cta-button">
-View the email fraud readiness checklist
-</a>
-
----
-
 ## Start your check {#request-check}
 
 Choose your package, pay securely, and send the basics Clearpoint needs to start.
@@ -178,3 +121,5 @@ Choose your package, pay securely, and send the basics Clearpoint needs to start
 </div>
 
 <p class="form-note">Prefer to speak first? You can also <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">book a free initial conversation</a>.</p>
+
+</div>

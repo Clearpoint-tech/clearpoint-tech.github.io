@@ -5,138 +5,106 @@ description: "A practical review for Swiss SMEs using AI tools, workflow automat
 permalink: /services/ai-automation-security-review/
 ---
 
-## Practical risk review for Swiss SMEs using AI tools and automation
+<div class="ai-review-page" markdown="1">
 
-A practical review for organisations that want to use AI tools, workflow automation, and connected systems safely — without creating unnecessary data exposure, access risks, or unmanaged technical dependencies.
+<div class="ai-review-hero" markdown="1">
 
-This is designed for Swiss SMEs that are already experimenting with AI or automation, or that want a clearer plan before expanding their use of these tools.
+## AI & Automation Security Review for Swiss SMEs
+
+Use AI tools and automation without losing control of data, access, ownership, or critical workflows.
+
+Clearpoint reviews how AI tools, no-code automations, scripts, API keys, shared accounts, and integrations are used in practice — then turns the risks into clear priorities and safer operating rules.
+
+This is for Swiss SMEs that are already experimenting with AI or automation, or want a clearer plan before expanding their use.
 
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Book a free initial conversation
 </a>
 
----
+</div>
 
-## Who this is for
-
-This review is a good fit if:
-
-- your team is using ChatGPT, Microsoft Copilot, Gemini, Claude, or similar AI tools,
-- you use no-code or low-code automation platforms such as Zapier, Make, Airtable, Notion, Google Workspace, Microsoft 365, or CRM integrations,
-- internal automations have grown informally and are now business-relevant,
-- scripts, API keys, shared accounts, or personal accounts support important workflows,
-- management wants to benefit from AI and automation without uncontrolled data or security risk,
-- you need practical rules and priorities rather than a heavy governance programme.
-
----
-
-## Typical triggers
-
-SMEs often ask for help when AI or automation starts moving faster than the controls around it:
-
-- employees already use AI tools, but no clear usage guidance exists,
-- sensitive client, financial, HR, or operational data may be pasted into external tools,
-- automations depend on one person’s account, laptop, mailbox, or API key,
-- nobody is fully sure which systems exchange data or who can access them,
-- a workflow breaks and the team discovers that it is undocumented,
-- management wants to adopt AI but needs a realistic risk view first.
-
-The goal is to turn informal tool usage into a safer, documented, and more resilient operating model.
+<div class="ai-compact-grid">
+  <section>
+    <h2>Who this is for</h2>
+    <ul>
+      <li>Teams using ChatGPT, Copilot, Gemini, Claude or similar tools</li>
+      <li>Businesses using Zapier, Make, Airtable, Notion, Microsoft 365, Google Workspace, CRM or SaaS integrations</li>
+      <li>Workflows depending on scripts, API keys, shared accounts or one person’s laptop/mailbox</li>
+      <li>Management that wants practical rules, not heavy governance</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Typical triggers</h2>
+    <ul>
+      <li>Employees use AI tools without clear guidance</li>
+      <li>Sensitive client, financial, HR or operational data may enter external tools</li>
+      <li>Automations are useful but fragile or undocumented</li>
+      <li>Nobody is fully sure which systems exchange data or who owns them</li>
+    </ul>
+  </section>
+  <section>
+    <h2>What you receive</h2>
+    <ul>
+      <li>Short risk and dependency summary</li>
+      <li>Prioritised action list</li>
+      <li>Quick wins for safer AI and automation use</li>
+      <li>Recommendations for access, credentials, ownership and documentation</li>
+      <li>Optional implementation support</li>
+    </ul>
+  </section>
+</div>
 
 ---
 
 ## What can be reviewed
 
-The exact scope depends on your environment, but a practical review can cover:
-
-### AI tool usage and data handling
-
-- which AI tools are used and for what purpose
-- what data employees may enter into external tools
-- client confidentiality, personal data, and sensitive business information risks
-- human review points for AI-generated output
-
-### Workflow automation and integrations
-
-- no-code, low-code, SaaS, and script-based automations
-- data flows between email, cloud storage, CRM, spreadsheets, and internal tools
-- error handling, notifications, and failure visibility
-- fragile or undocumented dependencies
-
-### Access, credentials, and ownership
-
-- personal accounts used for business-critical automations
-- API keys, service accounts, shared mailboxes, and privileged access
-- account recovery and offboarding risks
-- clear ownership for workflows and connected tools
-
-### Documentation and continuity
-
-- what the automation does, who owns it, and how it can be changed safely
-- dependencies on specific people, devices, accounts, or vendors
-- backup, export, or rollback options for critical workflows
-- practical recovery steps if an automation or AI-assisted process fails
-
-### Lightweight governance
-
-- simple AI and automation usage rules
-- approval points for sensitive workflows
-- practical guardrails for client data, credentials, and confidential information
-- priorities that help the business move forward without unnecessary bureaucracy
-
----
-
-## What you receive
-
-Depending on the agreed scope, the result can include:
-
-- a short summary of key risks and dependencies,
-- a prioritised action list,
-- quick wins for safer AI and automation usage,
-- recommendations for access, credentials, ownership, and documentation,
-- guidance that management and operational teams can both understand,
-- optional implementation support for improving workflows or controls.
-
-The objective is practical: keep useful automation moving while reducing avoidable risk.
-
----
-
-## Typical engagement scenario
-
-A Swiss SME already uses AI tools for drafting, research, and internal summaries. A few automations also move information between email, spreadsheets, CRM, and cloud storage. The tools are useful, but management is not fully sure what data is being entered, which accounts own the workflows, or what happens if a key employee leaves.
-
-A focused review maps the main tools, data flows, accounts, API keys, and business-critical automations. The outcome is a short risk summary, practical usage rules, ownership recommendations, and a prioritised list of quick wins — for example limiting sensitive data in AI tools, moving critical automations away from personal accounts, improving access recovery, and documenting the workflows that matter most.
-
-For a practical starting checklist, see [what Swiss SMEs should check before connecting AI tools to company data](/articles/what-swiss-smes-should-check-before-connecting-ai-tools-to-company-data/).
-
----
-
-## How the engagement can work
-
-A typical starting path:
-
-1. **Initial conversation**
-   Clarify which AI tools, automations, systems, and concerns matter most.
-
-2. **Lightweight scoping**
-   Agree what should be reviewed and which workflows or tools are most business-critical.
-
-3. **Review and mapping**
-   Examine usage patterns, data flows, access, ownership, and documentation.
-
-4. **Prioritised recommendations**
-   Translate findings into practical next steps, quick wins, and medium-term improvements.
-
-5. **Optional follow-up**
-   Support implementation, documentation, vendor coordination, or management communication.
-
----
-
-## Important: do not send secrets via forms
-
-Please do not send passwords, API keys, customer data, confidential exports, logs, or sensitive screenshots through the booking form or standard email.
-
-If sensitive information is needed for a review, we can agree on a safer way to handle it.
+<div class="review-area-grid">
+  <section>
+    <h3>AI tool usage and data handling</h3>
+    <ul>
+      <li>which AI tools are used and for what purpose</li>
+      <li>what data employees may enter into external tools</li>
+      <li>client confidentiality, personal data, and sensitive business information risks</li>
+      <li>human review points for AI-generated output</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Workflow automation and integrations</h3>
+    <ul>
+      <li>no-code, low-code, SaaS, and script-based automations</li>
+      <li>data flows between email, cloud storage, CRM, spreadsheets, and internal tools</li>
+      <li>error handling, notifications, and failure visibility</li>
+      <li>fragile or undocumented dependencies</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Access, credentials, and ownership</h3>
+    <ul>
+      <li>personal accounts used for business-critical automations</li>
+      <li>API keys, service accounts, shared mailboxes, and privileged access</li>
+      <li>account recovery and offboarding risks</li>
+      <li>clear ownership for workflows and connected tools</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Documentation and continuity</h3>
+    <ul>
+      <li>what the automation does, who owns it, and how it can be changed safely</li>
+      <li>dependencies on specific people, devices, accounts, or vendors</li>
+      <li>backup, export, or rollback options for critical workflows</li>
+      <li>practical recovery steps if an automation or AI-assisted process fails</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Lightweight governance</h3>
+    <ul>
+      <li>simple AI and automation usage rules</li>
+      <li>approval points for sensitive workflows</li>
+      <li>practical guardrails for client data, credentials, and confidential information</li>
+      <li>priorities that help the business move forward without unnecessary bureaucracy</li>
+    </ul>
+  </section>
+</div>
 
 ---
 
@@ -147,3 +115,5 @@ If you are not sure whether this review fits your situation, start with a free i
 <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
 Book a free initial conversation
 </a>
+
+</div>
