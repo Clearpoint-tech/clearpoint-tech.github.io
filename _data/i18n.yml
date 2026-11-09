@@ -1,0 +1,93 @@
+# Interface strings shared by layouts and includes. Page copy lives in the pages.
+
+en:
+  name: English
+  prefix: ""
+  locale: en_US
+  home_title: "Clearpoint | Cybersecurity, AI agents & automation, technical project delivery"
+  skip: Skip to content
+  home_label: Clearpoint home
+  nav_label: Main
+  menu: Menu
+  nav_expertise: Expertise
+  nav_about: About
+  nav_contact: Let’s talk
+  nav_legal: Legal
+  lang_label: Language
+  tagline: Making technical change safer, clearer, and easier to deliver.
+  footer_explore: Site
+  footer_contact: Contact
+  footer_book: Book a conversation
+  footer_place: Switzerland
+  rights: All rights reserved.
+  redirect_note: This page has moved.
+  redirect_link: Continue
+
+fr:
+  name: Français
+  prefix: /fr
+  locale: fr_CH
+  home_title: "Clearpoint | Cybersécurité, agents IA & automatisation, pilotage de projets techniques"
+  skip: Aller au contenu
+  home_label: Accueil Clearpoint
+  nav_label: Principal
+  menu: Menu
+  nav_expertise: Expertise
+  nav_about: À propos
+  nav_contact: Échangeons
+  nav_legal: Mentions légales
+  lang_label: Langue
+  tagline: Rendre le changement technique plus sûr, plus clair et réalisable.
+  footer_explore: Site
+  footer_contact: Contact
+  footer_book: Réserver un échange
+  footer_place: Suisse
+  rights: Tous droits réservés.
+  redirect_note: Cette page a été déplacée.
+  redirect_link: Continuer
+
+de:
+  name: Deutsch
+  prefix: /de
+  locale: de_CH
+  home_title: "Clearpoint | Cybersicherheit, KI-Agenten & Automatisierung, technische Projektumsetzung"
+  skip: Zum Inhalt springen
+  home_label: Clearpoint Startseite
+  nav_label: Hauptnavigation
+  menu: Menü
+  nav_expertise: Expertise
+  nav_about: Über mich
+  nav_contact: Gespräch vereinbaren
+  nav_legal: Rechtliches
+  lang_label: Sprache
+  tagline: Technischen Wandel sicherer, klarer und umsetzbar machen.
+  footer_explore: Website
+  footer_contact: Kontakt
+  footer_book: Gespräch vereinbaren
+  footer_place: Schweiz
+  rights: Alle Rechte vorbehalten.
+  redirect_note: Diese Seite wurde verschoben.
+  redirect_link: Weiter
+
+it:
+  name: Italiano
+  prefix: /it
+  locale: it_CH
+  home_title: "Clearpoint | Cybersicurezza, agenti IA & automazione, gestione di progetti tecnici"
+  skip: Vai al contenuto
+  home_label: Home Clearpoint
+  nav_label: Principale
+  menu: Menu
+  nav_expertise: Competenze
+  nav_about: Chi sono
+  nav_contact: Parliamone
+  nav_legal: Note legali
+  lang_label: Lingua
+  tagline: Rendere il cambiamento tecnico più sicuro, chiaro e realizzabile.
+  footer_explore: Sito
+  footer_contact: Contatto
+  footer_book: Prenota un incontro
+  footer_place: Svizzera
+  rights: Tutti i diritti riservati.
+  redirect_note: Questa pagina è stata spostata.
+  redirect_link: Continua

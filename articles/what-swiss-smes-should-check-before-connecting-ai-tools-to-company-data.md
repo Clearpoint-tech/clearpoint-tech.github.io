@@ -176,6 +176,4 @@ A focused review can cover:
 
 If your team is already using AI tools or automation and you are not fully sure what data, accounts, or workflows are connected, start with a short conversation.
 
-<a href="/services/ai-automation-security-review/" class="cta-button">
-View the AI & Automation Security Review
-</a>
+<a href="/services/ai-automation-security-review/" class="button">View the AI & Automation Security Review</a>

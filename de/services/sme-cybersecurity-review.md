@@ -2,48 +2,81 @@
 layout: page
 lang: de
 title: KMU-Cybersicherheitsreview
-description: "Ein praktischer Cybersicherheitsreview für Schweizer KMU, die klare Prioritäten, sicherere Systeme und einen managementtauglichen Aktionsplan benötigen."
 permalink: /de/services/sme-cybersecurity-review/
+description: "Ein praxisnaher Cybersicherheitsreview für Schweizer KMU, die klare Prioritäten, sicherere Systeme und einen managementtauglichen Massnahmenplan benötigen."
+back_url: /de/services/#cybersecurity
+back_label: Expertise
+kicker: Cybersicherheit · Gezielter Review
+heading: KMU-Cybersicherheitsreview
+lead: "Die wichtigsten Sicherheitsrisiken verstehen, die Grundlagen in Ordnung bringen und mit einem klaren Massnahmenplan abschliessen, ohne ein grosses Auditprogramm zu starten."
+prose: false
 ---
 
-<div class="cyber-review-page" markdown="1">
+<section class="section">
+  <div class="container">
+    <p class="section-head">Clearpoint prüft vereinbarte Schwerpunkte wie Zugriff und Identität, Patching, exponierte Systeme, Backups und Phishing-Resilienz und übersetzt die Befunde in praktische nächste Schritte.</p>
+    <div class="split">
+      <div>
+        <h2>Wann er sich lohnt</h2>
+        <ul class="plain-list">
+          <li>Sie wissen nicht genau, wo Ihre wichtigsten Sicherheitsrisiken liegen.</li>
+          <li>Systeme sind ohne aktuellen Sicherheitsreview gewachsen.</li>
+          <li>Phishing erreicht Mitarbeitende, oder ein Konto könnte kompromittiert sein.</li>
+          <li>Backups, Zugriffsrechte oder Patching sind unklar.</li>
+          <li>Kunden, Partner oder Versicherer stellen Fragen zur Sicherheit.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Was Sie erhalten</h2>
+        <ul class="plain-list">
+          <li>Eine kurze Zusammenfassung der Befunde</li>
+          <li>Eine priorisierte Massnahmenliste</li>
+          <li>Schnelle Verbesserungen und mittelfristige Massnahmen</li>
+          <li>Eine verständliche Erklärung der geschäftlichen Auswirkungen</li>
+          <li>Optionale Unterstützung bei der Koordination der Umsetzung</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="cyber-review-hero" markdown="1">
+<section class="section" aria-labelledby="scope-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="scope-title">Was geprüft werden kann</h2>
+      <p>Der Umfang wird vorab vereinbart und bleibt der Organisation angemessen.</p>
+    </div>
+    <dl class="rows">
+      <div>
+        <dt>Zugriff und Identität</dt>
+        <dd>Passwort- und Multi-Faktor-Praxis, privilegierte Konten, Prioritäten bei Benutzerberechtigungen und Risiken bei der Kontowiederherstellung.</dd>
+      </div>
+      <div>
+        <dt>Systeme, Patching und Konfiguration</dt>
+        <dd>Patch-Praxis, grundlegende Härtung von Website oder Server, exponierte Dienste sowie Konfiguration von Verschlüsselung und Zertifikaten.</dd>
+      </div>
+      <div>
+        <dt>Backups und Wiederherstellung</dt>
+        <dd>Vorhandensein und Trennung von Backups, Wiederherstellungsfähigkeit, Resilienz gegenüber Ransomware und Lücken in der Wiederherstellungsdokumentation.</dd>
+      </div>
+      <div>
+        <dt>Phishing-Resilienz</dt>
+        <dd>Umgang mit verdächtigen Nachrichten, Phishing-Risiko, Lücken in der Sensibilisierung und Massnahmen zum Kontoschutz.</dd>
+      </div>
+      <div>
+        <dt>Prioritäten für die Geschäftsleitung</dt>
+        <dd>Welche Risiken am meisten zählen, was schnell behoben werden kann, was als Nächstes zu planen ist und wo Unterstützung durch Spezialisten oder Anbieter sinnvoll ist.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
 
-## KMU-Cybersicherheitsreview für Schweizer KMU
-
-Die wichtigsten Sicherheitsrisiken verstehen, Grundlagen verbessern und einen klaren Aktionsplan erhalten — ohne grosses Auditprogramm.
-
-Clearpoint prüft vereinbarte Prioritäten: E-Mail-Schutz, Zugriff und Identität, Patching, exponierte Systeme, Backups und managementtaugliche Risikoprioritäten.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Kostenloses Erstgespräch buchen</a>
-
-</div>
-
-<div class="cyber-compact-grid">
-  <section><h2>Für wen</h2><ul><li>KMU, die ihre wichtigsten Sicherheitsrisiken nicht klar sehen</li><li>Systeme, die ohne aktuellen Sicherheitsreview gewachsen sind</li><li>Verdächtige E-Mails, Phishing oder ungewöhnliche Kontoaktivität</li><li>Management, das klare Prioritäten vor Tool- oder Projektinvestitionen braucht</li></ul></section>
-  <section><h2>Typische Auslöser</h2><ul><li>Phishing erreicht Mitarbeitende</li><li>Ein Passwort oder Konto könnte exponiert sein</li><li>Backups, Zugriffsrechte oder Patching sind unklar</li><li>Cyberversicherung, Kunden oder Partner stellen Sicherheitsfragen</li></ul></section>
-  <section><h2>Was Sie erhalten</h2><ul><li>Kurze Zusammenfassung der Befunde</li><li>Priorisierte Aktionsliste</li><li>Quick Wins und mittelfristige Verbesserungen</li><li>Erklärung der geschäftlichen Auswirkungen</li><li>Optionale Unterstützung bei der Umsetzung</li></ul></section>
-</div>
-
----
-
-## Was geprüft werden kann
-
-<div class="review-area-grid">
-  <section><h3>E-Mail- und Phishing-Resilienz</h3><ul><li>SPF-, DKIM- und DMARC-Konfiguration</li><li>Prüfung verdächtiger E-Mails und Header</li><li>Phishing-Exponierung und Awareness-Lücken</li><li>Empfehlungen zum Kontoschutz</li></ul></section>
-  <section><h3>Zugriff und Identität</h3><ul><li>Passwort- und MFA-Praktiken</li><li>Umgang mit privilegierten Konten</li><li>Prioritäten für Benutzerzugriffsreviews</li><li>Risiken bei Konto-Wiederherstellung</li></ul></section>
-  <section><h3>Systeme, Patching und Konfiguration</h3><ul><li>Patch-Praktiken für Systeme und Anwendungen</li><li>Website- oder Server-Härtung</li><li>exponierte Dienste und unnötige Zugriffe</li><li>Verschlüsselung und Zertifikate</li></ul></section>
-  <section><h3>Backups und Wiederherstellung</h3><ul><li>Vorhandensein und Trennung von Backups</li><li>Wiederherstellbarkeit</li><li>Ransomware-Resilienzprioritäten</li><li>praktische Wiederherstellungsdokumentation</li></ul></section>
-  <section><h3>Managementtaugliche Priorisierung</h3><ul><li>welche Risiken am wichtigsten sind</li><li>was schnell behoben werden kann</li><li>was als Nächstes geplant werden sollte</li><li>wo Spezialisten- oder Anbieterunterstützung sinnvoll ist</li></ul></section>
-</div>
-
----
-
-## Mit einem kurzen Gespräch starten
-
-Wenn Sie unsicher sind, ob dieser Review zu Ihrer Situation passt, beginnen Sie mit einem kostenlosen Erstgespräch.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Kostenloses Erstgespräch buchen</a>
-
-</div>
+<section class="section" aria-labelledby="review-cta-title">
+  <div class="container cta-band">
+    <h2 id="review-cta-title">Mit einem kurzen Gespräch beginnen</h2>
+    <p>Gemeinsam können wir die wahrscheinliche Priorität bestimmen und entscheiden, ob ein gezielter Review der richtige nächste Schritt ist.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Gespräch vereinbaren</a>
+    </div>
+  </div>
+</section>

@@ -1,268 +1,197 @@
 ---
 layout: page
-title: Services
+title: Expertise
 permalink: /services/
-description: "Cybersecurity assessments, system hardening, AI-assisted workflow automation, and Technical project delivery support for Swiss SMEs and growing organisations."
+description: "Cybersecurity, AI agents & automation, and technical project delivery for Swiss SMEs: know your real security risks, hand repetitive work to AI under control, and see projects through to handover."
+kicker: Expertise
+heading: Three areas, working together
+lead: "Cybersecurity, AI agents & automation, and technical project delivery, applied together so that technical change is safer, clearer, and easier to deliver."
+prose: false
 ---
 
-<div class="services-detail-page" markdown="1">
-
-Clearpoint provides practical technical support for SMEs and growing organisations that need clearer priorities, safer systems, better workflows, responsible AI-assisted automation, or structured project delivery.
-
-The services below can start as a focused advisory session, a short assessment, or a more hands-on engagement depending on the situation.
-
----
-
-<div class="services-start-guide" markdown="1">
-
-### Choose a fast starting point
-
-<div class="services-start-grid">
-  <article>
-    <h3>Fast email/domain trust check</h3>
-    <p>If suspicious emails, fake invoice risk, or client questions are the immediate concern.</p>
-    <a href="/services/email-security-health-check/">Email Security Health Check</a>
-  </article>
-  <article>
-    <h3>General cybersecurity priorities</h3>
-    <p>If you are unsure where your main security risks are or need a clear action plan.</p>
-    <a href="/services/sme-cybersecurity-review/">SME Cybersecurity Review</a>
-  </article>
-  <article>
-    <h3>AI, automation, scripts or integrations</h3>
-    <p>If tools, workflows, API keys, data handling or ownership need safer structure.</p>
-    <a href="/services/ai-automation-security-review/">AI & Automation Security Review</a>
-  </article>
-  <article>
-    <h3>Technical project support</h3>
-    <p>If a security, automation or IT initiative needs clearer scope, coordination and delivery.</p>
-    <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Start with a short conversation</a>
-  </article>
-</div>
-
-</div>
-
-<div class="services-core-intro" markdown="1">
-
-### Core service areas
-
-The starting points above are focused entry doors. The core Clearpoint offer remains broader: practical cybersecurity, safer automation and AI-assisted workflows, and structured technical project support.
-
-</div>
-
----
-
-## Cybersecurity
-
-I help SMEs improve their security posture through structured assessments, practical hardening measures, and clear incident support, translating technical risks into business decisions.
-
-Good starting points include:
-
-- you are unsure which security improvements matter first,
-- you need an independent review before investing in tools or vendors,
-- you have received suspicious emails or phishing attempts,
-- you need basic hardening for a website, server, or internal system,
-- you need a clear action plan that management and technical teams can both understand.
-
-For focused entry points, see the [Email Security Health Check](/services/email-security-health-check/) or the broader [SME Cybersecurity Review](/services/sme-cybersecurity-review/).
-
-**Typical engagement:** turn unclear security concerns into agreed priorities, quick wins, and a short management-friendly action list.
-
-<details>
-<summary><strong>Security Assessment & Risk Advisory</strong></summary>
-
-<ul>
-  <li>Security posture review</li>
-  <li>Vulnerability identification & prioritisation</li>
-  <li>Patch management review</li>
-  <li>Risk-based recommendations</li>
-  <li>Business-oriented reporting</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>System & Network Hardening</strong></summary>
-
-<ul>
-  <li>Operating system hardening (Linux / Windows)</li>
-  <li>Web server hardening</li>
-  <li>Secure configuration review</li>
-  <li>Password & authentication improvements</li>
-  <li>Encryption & certificate configuration review</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>Email & Phishing Investigation</strong></summary>
-
-<ul>
-  <li>Email header analysis</li>
-  <li>Phishing detection guidance</li>
-  <li>Suspicious attachment triage</li>
-  <li>SPF / DKIM / DMARC review</li>
-  <li>User awareness recommendations</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>Incident Response Support</strong></summary>
-
-<ul>
-  <li>Incident severity assessment & triage</li>
-  <li>Initial containment guidance</li>
-  <li>Log review & detection analysis</li>
-  <li>Basic response procedure definition</li>
-  <li>IT ↔ management coordination</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>Web Application Security Review</strong></summary>
-
-<ul>
-  <li>Basic web application security assessment</li>
-  <li>OWASP-level vulnerability identification</li>
-  <li>SQL injection awareness testing</li>
-  <li>Content Security Policy review</li>
-  <li>Secure configuration recommendations</li>
-</ul>
-
-</details>
-
----
-
-## Automation & AI-assisted workflows
-
-I help organisations reduce manual workload and operational friction by implementing practical automation solutions using established tools. Where it creates real value, this can include AI agents, prompt engineering, and AI-assisted workflows.
-
-Good starting points include:
-
-- teams are using AI or automation without clear data-handling and ownership rules,
-- repetitive manual work is slowing down operations,
-- information is copied between email, spreadsheets, CRM, or cloud tools,
-- approvals or notifications are inconsistent,
-- existing automations are fragile or undocumented,
-- teams are experimenting with AI tools but lack structure or safe usage patterns,
-- you need simple automation with basic governance, security, and reliability in mind.
-
-For a focused entry point, see the [AI & Automation Security Review](/services/ai-automation-security-review/).
-
-**Typical engagement:** map AI and automation dependencies, clarify ownership and data handling, and define safer operating controls.
-
-Related article: [What Swiss SMEs should check before connecting AI tools to company data](/articles/what-swiss-smes-should-check-before-connecting-ai-tools-to-company-data/).
-
-<details>
-<summary><strong>Workflow Optimisation</strong></summary>
-
-<ul>
-  <li>Identification of repetitive manual processes</li>
-  <li>Process mapping & optimisation</li>
-  <li>Reduction of operational bottlenecks</li>
-  <li>Efficiency-focused redesign of internal workflows</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>Tool-Based Automation Implementation</strong></summary>
-
-<ul>
-  <li>Implementation of no-code / low-code automation platforms</li>
-  <li>Integration between business systems (CRM, email, cloud tools)</li>
-  <li>Automated notifications & approval flows</li>
-  <li>Data synchronisation between systems</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>AI Agents & Prompt Engineering</strong></summary>
-
-<ul>
-  <li>Practical AI-agent use-case identification</li>
-  <li>Prompt design for repeatable business tasks</li>
-  <li>AI-assisted workflow prototyping</li>
-  <li>Human-in-the-loop review and control points</li>
-  <li>Basic security and data-handling guidance for AI tools</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>Operational Efficiency & Monitoring</strong></summary>
-
-<ul>
-  <li>Automation performance review</li>
-  <li>Error handling & reliability improvements</li>
-  <li>Structured documentation of automated workflows</li>
-  <li>Basic governance & security considerations</li>
-</ul>
-
-</details>
-
----
-
-## Project Support
-
-I support organisations in delivering structured IT and security initiatives, ensuring technical execution aligns with business objectives and operational constraints.
-
-Good starting points include:
-
-- a technical project needs clearer scope, milestones, or ownership,
-- business and technical stakeholders are not aligned,
-- a security or automation initiative needs coordination,
-- management needs a clearer view of risks, options, and trade-offs,
-- you need practical delivery support without adding unnecessary process.
-
-<details>
-<summary><strong>Technical Project Coordination</strong></summary>
-
-<ul>
-  <li>Coordination between technical teams and business stakeholders</li>
-  <li>Structured planning & milestone definition</li>
-  <li>Risk identification & mitigation tracking</li>
-  <li>Alignment of technical scope with business priorities</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>Delivery & Implementation Support</strong></summary>
-
-<ul>
-  <li>Support during security or automation implementations</li>
-  <li>Vendor & solution coordination</li>
-  <li>Monitoring of progress and deliverables</li>
-  <li>Documentation and structured reporting</li>
-</ul>
-
-</details>
-
-<details>
-<summary><strong>Business ↔ Technology Translation</strong></summary>
-
-<ul>
-  <li>Translation of technical risks into business impact</li>
-  <li>Support in evaluating security and automation solutions</li>
-  <li>Structured decision support for management</li>
-  <li>Clear communication across technical and executive levels</li>
-</ul>
-
-</details>
-
----
-
-## Not sure where to start?
-
-A short initial conversation is often enough to identify whether the priority is security, automation, project structure, or a combination of the three.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Book a free initial conversation
-</a>
-
-
-</div>
+<nav class="pillar-nav" aria-label="On this page">
+  <div class="container">
+    <p class="muted">Engagements range from a focused advisory question to a structured review or hands-on delivery support. Most combine more than one area.</p>
+    <ol class="pillar-index">
+      <li><a href="#cybersecurity">Cybersecurity</a></li>
+      <li><a href="#ai-automation">AI Agents &amp; Automation</a></li>
+      <li><a href="#project-delivery">Technical Project Delivery</a></li>
+    </ol>
+  </div>
+</nav>
+
+<section class="section pillar" id="cybersecurity" aria-labelledby="cybersecurity-title">
+  <div class="container">
+    <div class="pillar__head">
+      <div>
+        <p class="kicker">01 · Protect</p>
+        <h2 id="cybersecurity-title">Cybersecurity</h2>
+      </div>
+      <p class="lead">Understand the risk, check what is actually happening, and fix what matters first, with findings that management and technical teams can both act on.</p>
+    </div>
+    <div class="pillar__body">
+      <div class="pillar__situations">
+        <h3>Typical situations</h3>
+        <ul class="plain-list">
+          <li>You are unsure which security improvements matter first.</li>
+          <li>You want an independent view before investing in tools or vendors.</li>
+          <li>Phishing, a suspicious login, or an incident needs a calm first assessment.</li>
+          <li>A website, server, or internal system needs basic hardening.</li>
+          <li>Customers, partners, or insurers are asking security questions.</li>
+        </ul>
+      </div>
+      <div class="scope">
+        <div class="scope-group">
+          <h3>Assessment &amp; priorities</h3>
+          <ul class="plain-list">
+            <li>A review of your current security setup</li>
+            <li>Weak spots found and ranked by impact and effort</li>
+            <li>Updates and backups: checked, not assumed</li>
+            <li>Findings and an action plan in plain language</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Systems &amp; settings</h3>
+          <ul class="plain-list">
+            <li>Securing Linux and Windows systems</li>
+            <li>Web server and web application checks</li>
+            <li>Logins, MFA, and access rights</li>
+            <li>Encryption and certificate configuration</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Incidents &amp; resilience</h3>
+          <ul class="plain-list">
+            <li>First assessment: what happened and how serious it is</li>
+            <li>Supporting evidence collection for specialists</li>
+            <li>Phishing and suspicious email analysis</li>
+            <li>Coordination between management, IT providers, and specialists</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pillar__next">
+      <p>Focused starting point: the <a href="/services/sme-cybersecurity-review/">SME Cybersecurity Review</a> covers your main risks, quick wins, and a management-friendly action plan.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section pillar" id="ai-automation" aria-labelledby="ai-automation-title">
+  <div class="container">
+    <div class="pillar__head">
+      <div>
+        <p class="kicker">02 · Improve</p>
+        <h2 id="ai-automation-title">AI Agents &amp; Automation</h2>
+      </div>
+      <p class="lead">AI agents and automations that take repetitive work off your team, while company data, access, and important decisions stay under your control.</p>
+    </div>
+    <div class="pillar__body">
+      <div class="pillar__situations">
+        <h3>Typical situations</h3>
+        <ul class="plain-list">
+          <li>Repetitive work and copy-paste between tools slow the team down.</li>
+          <li>Teams use AI tools without clear rules for company data.</li>
+          <li>Automations work, but are fragile, undocumented, or tied to one person.</li>
+          <li>A promising AI trial needs to become something people can rely on every day.</li>
+        </ul>
+      </div>
+      <div class="scope">
+        <div class="scope-group">
+          <h3>Choosing the right work</h3>
+          <ul class="plain-list">
+            <li>Where time is lost today</li>
+            <li>Repetitive work worth handing to an AI agent or automation</li>
+            <li>Realistic AI uses for everyday business tasks</li>
+            <li>Effort, risk, and benefit compared up front</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Building &amp; connecting</h3>
+          <ul class="plain-list">
+            <li>AI agents that sort, prepare, or draft work for people to check</li>
+            <li>No-code and low-code automation</li>
+            <li>Connections between email, CRM, cloud tools, and spreadsheets</li>
+            <li>Approval steps before anything important goes out</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Control &amp; continuity</h3>
+          <ul class="plain-list">
+            <li>Rules for which company data AI tools may use</li>
+            <li>Who owns the accounts, logins, and API keys</li>
+            <li>Human review where the result matters</li>
+            <li>Documentation, monitoring, and error handling, so others can maintain it</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pillar__next">
+      <p>Focused starting point: the <a href="/services/ai-automation-security-review/">AI &amp; Automation Security Review</a> maps what is connected, which data moves where, and how to keep control.</p>
+      <p class="muted">Related reading: <a href="/articles/what-swiss-smes-should-check-before-connecting-ai-tools-to-company-data/">What Swiss SMEs should check before connecting AI tools to company data</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section pillar" id="project-delivery" aria-labelledby="project-delivery-title">
+  <div class="container">
+    <div class="pillar__head">
+      <div>
+        <p class="kicker">03 · Deliver</p>
+        <h2 id="project-delivery-title">Technical Project Delivery</h2>
+      </div>
+      <p class="lead">Security, automation, and IT projects planned realistically and managed openly, so cost and progress stay visible, problems surface early, and the change actually gets finished.</p>
+    </div>
+    <div class="pillar__body">
+      <div class="pillar__situations">
+        <h3>Typical situations</h3>
+        <ul class="plain-list">
+          <li>A technical initiative needs clearer scope, milestones, or ownership.</li>
+          <li>Business and technical people are not pulling in the same direction.</li>
+          <li>Several vendors or teams need to work to one plan.</li>
+          <li>A project is drifting on cost or time, and management needs to know why and what the options are.</li>
+        </ul>
+      </div>
+      <div class="scope">
+        <div class="scope-group">
+          <h3>Planning</h3>
+          <ul class="plain-list">
+            <li>Objectives, scope, and constraints</li>
+            <li>A realistic plan with milestones, owners, and budget</li>
+            <li>Risks and dependencies named early</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Keeping it on track</h3>
+          <ul class="plain-list">
+            <li>Cost and progress kept visible against the plan</li>
+            <li>Deviations spotted early, and their cause understood</li>
+            <li>Recovery options compared, with their trade-offs</li>
+            <li>A sound basis for management decisions</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Coordination &amp; handover</h3>
+          <ul class="plain-list">
+            <li>Alignment between business, IT, and vendors</li>
+            <li>Support during security and automation rollouts</li>
+            <li>Documentation and straightforward reporting</li>
+            <li>Clean handover to the people who run it</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pillar__next">
+      <p>Starting point: delivery support is scoped around your initiative. A <a href="{{ site.booking_url }}">short conversation</a> is usually enough to define it.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="services-cta-title">
+  <div class="container cta-band">
+    <h2 id="services-cta-title">Not sure which area applies?</h2>
+    <p>Most questions touch more than one. A short conversation is enough to find the right starting point.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Start a conversation</a>
+    </div>
+  </div>
+</section>

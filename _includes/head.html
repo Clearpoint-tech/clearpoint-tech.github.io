@@ -1,13 +1,13 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {%- assign page_title = page.title | default: site.title -%}
-  {%- if page_title == site.title -%}
-    {%- assign full_title = site.title | append: " | Cybersecurity, automation, and Technical project delivery" -%}
+  {%- if page.title == site.title or page.title == nil -%}
+    {%- assign full_title = t.home_title -%}
+    {%- assign social_title = site.title -%}
   {%- else -%}
-    {%- assign full_title = page_title | append: " | " | append: site.title -%}
+    {%- assign full_title = page.title | append: " | " | append: site.title -%}
+    {%- assign social_title = page.title -%}
   {%- endif -%}
   {%- assign meta_description = page.description | default: site.description | strip_newlines | escape -%}
   {%- assign canonical_url = page.url | absolute_url -%}
@@ -15,48 +15,65 @@
   <title>{{ full_title | escape }}</title>
   <meta name="description" content="{{ meta_description }}">
   <link rel="canonical" href="{{ canonical_url }}">
+  {%- if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+  {%- endif %}
 
-  {%- comment -%}Multilingual alternates for equivalent EN/FR/DE/IT pages. English-only campaign pages can set multilingual: false.{%- endcomment -%}
+  {%- comment -%}Same-path alternates for EN/FR/DE/IT. Single-language pages set multilingual: false.{%- endcomment -%}
   {%- unless page.multilingual == false -%}
-    {%- assign raw_path = page.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' -%}
-    {%- if raw_path == '' -%}{%- assign raw_path = '/' -%}{%- endif -%}
-  <link rel="alternate" hreflang="en" href="{{ raw_path | absolute_url }}">
-  <link rel="alternate" hreflang="fr" href="{{ '/fr' | append: raw_path | absolute_url }}">
-  <link rel="alternate" hreflang="de" href="{{ '/de' | append: raw_path | absolute_url }}">
-  <link rel="alternate" hreflang="it" href="{{ '/it' | append: raw_path | absolute_url }}">
+    {%- for entry in site.data.i18n %}
+  <link rel="alternate" hreflang="{{ entry[0] }}" href="{{ entry[1].prefix | append: raw_path | absolute_url }}">
+    {%- endfor %}
   <link rel="alternate" hreflang="x-default" href="{{ raw_path | absolute_url }}">
-  {%- endunless -%}
+  {%- endunless %}
 
-  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ social_title | escape }}">
   <meta property="og:description" content="{{ meta_description }}">
   <meta property="og:url" content="{{ canonical_url }}">
-  <meta property="og:site_name" content="{{ site.title | escape }}">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="{{ site.locale | default: 'en_US' }}">
+  <meta property="og:locale" content="{{ t.locale }}">
+  {%- unless page.multilingual == false -%}
+    {%- for entry in site.data.i18n -%}
+      {%- if entry[0] != lang %}
+  <meta property="og:locale:alternate" content="{{ entry[1].locale }}">
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endunless %}
+  {%- if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {%- if page.image_alt %}<meta property="og:image:alt" content="{{ page.image_alt | escape }}">{% endif %}
+  {%- endif %}
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ page_title | escape }}">
+  <meta name="twitter:title" content="{{ social_title | escape }}">
   <meta name="twitter:description" content="{{ meta_description }}">
+  <meta name="theme-color" content="#0b1222">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "Clearpoint",
-    "url": "{{ site.url }}",
-    "logo": "{{ site.logo | absolute_url }}",
-    "email": "{{ site.email }}",
+    "name": {{ site.title | jsonify }},
+    "url": {{ site.url | append: "/" | jsonify }},
+    "logo": {{ site.logo | absolute_url | jsonify }},
+    "email": {{ site.email | jsonify }},
     "areaServed": "Switzerland",
-    "description": "{{ site.description | escape }}",
-    "sameAs": ["https://www.linkedin.com/in/philip-ritter/"],
-    "serviceType": [
-      "Cybersecurity advisory",
-      "Workflow automation",
-      "Technical project management"
+    "description": {{ page.description | default: site.description | strip_newlines | jsonify }},
+    "founder": {
+      "@type": "Person",
+      "name": {{ site.author | jsonify }},
+      "sameAs": [{{ site.linkedin_url | jsonify }}]
+    },
+    "sameAs": [{{ site.linkedin_url | jsonify }}],
+    "knowsAbout": [
+      "Cybersecurity",
+      "AI agents and automation",
+      "Technical project delivery"
     ]
   }
   </script>
 
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/logo/clearpoint_logo.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  {%- feed_meta -%}
+  {%- feed_meta %}
 </head>

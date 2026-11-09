@@ -1,49 +1,82 @@
 ---
 layout: page
 lang: de
-title: Sicherheitsreview für KI und Automatisierung
-description: "Ein praktischer Review für Schweizer KMU, die KI-Tools, Workflow-Automatisierung, Skripte und Integrationen nutzen und sicherere Datenverarbeitung, klare Verantwortlichkeiten und verlässliche Kontrollen benötigen."
+title: Sicherheitsreview für KI & Automatisierung
 permalink: /de/services/ai-automation-security-review/
+description: "Ein praxisnaher Review für Schweizer KMU, die KI-Tools, Workflow-Automatisierung, Skripte und Integrationen nutzen und einen sichereren Umgang mit Daten, klare Verantwortlichkeiten und verlässliche Kontrollen benötigen."
+back_url: /de/services/#ai-automation
+back_label: Expertise
+kicker: KI-Agenten & Automatisierung · Gezielter Review
+heading: Sicherheitsreview für KI & Automatisierung
+lead: "KI-Tools und Automatisierung nutzen, ohne die Kontrolle über Daten, Zugriffe, Verantwortlichkeiten oder kritische Workflows zu verlieren."
+prose: false
 ---
 
-<div class="ai-review-page" markdown="1">
+<section class="section">
+  <div class="container">
+    <p class="section-head">Clearpoint prüft, wie KI-Tools, No-Code-Automatisierungen, Skripte, API-Schlüssel, geteilte Konten und Integrationen in der Praxis genutzt werden, und übersetzt die Risiken in klare Prioritäten und praktikable Betriebsregeln.</p>
+    <div class="split">
+      <div>
+        <h2>Wann er sich lohnt</h2>
+        <ul class="plain-list">
+          <li>Teams nutzen ChatGPT, Copilot, Gemini, Claude oder ähnliche Tools ohne klare Vorgaben.</li>
+          <li>Kunden-, Finanz-, HR- oder Betriebsdaten könnten in externe Tools gelangen.</li>
+          <li>Workflows laufen über Zapier, Make, Microsoft 365, Google Workspace, CRM oder andere SaaS-Integrationen.</li>
+          <li>Automatisierungen hängen an Skripten, API-Schlüsseln, geteilten Konten oder dem Postfach einer einzelnen Person.</li>
+          <li>Niemand weiss genau, welche Systeme Daten austauschen oder wer dafür verantwortlich ist.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Was Sie erhalten</h2>
+        <ul class="plain-list">
+          <li>Eine kurze Übersicht über Risiken und Abhängigkeiten</li>
+          <li>Eine priorisierte Massnahmenliste</li>
+          <li>Schnelle Verbesserungen für einen sichereren Einsatz von KI und Automatisierung</li>
+          <li>Empfehlungen zu Zugriffen, Zugangsdaten, Verantwortlichkeiten und Dokumentation</li>
+          <li>Optionale Unterstützung bei der Umsetzung</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="ai-review-hero" markdown="1">
+<section class="section" aria-labelledby="scope-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="scope-title">Was geprüft werden kann</h2>
+      <p>Der Umfang wird vorab vereinbart und bleibt dem aktuellen Einsatz von KI und Automatisierung angemessen.</p>
+    </div>
+    <dl class="rows">
+      <div>
+        <dt>KI-Nutzung und Umgang mit Daten</dt>
+        <dd>Welche Tools wofür genutzt werden, welche Daten hineinfliessen, Risiken für Vertraulichkeit und Personendaten und wo eine menschliche Prüfung nötig ist.</dd>
+      </div>
+      <div>
+        <dt>Workflows und Integrationen</dt>
+        <dd>No-Code-, Low-Code-, SaaS- und skriptbasierte Automatisierungen, Datenflüsse zwischen Systemen, Fehlerbehandlung und fragile Abhängigkeiten.</dd>
+      </div>
+      <div>
+        <dt>Zugriffe, Zugangsdaten und Verantwortung</dt>
+        <dd>Persönliche Konten hinter geschäftlichen Workflows, API-Schlüssel und Dienstkonten, Risiken bei Austritten und Wiederherstellung sowie klare Verantwortlichkeiten.</dd>
+      </div>
+      <div>
+        <dt>Dokumentation und Kontinuität</dt>
+        <dd>Was jeder Workflow tut und wer ihn verantwortet, Abhängigkeiten von Personen, Geräten oder Anbietern, Rollback-Optionen und Wiederherstellungsschritte.</dd>
+      </div>
+      <div>
+        <dt>Schlanke Governance</dt>
+        <dd>Einfache Nutzungsregeln, Freigabepunkte für sensible Workflows und Leitplanken, mit denen das Unternehmen ohne unnötige Bürokratie vorankommt.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
 
-## Sicherheitsreview für KI und Automatisierung für Schweizer KMU
-
-KI-Tools und Automatisierung nutzen, ohne die Kontrolle über Daten, Zugriffe, Verantwortlichkeiten oder kritische Workflows zu verlieren.
-
-Clearpoint prüft, wie KI-Tools, No-Code-Automatisierungen, Skripte, API-Schlüssel, gemeinsame Konten und Integrationen praktisch genutzt werden — und übersetzt Risiken in klare Prioritäten und sicherere Betriebsregeln.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Kostenloses Erstgespräch buchen</a>
-
-</div>
-
-<div class="ai-compact-grid">
-  <section><h2>Für wen</h2><ul><li>Teams mit ChatGPT, Copilot, Gemini, Claude oder ähnlichen Tools</li><li>Unternehmen mit Zapier, Make, Airtable, Notion, Microsoft 365, Google Workspace, CRM oder SaaS-Integrationen</li><li>Workflows, die von Skripten, API-Schlüsseln, gemeinsamen Konten oder persönlichen Konten abhängen</li><li>Management, das praktische Regeln statt schwerer Governance will</li></ul></section>
-  <section><h2>Typische Auslöser</h2><ul><li>KI-Nutzung ohne klare Regeln</li><li>Kunden-, Finanz-, HR- oder operative Daten könnten in externe Tools gelangen</li><li>Automatisierungen sind nützlich, aber fragil oder undokumentiert</li><li>Niemand weiss genau, welche Systeme Daten austauschen oder wem sie gehören</li></ul></section>
-  <section><h2>Was Sie erhalten</h2><ul><li>Kurze Risiko- und Abhängigkeitsübersicht</li><li>Priorisierte Aktionsliste</li><li>Quick Wins für sicherere KI- und Automatisierungsnutzung</li><li>Empfehlungen zu Zugriff, Zugangsdaten, Verantwortlichkeit und Dokumentation</li><li>Optionale Umsetzungsunterstützung</li></ul></section>
-</div>
-
----
-
-## Was geprüft werden kann
-
-<div class="review-area-grid">
-  <section><h3>KI-Nutzung und Daten</h3><ul><li>genutzte Tools und Zweck</li><li>welche Daten in externe Tools eingegeben werden dürfen</li><li>Risiken für Kundengeheimnisse, personenbezogene Daten und sensible Geschäftsinformationen</li><li>menschliche Kontrollpunkte</li></ul></section>
-  <section><h3>Automatisierungen und Integrationen</h3><ul><li>No-Code-, Low-Code-, SaaS- und Skript-Automatisierungen</li><li>Datenflüsse zwischen E-Mail, Cloud, CRM, Tabellen und internen Tools</li><li>Fehlerbehandlung und Ausfallsichtbarkeit</li><li>fragile oder undokumentierte Abhängigkeiten</li></ul></section>
-  <section><h3>Zugriff, Zugangsdaten und Ownership</h3><ul><li>persönliche Konten für kritische Automatisierungen</li><li>API-Schlüssel, Servicekonten, gemeinsame Postfächer und privilegierte Zugriffe</li><li>Kontowiederherstellung und Offboarding</li><li>klare Verantwortlichkeit für Workflows</li></ul></section>
-  <section><h3>Dokumentation und Kontinuität</h3><ul><li>was die Automatisierung tut und wer verantwortlich ist</li><li>Abhängigkeiten von Personen, Geräten, Konten oder Anbietern</li><li>Backup-, Export- oder Rollback-Optionen</li><li>praktische Wiederherstellungsschritte</li></ul></section>
-  <section><h3>Schlanke Governance</h3><ul><li>einfache Regeln für KI und Automatisierung</li><li>Freigabepunkte für sensible Workflows</li><li>Leitplanken für Kundendaten, Zugangsdaten und vertrauliche Informationen</li><li>Prioritäten ohne unnötige Bürokratie</li></ul></section>
-</div>
-
----
-
-## Mit einem kurzen Gespräch starten
-
-Wenn Sie unsicher sind, ob dieser Review zu Ihrer Situation passt, starten Sie mit einem kostenlosen Erstgespräch.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Kostenloses Erstgespräch buchen</a>
-
-</div>
+<section class="section" aria-labelledby="review-cta-title">
+  <div class="container cta-band">
+    <h2 id="review-cta-title">Mit einem kurzen Gespräch beginnen</h2>
+    <p>Gemeinsam können wir die wahrscheinliche Priorität bestimmen und entscheiden, ob ein gezielter Review von KI und Automatisierung der richtige nächste Schritt ist.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Gespräch vereinbaren</a>
+    </div>
+  </div>
+</section>

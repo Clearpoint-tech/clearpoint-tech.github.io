@@ -1,49 +1,104 @@
 ---
-layout: page
+layout: default
 lang: fr
-permalink: /fr/
 title: Clearpoint
-description: "Cybersécurité, automatisation assistée par l’IA et livraison de projets techniques pour les PME suisses qui ont besoin de conseils pratiques, de priorités claires et d’un accompagnement opérationnel."
+permalink: /fr/
+description: "Clearpoint aide les PME suisses et les organisations en croissance à rendre le changement technique plus sûr, plus clair et réalisable : cybersécurité, agents IA & automatisation, et pilotage de projets techniques."
 ---
 
-<div class="home-hero">
-  <p class="home-kicker">Conseil technique indépendant pour les PME suisses</p>
-  <p class="home-lead"><strong>Cybersécurité · automatisation assistée par l’IA · livraison de projets techniques</strong></p>
-  <p>Clearpoint aide les organisations en croissance à réduire l’incertitude technique : sécuriser les fondamentaux, utiliser l’IA de manière responsable, automatiser le travail opérationnel et transformer les projets complexes en prochaines étapes claires.</p>
-  <div class="home-hero-actions">
-    <a href="/fr/services/email-security-health-check/" class="cta-button">Voir le contrôle email</a>
-    <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="secondary-button" target="_blank">Réserver une première conversation</a>
+<section class="container hero" aria-labelledby="hero-title">
+  <div>
+    <p class="kicker">Conseil technique indépendant · Suisse</p>
+    <h1 id="hero-title">Rendre le changement technique plus sûr, plus clair et réalisable.</h1>
+    <p class="lead">Clearpoint réunit cybersécurité, agents IA &amp; automatisation et pilotage de projets techniques, afin que les organisations comprennent leurs risques, améliorent leur façon de travailler et mènent le changement à son terme.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Prendre contact</a>
+      <a class="link-arrow" href="/fr/services/">Découvrir l’expertise<span aria-hidden="true">→</span></a>
+    </div>
   </div>
-</div>
+  {% include motif.html %}
+</section>
 
-<div class="launch-banner launch-banner-modern">
-  <div><p class="eyebrow">Nouveau contrôle à prix fixe</p><h2>Email Security Health Check</h2><p>Vérifiez si des emails ressemblant à des messages de votre entreprise pourraient être envoyés avec votre domaine. Clearpoint contrôle SPF, DKIM et DMARC, explique les risques simplement, et donne à votre prestataire IT ou email des prochaines étapes claires.</p><p class="launch-price">Rapport introductif : CHF 150 pour les 5 premières entreprises. Rapport standard : CHF 350.</p></div>
-  <div class="launch-aside-card"><span class="mini-label">Vous recevez</span><strong>Un résumé des risques lisible côté métier</strong><p>Des corrections priorisées, des notes techniques prêtes pour le prestataire et une explication claire de ce qui compte d’abord.</p><a href="/fr/services/email-security-health-check/" class="cta-button">Voir le contrôle</a></div>
-</div>
+<section class="section" aria-labelledby="capabilities-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="capabilities-title">Trois compétences, une même démarche</h2>
+      <p>La sécurité est le socle, l’IA et l’automatisation le levier, et le pilotage ce qui transforme les deux en résultats.</p>
+    </div>
+    <ul class="capabilities">
+      <li class="capability">
+        <span class="capability__index">01 · Socle</span>
+        <h3>Cybersécurité</h3>
+        <p>Voir où vous êtes réellement exposé, vérifier ce qui se passe vraiment et corriger d’abord l’essentiel. Les constats sont expliqués simplement, et la coordination avec vos prestataires reste structurée en cas de problème.</p>
+        <a class="link-arrow" href="/fr/services/#cybersecurity">Cybersécurité<span aria-hidden="true">→</span></a>
+      </li>
+      <li class="capability">
+        <span class="capability__index">02 · Levier</span>
+        <h3>Agents IA &amp; automatisation</h3>
+        <p>Choisir le travail répétitif qui vaut la peine d’être confié, connecter vos outils avec soin et laisser les données de l’entreprise, les accès et le dernier mot à vos équipes.</p>
+        <a class="link-arrow" href="/fr/services/#ai-automation">Agents IA &amp; automatisation<span aria-hidden="true">→</span></a>
+      </li>
+      <li class="capability">
+        <span class="capability__index">03 · Exécution</span>
+        <h3>Pilotage de projets techniques</h3>
+        <p>Un plan réaliste, des coûts et un avancement visibles, une alerte précoce quand le projet dérive et des options claires pour reprendre le cap, jusqu’à ce que le changement soit en place.</p>
+        <a class="link-arrow" href="/fr/services/#project-delivery">Pilotage de projets<span aria-hidden="true">→</span></a>
+      </li>
+    </ul>
+  </div>
+</section>
 
-## Les problèmes que Clearpoint aide à clarifier
+<section class="section" aria-labelledby="approach-title">
+  <div class="container approach">
+    <div class="section-head">
+      <p class="kicker">Approche</p>
+      <h2 id="approach-title">Du risque au résultat</h2>
+      <p>La plupart des questions techniques touchent les trois domaines. Clearpoint les traite dans une même séquence, pour que sécurité, automatisation et mise en œuvre ne finissent jamais en silos séparés.</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>Évaluer</h3>
+        <p>Comprendre les systèmes, les processus et les risques en jeu, et convenir de ce qu’est un résultat utile.</p>
+      </li>
+      <li>
+        <h3>Améliorer</h3>
+        <p>Prioriser les corrections et les évolutions de processus qui comptent, avec la sécurité et le contrôle humain intégrés.</p>
+      </li>
+      <li>
+        <h3>Livrer</h3>
+        <p>Coordonner les personnes, les fournisseurs et les dépendances jusqu’à ce que le changement soit en place et documenté.</p>
+      </li>
+    </ol>
+  </div>
+</section>
 
-<div class="quadrant-grid">
-  <article class="insight-card"><span class="card-icon">01</span><h3>Factures frauduleuses et usurpation email</h3><p>Vous ne savez pas si des fraudeurs peuvent envoyer des messages convaincants avec votre domaine ou l’identité d’un fournisseur.</p></article>
-  <article class="insight-card"><span class="card-icon">02</span><h3>Outils IA connectés aux données</h3><p>Les équipes utilisent l’IA et des automatisations, mais les données, clés API, responsabilités et plans de reprise restent flous.</p></article>
-  <article class="insight-card"><span class="card-icon">03</span><h3>Travail manuel qui ralentit les opérations</h3><p>Des processus importants dépendent encore de contrôles répétitifs, copier-coller, tableaux ou transferts peu clairs.</p></article>
-  <article class="insight-card"><span class="card-icon">04</span><h3>Projets techniques qui perdent leur structure</h3><p>Management, IT, fournisseurs et équipes delivery ont besoin d’une vision commune des risques, priorités et actions.</p></article>
-</div>
+<section class="section" aria-labelledby="profile-title">
+  <div class="container">
+    <div class="profile">
+      <figure class="portrait">
+        <img src="/assets/images/philip-ritter.jpeg" alt="Portrait de Philip Ritter" width="800" height="999" loading="lazy">
+      </figure>
+      <div>
+        <p class="kicker">Derrière Clearpoint</p>
+        <h2 id="profile-title">Philip Ritter</h2>
+        <p class="profile__role">Cybersécurité · Agents IA &amp; automatisation · Pilotage de projets techniques</p>
+        <p>Clearpoint est dirigé par Philip Ritter. Son travail se situe là où sécurité, automatisation et mise en œuvre se rejoignent : traduire le risque technique en décisions métier, et coordonner le travail jusqu’à son aboutissement.</p>
+        <div class="actions">
+          <a class="link-arrow" href="/fr/about/">À propos de Philip<span aria-hidden="true">→</span></a>
+          <a class="link-arrow" href="{{ site.linkedin_url }}">Profil LinkedIn<span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-## Où Clearpoint peut aider
-
-<div class="service-path-grid">
-  <article class="service-path-card"><p class="eyebrow">Cybersécurité</p><h3>Réduction des risques pratique et proportionnée</h3><p>Comprendre l’exposition, corriger les bases et prioriser selon le risque, l’effort et l’impact métier.</p><a href="/fr/services/#cybersécurité">Explorer les services de cybersécurité</a></article>
-  <article class="service-path-card"><p class="eyebrow">Automatisation & IA</p><h3>Des workflows utiles sans perdre le contrôle</h3><p>Cartographier les processus répétitifs et introduire des automatisations maintenables avec des garde-fous raisonnables.</p><a href="/fr/services/#automatisation-et-workflows-assistés-par-lia">Explorer l’automatisation</a></article>
-  <article class="service-path-card"><p class="eyebrow">Support projet</p><h3>Structure entre métier et équipes techniques</h3><p>Traduire les besoins en exécution, coordonner les parties prenantes et garder les initiatives en mouvement.</p><a href="/fr/services/#support-projet">Explorer le support projet</a></article>
-</div>
-
-## Comment cela fonctionne
-
-<div class="process-strip"><div><span>1</span><strong>Clarifier la question</strong><p>Nous définissons le sujet, le périmètre et le résultat utile.</p></div><div><span>2</span><strong>Revoir ce qui compte</strong><p>Clearpoint contrôle les systèmes, workflows, risques ou documents convenus.</p></div><div><span>3</span><strong>Prioriser les étapes</strong><p>Vous recevez une vue courte, lisible et orientée décisions.</p></div><div><span>4</span><strong>Soutenir l’exécution</strong><p>Si utile, Clearpoint aide à coordonner corrections, fournisseurs ou delivery.</p></div></div>
-
-## Exemples de points de départ
-
-<div class="use-case-grid"><article><h3>Contrôle de confiance email</h3><p>Après des messages suspects, risques de fraude fournisseur ou questions clients.</p></article><article><h3>Revue sécurité IA</h3><p>Avant de connecter des outils IA aux données, comptes ou processus de l’entreprise.</p></article><article><h3>Revue cybersécurité PME</h3><p>Quand le management a besoin de priorités claires plutôt qu’un rapport générique.</p></article><article><h3>Cartographie d’automatisation</h3><p>Pour simplifier des workflows internes répétitifs sans sur-ingénierie.</p></article></div>
-
-<div class="final-cta-panel"><p class="eyebrow">Prêt à échanger ?</p><h2>Commençons par une conversation courte et sans pression.</h2><p>Nous pouvons clarifier le problème, identifier les prochaines étapes utiles et décider si Clearpoint est adapté.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Réserver une première conversation gratuite</a></div>
+<section class="section" aria-labelledby="cta-title">
+  <div class="container cta-band">
+    <h2 id="cta-title">Un poste, un mandat ou un défi technique à discuter ?</h2>
+    <p>Un court échange suffit généralement pour voir s’il y a une adéquation, et quelle serait une première étape raisonnable.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Prendre contact</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+  </div>
+</section>

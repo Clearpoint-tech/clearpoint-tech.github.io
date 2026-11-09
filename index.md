@@ -1,120 +1,103 @@
 ---
-layout: page
+layout: default
 title: Clearpoint
 permalink: /
-description: "Cybersecurity, AI-assisted automation, and Technical project delivery for Swiss SMEs that need practical guidance, clear priorities, and hands-on execution."
+description: "Clearpoint helps Swiss SMEs and growing organisations make technical change safer, clearer, and easier to deliver: cybersecurity, AI agents & automation, and technical project delivery."
 ---
 
-<div class="home-hero">
-  <p class="home-kicker">Independent technical advisory for Swiss SMEs</p>
-  <p class="home-lead"><strong>Cybersecurity · AI-assisted automation · Technical project delivery</strong></p>
-  <p>
-    Clearpoint helps growing organisations reduce technical uncertainty: secure the basics, use AI tools responsibly,
-    automate operational work, and turn complex projects into clear next steps.
-  </p>
-  <div class="home-hero-actions">
-    <a href="/services/email-security-health-check/" class="cta-button">Check my email domain</a>
-    <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="secondary-button" target="_blank">Book a first conversation</a>
-  </div>
-</div>
-
-<div class="launch-banner launch-banner-modern">
+<section class="container hero" aria-labelledby="hero-title">
   <div>
-    <p class="eyebrow">New fixed-price check</p>
-    <h2>Email Fraud & Domain Trust Check</h2>
-    <p>
-      Can scammers send fake invoices or supplier emails that look like they come from your business?
-      Clearpoint checks whether your email domain can be impersonated, whether outgoing email is trusted by receiving inboxes,
-      and what your IT or email provider should fix first.
-    </p>
-    <p class="launch-price">Introductory report: CHF 150 for the first 5 businesses. Standard report: CHF 350.</p>
+    <p class="kicker">Independent technical advisory · Switzerland</p>
+    <h1 id="hero-title">Make technical change safer, clearer, and easier to deliver.</h1>
+    <p class="lead">Clearpoint connects cybersecurity, AI agents &amp; automation, and technical project delivery, so organisations can understand their risks, improve how work gets done, and see the change through.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Start a conversation</a>
+      <a class="link-arrow" href="/services/">Explore the expertise<span aria-hidden="true">→</span></a>
+    </div>
   </div>
-  <div class="launch-aside-card">
-    <span class="mini-label">You receive</span>
-    <strong>A business-readable risk summary</strong>
-    <p>Prioritised fixes, provider-ready technical notes, and plain guidance on what matters first.</p>
-    <a href="/services/email-security-health-check/" class="cta-button">See the check</a>
+  {% include motif.html %}
+</section>
+
+<section class="section" aria-labelledby="capabilities-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="capabilities-title">Three areas, one clear path</h2>
+      <p>Security comes first, AI and automation improve how work gets done, and delivery carries the change through.</p>
+    </div>
+    <ul class="capabilities">
+      <li class="capability">
+        <span class="capability__index">01 · Protect</span>
+        <h3>Cybersecurity</h3>
+        <p>See where you are really exposed, check what is actually happening, and fix what matters most first. Findings come in plain language, and coordination with your providers stays structured when issues arise.</p>
+        <a class="link-arrow" href="/services/#cybersecurity">Cybersecurity<span aria-hidden="true">→</span></a>
+      </li>
+      <li class="capability">
+        <span class="capability__index">02 · Improve</span>
+        <h3>AI Agents &amp; Automation</h3>
+        <p>Pick the repetitive work worth handing over, connect your tools with care, and keep company data, access, and the final say with your people.</p>
+        <a class="link-arrow" href="/services/#ai-automation">AI agents &amp; automation<span aria-hidden="true">→</span></a>
+      </li>
+      <li class="capability">
+        <span class="capability__index">03 · Deliver</span>
+        <h3>Technical Project Delivery</h3>
+        <p>A realistic plan, cost and progress you can see, and early warning when things drift, with clear options for getting back on track until the change is in place.</p>
+        <a class="link-arrow" href="/services/#project-delivery">Project delivery<span aria-hidden="true">→</span></a>
+      </li>
+    </ul>
   </div>
-</div>
+</section>
 
-## Problems Clearpoint helps you make clear
+<section class="section" aria-labelledby="approach-title">
+  <div class="container approach">
+    <div class="section-head">
+      <p class="kicker">Approach</p>
+      <h2 id="approach-title">From risk to result</h2>
+      <p>Most technical questions touch all three areas. Clearpoint works through them in one sequence, so security, automation, and delivery never end up in separate silos.</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>Assess</h3>
+        <p>Understand the systems, workflows, and exposure involved, and agree what a useful outcome looks like.</p>
+      </li>
+      <li>
+        <h3>Improve</h3>
+        <p>Prioritise the fixes and workflow changes that matter, with security and human control built in.</p>
+      </li>
+      <li>
+        <h3>Deliver</h3>
+        <p>Coordinate people, vendors, and dependencies until the change is in place and documented.</p>
+      </li>
+    </ol>
+  </div>
+</section>
 
-<div class="quadrant-grid">
-  <article class="insight-card">
-    <span class="card-icon">01</span>
-    <h3>Fake invoices and email impersonation</h3>
-    <p>You are not sure whether scammers can send convincing messages using your domain or supplier identity.</p>
-  </article>
-  <article class="insight-card">
-    <span class="card-icon">02</span>
-    <h3>AI tools connected to company data</h3>
-    <p>Teams are using AI and automations, but data handling, API keys, ownership, and recovery steps are unclear.</p>
-  </article>
-  <article class="insight-card">
-    <span class="card-icon">03</span>
-    <h3>Manual work slowing operations</h3>
-    <p>Important processes still depend on repetitive checks, copy/paste work, spreadsheets, or unclear handovers.</p>
-  </article>
-  <article class="insight-card">
-    <span class="card-icon">04</span>
-    <h3>Technical projects losing structure</h3>
-    <p>Business, IT, vendors, and delivery teams need a shared view of risks, priorities, and practical next actions.</p>
-  </article>
-</div>
+<section class="section" aria-labelledby="profile-title">
+  <div class="container">
+    <div class="profile">
+      <figure class="portrait">
+        <img src="/assets/images/philip-ritter.jpeg" alt="Portrait of Philip Ritter" width="800" height="999" loading="lazy">
+      </figure>
+      <div>
+        <p class="kicker">Behind Clearpoint</p>
+        <h2 id="profile-title">Philip Ritter</h2>
+        <p class="profile__role">Cybersecurity · AI agents &amp; automation · Technical project delivery</p>
+        <p>Clearpoint is led by Philip Ritter. His work sits where security, automation, and delivery meet: translating technical risk into business decisions, and coordinating the work until it is done.</p>
+        <div class="actions">
+          <a class="link-arrow" href="/about/">About Philip<span aria-hidden="true">→</span></a>
+          <a class="link-arrow" href="{{ site.linkedin_url }}">LinkedIn profile<span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-## Where Clearpoint helps
-
-<div class="service-path-grid">
-  <article class="service-path-card">
-    <p class="eyebrow">Cybersecurity</p>
-    <h3>Practical and proportionate risk reduction</h3>
-    <p>Understand your exposure, fix the basics, and prioritise improvements by risk, effort, and business impact.</p>
-    <a href="/services/#cybersecurity">See cybersecurity services</a>
-  </article>
-  <article class="service-path-card">
-    <p class="eyebrow">Automation & AI</p>
-    <h3>Useful workflows without losing control</h3>
-    <p>Map repetitive processes, connect tools, and introduce maintainable AI-assisted workflows with sensible safeguards.</p>
-    <a href="/services/#automation">See automation services</a>
-  </article>
-  <article class="service-path-card">
-    <p class="eyebrow">Project support</p>
-    <h3>Structure between business and technical teams</h3>
-    <p>Translate needs into execution, coordinate stakeholders, and keep security, automation, and infrastructure work moving.</p>
-    <a href="/services/#project-support">See project support</a>
-  </article>
-</div>
-
-## How it works
-
-<div class="process-strip">
-  <div><span>1</span><strong>Clarify the concern</strong><p>We define the question, scope, and useful outcome before touching systems or documents.</p></div>
-  <div><span>2</span><strong>Review what matters</strong><p>Clearpoint checks the agreed systems, workflow, risks, or project material.</p></div>
-  <div><span>3</span><strong>Prioritise next steps</strong><p>You receive a short, business-readable view of risks, quick wins, and implementation priorities.</p></div>
-  <div><span>4</span><strong>Support execution</strong><p>If useful, Clearpoint helps coordinate fixes, vendors, automation, or follow-up delivery.</p></div>
-</div>
-
-## Example starting points
-
-<div class="use-case-grid">
-  <article><h3>Email domain trust check</h3><p>After suspicious messages, supplier fraud concerns, or customer questions about email authenticity.</p></article>
-  <article><h3>AI workflow safety review</h3><p>Before connecting AI tools to company data, shared accounts, API keys, or operational processes.</p></article>
-  <article><h3>SME security basics review</h3><p>When management needs clear priorities rather than a generic technical report.</p></article>
-  <article><h3>Automation opportunity mapping</h3><p>For repetitive internal workflows that could be simplified without overengineering.</p></article>
-</div>
-
-## Why Clearpoint
-
-<div class="proof-grid">
-  <div><strong>Practical</strong><p>Recommendations are prioritised by risk, effort, and business impact.</p></div>
-  <div><strong>Independent</strong><p>Guidance is not tied to selling a specific product stack.</p></div>
-  <div><strong>Structured</strong><p>Technical findings are translated into clear next steps for management and providers.</p></div>
-  <div><strong>Swiss-oriented</strong><p>Built for SMEs and growing organisations that need proportionate support.</p></div>
-</div>
-
-<div class="final-cta-panel">
-  <p class="eyebrow">Ready to talk?</p>
-  <h2>Start with a short, no-pressure conversation.</h2>
-  <p>We can clarify the problem, identify useful next steps, and decide whether Clearpoint is a good fit.</p>
-  <a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Book a free initial conversation</a>
-</div>
+<section class="section" aria-labelledby="cta-title">
+  <div class="container cta-band">
+    <h2 id="cta-title">Have a role, mandate, or technical challenge to discuss?</h2>
+    <p>A short conversation is usually enough to see whether there is a fit, and what a sensible first step would be.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Start a conversation</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+  </div>
+</section>

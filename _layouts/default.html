@@ -1,45 +1,86 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign raw_path = page.url -%}
+{%- if t.prefix != "" -%}{%- assign raw_path = page.url | remove_first: t.prefix -%}{%- endif -%}
+{%- if raw_path == "" -%}{%- assign raw_path = "/" -%}{%- endif -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
+<html lang="{{ lang }}" class="no-js">
+  {%- include head.html %}
   <body>
+    {%- include header.html %}
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <main id="main" class="site-main{% if page.body_class %} {{ page.body_class }}{% endif %}" tabindex="-1">
+      {{ content }}
     </main>
 
-    {%- include footer.html -%}
+    {%- include footer.html %}
 
     <script>
-    document.addEventListener('click', function(e) {
-      const menu = document.querySelector('.mobile-menu');
-      if (!menu || !menu.open) return;
-      const clickedInside = menu.contains(e.target);
-      const clickedSummary = e.target.closest('summary');
-      if (!clickedInside && !clickedSummary) {
-        menu.removeAttribute('open');
-      }
-    });
+      (function () {
+        var root = document.documentElement;
+        root.classList.replace('no-js', 'js');
 
-    const langBtn = document.querySelector('.lang-btn');
-    const langDropdown = document.querySelector('.lang-dropdown');
-    if (langBtn && langDropdown) {
-      langBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        langDropdown.classList.toggle('open');
-      });
-      document.addEventListener('click', function() {
-        langDropdown.classList.remove('open');
-      });
-    }
+        // Keep the Expertise section when switching language; only known section anchors.
+        var sections = ['#cybersecurity', '#ai-automation', '#project-delivery'];
+        var langLinks = document.querySelectorAll('[data-lang-link]');
+        function syncLangHash() {
+          var hash = sections.indexOf(location.hash) !== -1 && document.getElementById(location.hash.slice(1)) ? location.hash : '';
+          for (var i = 0; i < langLinks.length; i++) {
+            langLinks[i].setAttribute('href', langLinks[i].getAttribute('href').split('#')[0] + hash);
+          }
+        }
+        syncLangHash();
+        window.addEventListener('hashchange', syncLangHash);
+
+        // Native <details> language menu: also close on Escape or an outside click.
+        var langMenu = document.querySelector('.lang-menu');
+        if (langMenu) {
+          document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && langMenu.open) {
+              e.stopImmediatePropagation();
+              langMenu.open = false;
+              langMenu.querySelector('summary').focus();
+            }
+          });
+          document.addEventListener('click', function (e) {
+            if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
+          });
+        }
+
+        var toggle = document.querySelector('.nav-toggle');
+        var nav = document.getElementById('site-nav');
+        if (!toggle || !nav) return;
+
+        function setOpen(open) {
+          toggle.setAttribute('aria-expanded', String(open));
+          root.classList.toggle('nav-open', open);
+        }
+
+        toggle.addEventListener('click', function () {
+          setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+        });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && root.classList.contains('nav-open')) {
+            setOpen(false);
+            toggle.focus();
+          }
+        });
+        document.addEventListener('click', function (e) {
+          if (root.classList.contains('nav-open') && !nav.contains(e.target) && !toggle.contains(e.target)) {
+            setOpen(false);
+          }
+        });
+        var desktopQuery = window.matchMedia('(min-width: 57rem)');
+        function resetResponsiveMenus() {
+          setOpen(false);
+          if (langMenu) langMenu.open = false;
+        }
+        if (desktopQuery.addEventListener) {
+          desktopQuery.addEventListener('change', resetResponsiveMenus);
+        } else {
+          desktopQuery.addListener(resetResponsiveMenus);
+        }
+      })();
     </script>
-
-  
-    <script src="/assets/js/particles.js"></script>
   </body>
 </html>

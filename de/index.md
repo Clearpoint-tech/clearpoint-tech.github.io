@@ -1,29 +1,104 @@
 ---
-layout: page
+layout: default
 lang: de
-permalink: /de/
 title: Clearpoint
-description: "Cybersicherheit, KI-gestützte Automatisierung und technische Projektumsetzung für Schweizer KMU, die praktische Orientierung, klare Prioritäten und operative Unterstützung benötigen."
+permalink: /de/
+description: "Clearpoint unterstützt Schweizer KMU und wachsende Organisationen dabei, technischen Wandel sicherer, klarer und umsetzbar zu machen: Cybersicherheit, KI-Agenten & Automatisierung und technische Projektumsetzung."
 ---
 
-<div class="home-hero"><p class="home-kicker">Unabhängige technische Beratung für Schweizer KMU</p><p class="home-lead"><strong>Cybersicherheit · KI-gestützte Automatisierung · technische Projektumsetzung</strong></p><p>Clearpoint hilft wachsenden Organisationen, technische Unsicherheit zu reduzieren: Grundlagen absichern, KI-Tools verantwortungsvoll einsetzen, operative Arbeit automatisieren und komplexe Projekte in klare nächste Schritte übersetzen.</p><div class="home-hero-actions"><a href="/de/services/email-security-health-check/" class="cta-button">E-Mail-Check ansehen</a><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="secondary-button" target="_blank">Erstgespräch buchen</a></div></div>
+<section class="container hero" aria-labelledby="hero-title">
+  <div>
+    <p class="kicker">Unabhängige technische Beratung · Schweiz</p>
+    <h1 id="hero-title">Technischen Wandel sicherer, klarer und umsetzbar machen.</h1>
+    <p class="lead">Clearpoint verbindet Cybersicherheit, KI-Agenten &amp; Automatisierung und technische Projektumsetzung, damit Organisationen ihre Risiken verstehen, ihre Arbeitsweise verbessern und Veränderungen konsequent zu Ende führen.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Gespräch vereinbaren</a>
+      <a class="link-arrow" href="/de/services/">Expertise entdecken<span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  {% include motif.html %}
+</section>
 
-<div class="launch-banner launch-banner-modern"><div><p class="eyebrow">Neuer Fixpreis-Check</p><h2>Email Security Health Check</h2><p>Prüfen Sie, ob täuschend echte E-Mails mit Ihrer Unternehmensdomain versendet werden könnten. Clearpoint prüft SPF, DKIM und DMARC, erklärt die Risiken verständlich und gibt Ihrem IT- oder E-Mail-Anbieter klare nächste Schritte.</p><p class="launch-price">Einführungsbericht: CHF 150 für die ersten 5 Unternehmen. Standardbericht: CHF 350.</p></div><div class="launch-aside-card"><span class="mini-label">Sie erhalten</span><strong>Eine geschäftsverständliche Risikoübersicht</strong><p>Priorisierte Korrekturen, provider-taugliche technische Hinweise und klare Orientierung, was zuerst zählt.</p><a href="/de/services/email-security-health-check/" class="cta-button">Check ansehen</a></div></div>
+<section class="section" aria-labelledby="capabilities-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="capabilities-title">Drei Kompetenzen, ein durchgängiger Ansatz</h2>
+      <p>Sicherheit ist das Fundament, KI und Automatisierung sind der Hebel, und die Umsetzung ist das, was aus beidem Ergebnisse macht.</p>
+    </div>
+    <ul class="capabilities">
+      <li class="capability">
+        <span class="capability__index">01 · Fundament</span>
+        <h3>Cybersicherheit</h3>
+        <p>Sehen, wo Sie wirklich angreifbar sind, prüfen, was tatsächlich passiert, und zuerst beheben, was am meisten zählt. Befunde werden verständlich erklärt, und bei Problemen bleibt die Abstimmung mit Ihren Dienstleistern strukturiert.</p>
+        <a class="link-arrow" href="/de/services/#cybersecurity">Cybersicherheit<span aria-hidden="true">→</span></a>
+      </li>
+      <li class="capability">
+        <span class="capability__index">02 · Hebel</span>
+        <h3>KI-Agenten &amp; Automatisierung</h3>
+        <p>Die repetitive Arbeit auswählen, die sich abgeben lässt, Ihre Tools mit Sorgfalt verbinden und Unternehmensdaten, Zugriffe und das letzte Wort bei Ihrem Team lassen.</p>
+        <a class="link-arrow" href="/de/services/#ai-automation">KI-Agenten &amp; Automatisierung<span aria-hidden="true">→</span></a>
+      </li>
+      <li class="capability">
+        <span class="capability__index">03 · Umsetzung</span>
+        <h3>Technische Projektumsetzung</h3>
+        <p>Ein realistischer Plan, sichtbare Kosten und Fortschritte und eine frühe Warnung, wenn etwas aus dem Ruder läuft, mit klaren Optionen, um wieder auf Kurs zu kommen, bis die Veränderung umgesetzt ist.</p>
+        <a class="link-arrow" href="/de/services/#project-delivery">Projektumsetzung<span aria-hidden="true">→</span></a>
+      </li>
+    </ul>
+  </div>
+</section>
 
-## Probleme, die Clearpoint klärt
+<section class="section" aria-labelledby="approach-title">
+  <div class="container approach">
+    <div class="section-head">
+      <p class="kicker">Vorgehen</p>
+      <h2 id="approach-title">Vom Risiko zum Ergebnis</h2>
+      <p>Die meisten technischen Fragen berühren alle drei Bereiche. Clearpoint bearbeitet sie in einer durchgängigen Abfolge, damit Sicherheit, Automatisierung und Umsetzung nie in getrennten Silos landen.</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>Analysieren</h3>
+        <p>Systeme, Arbeitsabläufe und die damit verbundenen Risiken verstehen und gemeinsam festlegen, wie ein nützliches Ergebnis aussieht.</p>
+      </li>
+      <li>
+        <h3>Verbessern</h3>
+        <p>Die relevanten Korrekturen und Anpassungen an Arbeitsabläufen priorisieren, mit Sicherheit und menschlicher Kontrolle von Anfang an eingebaut.</p>
+      </li>
+      <li>
+        <h3>Umsetzen</h3>
+        <p>Personen, Anbieter und Abhängigkeiten koordinieren, bis die Veränderung umgesetzt und dokumentiert ist.</p>
+      </li>
+    </ol>
+  </div>
+</section>
 
-<div class="quadrant-grid"><article class="insight-card"><span class="card-icon">01</span><h3>Gefälschte Rechnungen und E-Mail-Impersonation</h3><p>Sie sind unsicher, ob Betrüger überzeugende Nachrichten mit Ihrer Domain oder Lieferantenidentität versenden können.</p></article><article class="insight-card"><span class="card-icon">02</span><h3>KI-Tools mit Unternehmensdaten</h3><p>Teams nutzen KI und Automatisierungen, aber Datenhandling, API-Keys, Verantwortlichkeiten und Wiederherstellung sind unklar.</p></article><article class="insight-card"><span class="card-icon">03</span><h3>Manuelle Arbeit bremst den Betrieb</h3><p>Wichtige Prozesse hängen an repetitiven Prüfungen, Copy/Paste, Tabellen oder unklaren Übergaben.</p></article><article class="insight-card"><span class="card-icon">04</span><h3>Technische Projekte verlieren Struktur</h3><p>Management, IT, Anbieter und Delivery-Teams brauchen eine gemeinsame Sicht auf Risiken, Prioritäten und nächste Aktionen.</p></article></div>
+<section class="section" aria-labelledby="profile-title">
+  <div class="container">
+    <div class="profile">
+      <figure class="portrait">
+        <img src="/assets/images/philip-ritter.jpeg" alt="Porträt von Philip Ritter" width="800" height="999" loading="lazy">
+      </figure>
+      <div>
+        <p class="kicker">Hinter Clearpoint</p>
+        <h2 id="profile-title">Philip Ritter</h2>
+        <p class="profile__role">Cybersicherheit · KI-Agenten &amp; Automatisierung · Technische Projektumsetzung</p>
+        <p>Clearpoint wird von Philip Ritter geführt. Seine Arbeit liegt dort, wo Sicherheit, Automatisierung und Umsetzung zusammentreffen: technische Risiken in geschäftliche Entscheidungen übersetzen und die Arbeit koordinieren, bis sie erledigt ist.</p>
+        <div class="actions">
+          <a class="link-arrow" href="/de/about/">Über Philip<span aria-hidden="true">→</span></a>
+          <a class="link-arrow" href="{{ site.linkedin_url }}">LinkedIn-Profil<span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-## Wo Clearpoint hilft
-
-<div class="service-path-grid"><article class="service-path-card"><p class="eyebrow">Cybersicherheit</p><h3>Praktische und verhältnismässige Risikoreduktion</h3><p>Exponierung verstehen, Grundlagen korrigieren und Verbesserungen nach Risiko, Aufwand und Business Impact priorisieren.</p><a href="/de/services/#cybersicherheit">Cybersicherheitsleistungen ansehen</a></article><article class="service-path-card"><p class="eyebrow">Automatisierung & KI</p><h3>Nützliche Workflows ohne Kontrollverlust</h3><p>Repetitive Prozesse abbilden und wartbare KI-gestützte Workflows mit sinnvollen Leitplanken einführen.</p><a href="/de/services/#automatisierung--ki-gestützte-workflows">Automatisierungsleistungen ansehen</a></article><article class="service-path-card"><p class="eyebrow">Projektunterstützung</p><h3>Struktur zwischen Business und Technik</h3><p>Anforderungen in Umsetzung übersetzen, Stakeholder koordinieren und Initiativen in Bewegung halten.</p><a href="/de/services/#projektunterstützung">Projektunterstützung ansehen</a></article></div>
-
-## So funktioniert es
-
-<div class="process-strip"><div><span>1</span><strong>Anliegen klären</strong><p>Wir definieren Frage, Umfang und nützliches Ergebnis.</p></div><div><span>2</span><strong>Relevantes prüfen</strong><p>Clearpoint prüft die vereinbarten Systeme, Workflows, Risiken oder Unterlagen.</p></div><div><span>3</span><strong>Nächste Schritte priorisieren</strong><p>Sie erhalten eine kurze, managementtaugliche Übersicht.</p></div><div><span>4</span><strong>Umsetzung unterstützen</strong><p>Bei Bedarf unterstützt Clearpoint Korrekturen, Anbieterkoordination oder Delivery.</p></div></div>
-
-## Typische Einstiegspunkte
-
-<div class="use-case-grid"><article><h3>E-Mail-Domain-Trust-Check</h3><p>Nach verdächtigen Nachrichten, Lieferantenbetrugssorgen oder Kundenfragen zur E-Mail-Echtheit.</p></article><article><h3>KI-Workflow-Sicherheitsreview</h3><p>Vor der Verbindung von KI-Tools mit Unternehmensdaten, Konten oder Prozessen.</p></article><article><h3>KMU-Sicherheitsreview</h3><p>Wenn das Management klare Prioritäten statt eines generischen Berichts benötigt.</p></article><article><h3>Automatisierungs-Mapping</h3><p>Für repetitive interne Workflows, die ohne Overengineering vereinfacht werden können.</p></article></div>
-
-<div class="final-cta-panel"><p class="eyebrow">Bereit für ein Gespräch?</p><h2>Starten wir mit einem kurzen, unverbindlichen Gespräch.</h2><p>Wir klären das Problem, identifizieren sinnvolle nächste Schritte und entscheiden, ob Clearpoint passt.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Kostenloses Erstgespräch buchen</a></div>
+<section class="section" aria-labelledby="cta-title">
+  <div class="container cta-band">
+    <h2 id="cta-title">Möchten Sie über eine Rolle, ein Mandat oder eine technische Herausforderung sprechen?</h2>
+    <p>Ein kurzes Gespräch reicht meist, um zu sehen, ob es passt und was ein sinnvoller erster Schritt wäre.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Gespräch vereinbaren</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+  </div>
+</section>

@@ -1,49 +1,82 @@
 ---
 layout: page
 lang: fr
-title: Revue sécurité IA et automatisation
-description: "Une revue pratique pour les PME suisses qui utilisent des outils d’IA, des automatisations, des scripts et des intégrations, et qui ont besoin d’une gestion des données plus sûre, d’une propriété claire et de contrôles fiables."
+title: Revue de sécurité IA & automatisation
 permalink: /fr/services/ai-automation-security-review/
+description: "Une revue pratique pour les PME suisses qui utilisent des outils d’IA, des automatisations, des scripts et des intégrations, et qui ont besoin d’un traitement des données plus sûr, de responsabilités claires et de contrôles fiables."
+back_url: /fr/services/#ai-automation
+back_label: Expertise
+kicker: Agents IA & automatisation · Revue ciblée
+heading: Revue de sécurité IA & automatisation
+lead: "Utiliser les outils d’IA et l’automatisation sans perdre le contrôle des données, des accès, des responsabilités ou des workflows critiques."
+prose: false
 ---
 
-<div class="ai-review-page" markdown="1">
+<section class="section">
+  <div class="container">
+    <p class="section-head">Clearpoint examine comment les outils d’IA, les automatisations no-code, les scripts, les clés API, les comptes partagés et les intégrations sont utilisés en pratique, puis transforme les risques en priorités claires et en règles d’exploitation applicables.</p>
+    <div class="split">
+      <div>
+        <h2>Quand c’est utile</h2>
+        <ul class="plain-list">
+          <li>Les équipes utilisent ChatGPT, Copilot, Gemini, Claude ou des outils similaires sans directives claires.</li>
+          <li>Des données clients, financières, RH ou opérationnelles peuvent se retrouver dans des outils externes.</li>
+          <li>Des workflows passent par Zapier, Make, Microsoft 365, Google Workspace, un CRM ou d’autres intégrations SaaS.</li>
+          <li>Des automatisations reposent sur des scripts, des clés API, des comptes partagés ou la boîte email d’une seule personne.</li>
+          <li>Personne ne sait exactement quels systèmes échangent des données, ni qui en est responsable.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Ce que vous recevez</h2>
+        <ul class="plain-list">
+          <li>Un résumé concis des risques et des dépendances</li>
+          <li>Une liste d’actions priorisée</li>
+          <li>Des gains rapides pour un usage plus sûr de l’IA et de l’automatisation</li>
+          <li>Des recommandations sur les accès, les identifiants, les responsabilités et la documentation</li>
+          <li>Un accompagnement optionnel à la mise en œuvre</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="ai-review-hero" markdown="1">
+<section class="section" aria-labelledby="scope-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="scope-title">Ce qui peut être examiné</h2>
+      <p>Le périmètre est convenu au départ et reste proportionné à l’usage actuel de l’IA et de l’automatisation.</p>
+    </div>
+    <dl class="rows">
+      <div>
+        <dt>Usage de l’IA et traitement des données</dt>
+        <dd>Quels outils sont utilisés et pourquoi, quelles données y entrent, les risques liés à la confidentialité et aux données personnelles, et où une revue humaine est nécessaire.</dd>
+      </div>
+      <div>
+        <dt>Workflows et intégrations</dt>
+        <dd>Automatisations no-code, low-code, SaaS et à base de scripts, flux de données entre systèmes, gestion des erreurs et dépendances fragiles.</dd>
+      </div>
+      <div>
+        <dt>Accès, identifiants et responsabilités</dt>
+        <dd>Comptes personnels derrière des workflows métier, clés API et comptes de service, risques liés aux départs et à la récupération d’accès, et attribution claire des responsabilités.</dd>
+      </div>
+      <div>
+        <dt>Documentation et continuité</dt>
+        <dd>Ce que fait chaque workflow et qui en est responsable, dépendances envers des personnes, des appareils ou des fournisseurs, options de retour arrière et étapes de reprise.</dd>
+      </div>
+      <div>
+        <dt>Gouvernance légère</dt>
+        <dd>Des règles d’usage simples, des points d’approbation pour les workflows sensibles et des garde-fous qui permettent d’avancer sans bureaucratie inutile.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
 
-## Revue sécurité IA et automatisation pour PME suisses
-
-Utiliser les outils d’IA et l’automatisation sans perdre le contrôle des données, des accès, des responsabilités ou des workflows critiques.
-
-Clearpoint examine comment les outils d’IA, automatisations no-code, scripts, clés API, comptes partagés et intégrations sont utilisés en pratique — puis transforme les risques en priorités claires et règles d’utilisation plus sûres.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Réserver une première conversation gratuite</a>
-
-</div>
-
-<div class="ai-compact-grid">
-  <section><h2>Pour qui</h2><ul><li>Équipes utilisant ChatGPT, Copilot, Gemini, Claude ou outils similaires</li><li>Entreprises utilisant Zapier, Make, Airtable, Notion, Microsoft 365, Google Workspace, CRM ou intégrations SaaS</li><li>Workflows dépendant de scripts, clés API, comptes partagés ou d’un compte personnel</li><li>Management qui veut des règles pratiques, pas une gouvernance lourde</li></ul></section>
-  <section><h2>Déclencheurs typiques</h2><ul><li>Usage IA sans règles claires</li><li>Données clients, financières, RH ou opérationnelles copiées dans des outils externes</li><li>Automatisations utiles mais fragiles ou non documentées</li><li>Personne ne sait exactement quels systèmes échangent des données ou qui les possède</li></ul></section>
-  <section><h2>Ce que vous recevez</h2><ul><li>Résumé court des risques et dépendances</li><li>Liste d’actions priorisée</li><li>Quick wins pour un usage plus sûr de l’IA et de l’automatisation</li><li>Recommandations sur accès, identifiants, responsabilités et documentation</li><li>Support d’implémentation optionnel</li></ul></section>
-</div>
-
----
-
-## Ce qui peut être revu
-
-<div class="review-area-grid">
-  <section><h3>Usage IA et données</h3><ul><li>outils utilisés et finalité</li><li>données pouvant être saisies dans des outils externes</li><li>risques de confidentialité client, données personnelles et informations sensibles</li><li>points de revue humaine</li></ul></section>
-  <section><h3>Automatisations et intégrations</h3><ul><li>automatisations no-code, low-code, SaaS et scripts</li><li>flux entre email, cloud, CRM, tableurs et outils internes</li><li>gestion des erreurs et visibilité des pannes</li><li>dépendances fragiles ou non documentées</li></ul></section>
-  <section><h3>Accès, identifiants et ownership</h3><ul><li>comptes personnels pour automatisations critiques</li><li>clés API, comptes de service, boîtes partagées et accès privilégiés</li><li>récupération de compte et offboarding</li><li>propriété claire des workflows</li></ul></section>
-  <section><h3>Documentation et continuité</h3><ul><li>ce que fait l’automatisation et qui en est responsable</li><li>dépendances aux personnes, appareils, comptes ou fournisseurs</li><li>options de sauvegarde, export ou rollback</li><li>étapes de récupération pratiques</li></ul></section>
-  <section><h3>Gouvernance légère</h3><ul><li>règles simples d’usage IA et automatisation</li><li>points d’approbation pour workflows sensibles</li><li>garde-fous pour données clients, identifiants et informations confidentielles</li><li>priorités sans bureaucratie inutile</li></ul></section>
-</div>
-
----
-
-## Commencer par une courte conversation
-
-Si vous ne savez pas si cette revue correspond à votre situation, commencez par une première conversation gratuite.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Réserver une première conversation gratuite</a>
-
-</div>
+<section class="section" aria-labelledby="review-cta-title">
+  <div class="container cta-band">
+    <h2 id="review-cta-title">Commencer par un court échange</h2>
+    <p>Nous pouvons identifier ensemble la priorité probable et décider si une revue ciblée de l’IA et de l’automatisation est la bonne prochaine étape.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Prendre contact</a>
+    </div>
+  </div>
+</section>

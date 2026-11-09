@@ -1,223 +1,197 @@
 ---
 layout: page
 lang: fr
+title: Expertise
 permalink: /fr/services/
-title: Services
-description: "Évaluations de cybersécurité, durcissement système, automatisation assistée par l’IA et support de livraison technique pour PME suisses et organisations en croissance."
+description: "Cybersécurité, agents IA & automatisation et pilotage de projets techniques pour les PME suisses : connaître vos vrais risques de sécurité, confier le travail répétitif à l’IA sous contrôle et mener les projets jusqu’à la passation."
+kicker: Expertise
+heading: Trois compétences complémentaires
+lead: "Cybersécurité, agents IA & automatisation et pilotage de projets techniques, appliqués ensemble pour que le changement technique soit plus sûr, plus clair et réalisable."
+prose: false
 ---
 
-<div class="services-detail-page" markdown="1">
+<nav class="pillar-nav" aria-label="Sur cette page">
+  <div class="container">
+    <p class="muted">Les mandats vont d’une question de conseil ciblée à une revue structurée ou à un accompagnement opérationnel. La plupart combinent plusieurs domaines.</p>
+    <ol class="pillar-index">
+      <li><a href="#cybersecurity">Cybersécurité</a></li>
+      <li><a href="#ai-automation">Agents IA &amp; automatisation</a></li>
+      <li><a href="#project-delivery">Pilotage de projets techniques</a></li>
+    </ol>
+  </div>
+</nav>
 
-Clearpoint fournit un support technique pratique aux PME et organisations en croissance qui ont besoin de priorités plus claires, de systèmes plus sûrs, de meilleurs workflows, d’automatisation assistée par l’IA responsable ou d’une livraison de projet structurée.
+<section class="section pillar" id="cybersecurity" aria-labelledby="cybersecurity-title">
+  <div class="container">
+    <div class="pillar__head">
+      <div>
+        <p class="kicker">01 · Socle</p>
+        <h2 id="cybersecurity-title">Cybersécurité</h2>
+      </div>
+      <p class="lead">Comprendre le risque, vérifier ce qui se passe réellement et corriger d’abord l’essentiel, avec des constats sur lesquels la direction comme les équipes techniques peuvent agir.</p>
+    </div>
+    <div class="pillar__body">
+      <div class="pillar__situations">
+        <h3>Situations typiques</h3>
+        <ul class="plain-list">
+          <li>Vous ne savez pas quelles améliorations de sécurité prioriser.</li>
+          <li>Vous souhaitez un avis indépendant avant d’investir dans des outils ou des fournisseurs.</li>
+          <li>Un phishing, une connexion suspecte ou un incident nécessite une première évaluation sereine.</li>
+          <li>Un site web, un serveur ou un système interne a besoin d’un durcissement de base.</li>
+          <li>Des clients, partenaires ou assureurs posent des questions de sécurité.</li>
+        </ul>
+      </div>
+      <div class="scope">
+        <div class="scope-group">
+          <h3>Évaluation &amp; priorités</h3>
+          <ul class="plain-list">
+            <li>Un examen de votre dispositif de sécurité actuel</li>
+            <li>Points faibles identifiés et classés selon l’impact et l’effort</li>
+            <li>Mises à jour et sauvegardes : vérifiées, pas supposées</li>
+            <li>Constats et plan d’action en langage clair</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Systèmes &amp; paramètres</h3>
+          <ul class="plain-list">
+            <li>Sécurisation des systèmes Linux et Windows</li>
+            <li>Contrôles de serveurs et d’applications web</li>
+            <li>Authentification, MFA et droits d’accès</li>
+            <li>Configuration du chiffrement et des certificats</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Incidents &amp; résilience</h3>
+          <ul class="plain-list">
+            <li>Première évaluation : ce qui s’est passé et quelle en est la gravité</li>
+            <li>Appui à la collecte d’éléments probants pour les spécialistes</li>
+            <li>Analyse du phishing et des emails suspects</li>
+            <li>Coordination entre direction, prestataires IT et spécialistes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pillar__next">
+      <p>Point de départ ciblé : la <a href="/fr/services/sme-cybersecurity-review/">Revue de cybersécurité PME</a> couvre vos principaux risques, les gains rapides et un plan d’action adapté à la direction.</p>
+    </div>
+  </div>
+</section>
 
-Les services ci-dessous peuvent commencer par une session de conseil ciblée, une courte évaluation ou un engagement plus opérationnel selon la situation.
+<section class="section pillar" id="ai-automation" aria-labelledby="ai-automation-title">
+  <div class="container">
+    <div class="pillar__head">
+      <div>
+        <p class="kicker">02 · Levier</p>
+        <h2 id="ai-automation-title">Agents IA &amp; automatisation</h2>
+      </div>
+      <p class="lead">Des agents IA et des automatisations qui déchargent votre équipe du travail répétitif, tandis que les données de l’entreprise, les accès et les décisions importantes restent sous votre contrôle.</p>
+    </div>
+    <div class="pillar__body">
+      <div class="pillar__situations">
+        <h3>Situations typiques</h3>
+        <ul class="plain-list">
+          <li>Le travail répétitif et les copier-coller entre outils ralentissent l’équipe.</li>
+          <li>Les équipes utilisent des outils d’IA sans règles claires pour les données de l’entreprise.</li>
+          <li>Les automatisations fonctionnent, mais elles sont fragiles, non documentées ou liées à une seule personne.</li>
+          <li>Un essai d’IA prometteur doit devenir un outil sur lequel on peut compter au quotidien.</li>
+        </ul>
+      </div>
+      <div class="scope">
+        <div class="scope-group">
+          <h3>Choisir les bonnes tâches</h3>
+          <ul class="plain-list">
+            <li>Là où le temps se perd aujourd’hui</li>
+            <li>Tâches répétitives à confier à un agent IA ou à une automatisation</li>
+            <li>Usages réalistes de l’IA pour les tâches courantes</li>
+            <li>Effort, risques et bénéfices comparés dès le départ</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Construire &amp; connecter</h3>
+          <ul class="plain-list">
+            <li>Agents IA qui trient, préparent ou rédigent un travail que des personnes vérifient</li>
+            <li>Automatisation no-code et low-code</li>
+            <li>Connexions entre email, CRM, outils cloud et tableurs</li>
+            <li>Étapes de validation avant tout envoi important</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Contrôle &amp; continuité</h3>
+          <ul class="plain-list">
+            <li>Règles sur les données de l’entreprise que les outils d’IA peuvent utiliser</li>
+            <li>Qui détient les comptes, les identifiants et les clés API</li>
+            <li>Revue humaine là où le résultat compte</li>
+            <li>Documentation, suivi et gestion des erreurs, pour que d’autres puissent en assurer la maintenance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pillar__next">
+      <p>Point de départ ciblé : la <a href="/fr/services/ai-automation-security-review/">Revue de sécurité IA &amp; automatisation</a> cartographie ce qui est connecté, quelles données circulent où, et comment garder le contrôle.</p>
+    </div>
+  </div>
+</section>
 
----
+<section class="section pillar" id="project-delivery" aria-labelledby="project-delivery-title">
+  <div class="container">
+    <div class="pillar__head">
+      <div>
+        <p class="kicker">03 · Exécution</p>
+        <h2 id="project-delivery-title">Pilotage de projets techniques</h2>
+      </div>
+      <p class="lead">Des projets de sécurité, d’automatisation et d’IT planifiés de façon réaliste et pilotés en toute transparence : coûts et avancement restent visibles, les problèmes apparaissent tôt et le changement est réellement mené à terme.</p>
+    </div>
+    <div class="pillar__body">
+      <div class="pillar__situations">
+        <h3>Situations typiques</h3>
+        <ul class="plain-list">
+          <li>Une initiative technique a besoin d’un périmètre, de jalons ou de responsabilités plus clairs.</li>
+          <li>Les personnes côté métier et côté technique ne tirent pas dans le même sens.</li>
+          <li>Plusieurs fournisseurs ou équipes doivent travailler selon un même plan.</li>
+          <li>Un projet dérive en coûts ou en délais, et la direction doit comprendre pourquoi et quelles sont les options.</li>
+        </ul>
+      </div>
+      <div class="scope">
+        <div class="scope-group">
+          <h3>Planification</h3>
+          <ul class="plain-list">
+            <li>Objectifs, périmètre et contraintes</li>
+            <li>Un plan réaliste avec jalons, responsables et budget</li>
+            <li>Risques et dépendances identifiés tôt</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Garder le cap</h3>
+          <ul class="plain-list">
+            <li>Coûts et avancement suivis de manière visible par rapport au plan</li>
+            <li>Écarts repérés tôt, et leur cause comprise</li>
+            <li>Options de redressement comparées, avec leurs avantages et inconvénients</li>
+            <li>Une base solide pour les décisions de la direction</li>
+          </ul>
+        </div>
+        <div class="scope-group">
+          <h3>Coordination &amp; passation</h3>
+          <ul class="plain-list">
+            <li>Alignement entre métier, IT et fournisseurs</li>
+            <li>Accompagnement des déploiements sécurité et automatisation</li>
+            <li>Documentation et comptes rendus clairs</li>
+            <li>Passation propre aux personnes qui exploitent la solution</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pillar__next">
+      <p>Point de départ : l’accompagnement est cadré selon votre initiative. Un <a href="{{ site.booking_url }}">court échange</a> suffit généralement pour le définir.</p>
+    </div>
+  </div>
+</section>
 
-<div class="services-start-guide" markdown="1">
-
-### Choisir un point de départ rapide
-
-<div class="services-start-grid">
-  <article><h3>Contrôle rapide email/domaine</h3><p>Si les emails suspects, la fraude aux factures ou les questions clients sont la priorité immédiate.</p><a href="/fr/services/email-security-health-check/">Check email</a></article>
-  <article><h3>Priorités cybersécurité générales</h3><p>Si vous ne savez pas où se situent les principaux risques ou avez besoin d’un plan clair.</p><a href="/fr/services/sme-cybersecurity-review/">Revue cyber PME</a></article>
-  <article><h3>IA, automatisation, scripts ou intégrations</h3><p>Si les outils, workflows, clés API, données ou responsabilités doivent être mieux structurés.</p><a href="/fr/services/ai-automation-security-review/">Revue IA & automatisation</a></article>
-  <article><h3>Support de projet technique</h3><p>Si une initiative sécurité, automatisation ou IT nécessite un meilleur cadrage et une meilleure coordination.</p><a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" target="_blank">Commencer par une courte conversation</a></article>
-</div>
-
-</div>
-
-<div class="services-core-intro" markdown="1">
-
-### Services principaux
-
-Les points de départ ci-dessus sont des portes d’entrée ciblées. L’offre Clearpoint reste plus large : cybersécurité pratique, automatisation et workflows IA plus sûrs, et support structuré aux projets techniques.
-
-</div>
-
----
-
-## Cybersécurité
-
-J’aide les PME à améliorer leur posture de sécurité grâce à des évaluations structurées, des mesures de durcissement pratiques et un support clair en cas d’incident, en traduisant les risques techniques en décisions métier.
-
-Bons points de départ :
-
-- vous ne savez pas quelles améliorations de sécurité prioriser,
-- vous avez besoin d’une revue indépendante avant d’investir dans des outils ou fournisseurs,
-- vous avez reçu des emails suspects ou des tentatives de phishing,
-- vous avez besoin d’un durcissement de base pour un site web, un serveur ou un système interne,
-- vous avez besoin d’un plan d’action clair compréhensible par le management et les équipes techniques.
-
-Pour un point d’entrée ciblé, voir la [Revue de cybersécurité PME](/fr/services/sme-cybersecurity-review/).
-
-<details>
-<summary><strong>Évaluation de la sécurité & conseil en risques</strong></summary>
-<ul>
-  <li>Revue de la posture de sécurité</li>
-  <li>Identification & priorisation des vulnérabilités</li>
-  <li>Revue de la gestion des correctifs</li>
-  <li>Recommandations basées sur les risques</li>
-  <li>Reporting orienté métier</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Durcissement des systèmes & réseaux</strong></summary>
-<ul>
-  <li>Durcissement des systèmes d’exploitation (Linux / Windows)</li>
-  <li>Durcissement des serveurs web</li>
-  <li>Revue de la configuration sécurisée</li>
-  <li>Améliorations des mots de passe & de l’authentification</li>
-  <li>Revue du chiffrement & de la configuration des certificats</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Investigation email & phishing</strong></summary>
-<ul>
-  <li>Analyse des en-têtes email</li>
-  <li>Conseils sur la détection du phishing</li>
-  <li>Triage des pièces jointes suspectes</li>
-  <li>Revue SPF / DKIM / DMARC</li>
-  <li>Recommandations de sensibilisation des utilisateurs</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Support à la réponse aux incidents</strong></summary>
-<ul>
-  <li>Évaluation & triage de la gravité de l’incident</li>
-  <li>Conseils de confinement initial</li>
-  <li>Revue des journaux & analyse de détection</li>
-  <li>Définition des procédures de réponse de base</li>
-  <li>Coordination IT ↔ management</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Revue de la sécurité des applications web</strong></summary>
-<ul>
-  <li>Évaluation de base de la sécurité des applications web</li>
-  <li>Identification des vulnérabilités de niveau OWASP</li>
-  <li>Tests de sensibilisation aux injections SQL</li>
-  <li>Revue de la politique de sécurité du contenu</li>
-  <li>Recommandations de configuration sécurisée</li>
-</ul>
-</details>
-
----
-
-## Automatisation et workflows assistés par l’IA
-
-J’aide les organisations à réduire la charge de travail manuelle et les frictions opérationnelles en implémentant des solutions d’automatisation pratiques avec des outils établis. Lorsque cela crée une vraie valeur, cela peut inclure des agents IA, du prompt engineering et des workflows assistés par l’IA.
-
-Bons points de départ :
-
-- les équipes utilisent l’IA ou l’automatisation sans règles claires sur les données et les responsabilités,
-- un travail manuel répétitif ralentit les opérations,
-- des informations sont copiées entre email, tableurs, CRM ou outils cloud,
-- les validations ou notifications sont incohérentes,
-- les automatisations existantes sont fragiles ou non documentées,
-- les équipes expérimentent des outils d’IA mais manquent de structure ou de règles d’usage sûres,
-- vous avez besoin d’une automatisation simple avec un minimum de gouvernance, sécurité et fiabilité.
-
-Pour un point d’entrée ciblé, voir la [Revue sécurité IA et automatisation](/fr/services/ai-automation-security-review/).
-
-<details>
-<summary><strong>Optimisation des workflows</strong></summary>
-<ul>
-  <li>Identification des processus manuels répétitifs</li>
-  <li>Cartographie & optimisation des processus</li>
-  <li>Réduction des goulots d’étranglement opérationnels</li>
-  <li>Refonte interne des workflows axée sur l’efficacité</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Implémentation d’automatisation basée sur des outils</strong></summary>
-<ul>
-  <li>Implémentation de plateformes d’automatisation no-code / low-code</li>
-  <li>Intégration entre systèmes métier (CRM, email, outils cloud)</li>
-  <li>Notifications automatisées & flux d’approbation</li>
-  <li>Synchronisation des données entre systèmes</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Agents IA & prompt engineering</strong></summary>
-<ul>
-  <li>Identification de cas d’usage pratiques pour agents IA</li>
-  <li>Conception de prompts pour des tâches métier répétables</li>
-  <li>Prototypage de workflows assistés par l’IA</li>
-  <li>Points de contrôle et revue humaine</li>
-  <li>Conseils de base sur la sécurité et la gestion des données pour les outils d’IA</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Efficacité opérationnelle & monitoring</strong></summary>
-<ul>
-  <li>Revue des performances d’automatisation</li>
-  <li>Améliorations de la gestion des erreurs & de la fiabilité</li>
-  <li>Documentation structurée des workflows automatisés</li>
-  <li>Gouvernance de base & considérations de sécurité</li>
-</ul>
-</details>
-
----
-
-## Support Projet
-
-J’accompagne les organisations dans la livraison d’initiatives IT et sécurité structurées, en veillant à ce que l’exécution technique s’aligne sur les objectifs métier et les contraintes opérationnelles.
-
-Bons points de départ :
-
-- un projet technique a besoin d’un périmètre, de jalons ou d’une gouvernance plus clairs,
-- les parties prenantes métier et techniques ne sont pas alignées,
-- une initiative sécurité ou automatisation a besoin de coordination,
-- le management a besoin d’une vision plus claire des risques, options et compromis,
-- vous avez besoin d’un support de livraison pratique sans ajouter de processus inutile.
-
-<details>
-<summary><strong>Coordination de projet technique</strong></summary>
-<ul>
-  <li>Coordination entre équipes techniques et parties prenantes métier</li>
-  <li>Planification structurée & définition des jalons</li>
-  <li>Identification des risques & suivi des mesures d’atténuation</li>
-  <li>Alignement du périmètre technique avec les priorités métier</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Support à la livraison & l’implémentation</strong></summary>
-<ul>
-  <li>Support pendant les implémentations sécurité ou automatisation</li>
-  <li>Coordination des fournisseurs & solutions</li>
-  <li>Suivi des progrès et des livrables</li>
-  <li>Documentation et reporting structuré</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Traduction Métier ↔ Technologie</strong></summary>
-<ul>
-  <li>Traduction des risques techniques en impact métier</li>
-  <li>Support à l’évaluation des solutions de sécurité et d’automatisation</li>
-  <li>Support décisionnel structuré pour le management</li>
-  <li>Communication claire entre niveaux techniques et exécutifs</li>
-</ul>
-</details>
-
----
-
-## Vous ne savez pas par où commencer ?
-
-Une courte conversation initiale suffit souvent à identifier si la priorité est la sécurité, l’automatisation, la structure projet ou une combinaison des trois.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">
-Réserver une première conversation gratuite
-</a>
-
-
-</div>
+<section class="section" aria-labelledby="services-cta-title">
+  <div class="container cta-band">
+    <h2 id="services-cta-title">Vous ne savez pas quel domaine s’applique ?</h2>
+    <p>La plupart des questions en touchent plusieurs. Un court échange suffit pour trouver le bon point de départ.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Prendre contact</a>
+    </div>
+  </div>
+</section>

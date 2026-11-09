@@ -2,48 +2,81 @@
 layout: page
 lang: it
 title: Revisione di cybersicurezza per PMI
-description: "Una revisione pratica di cybersicurezza per PMI svizzere che hanno bisogno di priorità chiare, sistemi più sicuri e un piano d’azione comprensibile per il management."
 permalink: /it/services/sme-cybersecurity-review/
+description: "Una revisione pratica di cybersicurezza per PMI svizzere che hanno bisogno di priorità chiare, sistemi più sicuri e un piano d’azione comprensibile per la direzione."
+back_url: /it/services/#cybersecurity
+back_label: Competenze
+kicker: Cybersicurezza · Revisione mirata
+heading: Revisione di cybersicurezza per PMI
+lead: "Comprendere i principali rischi di sicurezza, sistemare le basi e ottenere un piano d’azione chiaro, senza avviare un ampio programma di audit."
+prose: false
 ---
 
-<div class="cyber-review-page" markdown="1">
+<section class="section">
+  <div class="container">
+    <p class="section-head">Clearpoint esamina ambiti prioritari concordati, come accessi e identità, aggiornamenti, sistemi esposti, backup e resilienza al phishing, e trasforma i risultati in passi concreti.</p>
+    <div class="split">
+      <div>
+        <h2>Quando è utile</h2>
+        <ul class="plain-list">
+          <li>Non sapete dove si trovino i vostri principali rischi di sicurezza.</li>
+          <li>I sistemi sono cresciuti senza una revisione di sicurezza recente.</li>
+          <li>Il phishing raggiunge i collaboratori, o un account potrebbe essere stato esposto.</li>
+          <li>Backup, diritti di accesso o aggiornamenti non sono chiari.</li>
+          <li>Clienti, partner o assicuratori pongono domande sulla sicurezza.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Cosa ricevete</h2>
+        <ul class="plain-list">
+          <li>Una breve sintesi dei risultati</li>
+          <li>Un elenco di azioni prioritarie</li>
+          <li>Miglioramenti rapidi e interventi a medio termine</li>
+          <li>Una spiegazione dell’impatto comprensibile per la direzione</li>
+          <li>Supporto opzionale per coordinare l’implementazione</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="cyber-review-hero" markdown="1">
+<section class="section" aria-labelledby="scope-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="scope-title">Cosa può essere esaminato</h2>
+      <p>Il perimetro viene concordato in anticipo e resta proporzionato all’organizzazione.</p>
+    </div>
+    <dl class="rows">
+      <div>
+        <dt>Accessi e identità</dt>
+        <dd>Pratiche relative a password e autenticazione a più fattori, account privilegiati, priorità nella revisione degli accessi utente e rischi nel recupero degli account.</dd>
+      </div>
+      <div>
+        <dt>Sistemi, aggiornamenti e configurazione</dt>
+        <dd>Pratiche di aggiornamento, hardening di base di siti web o server, servizi esposti e configurazione di cifratura e certificati.</dd>
+      </div>
+      <div>
+        <dt>Backup e ripristino</dt>
+        <dd>Presenza e separazione dei backup, capacità di ripristino, resilienza al ransomware e lacune nella documentazione di ripristino.</dd>
+      </div>
+      <div>
+        <dt>Resilienza al phishing</dt>
+        <dd>Gestione dei messaggi sospetti, esposizione al phishing, lacune nella sensibilizzazione e misure di protezione degli account.</dd>
+      </div>
+      <div>
+        <dt>Priorità per la direzione</dt>
+        <dd>Quali rischi contano di più, cosa si può correggere rapidamente, cosa pianificare in seguito e dove è utile il supporto di specialisti o fornitori.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
 
-## Revisione di cybersicurezza per PMI svizzere
-
-Comprendere i principali rischi di sicurezza, correggere le basi e ricevere un piano d’azione chiaro senza avviare un grande programma di audit.
-
-Clearpoint verifica le priorità concordate: protezione email, accessi e identità, patching, sistemi esposti, backup e priorità comprensibili per il management.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Prenota una prima conversazione gratuita</a>
-
-</div>
-
-<div class="cyber-compact-grid">
-  <section><h2>A chi si rivolge</h2><ul><li>PMI che non vedono chiaramente i principali rischi</li><li>Sistemi cresciuti senza una revisione recente</li><li>Email sospette, phishing o attività insolita sugli account</li><li>Management che vuole priorità chiare prima di investire in strumenti o progetti</li></ul></section>
-  <section><h2>Trigger tipici</h2><ul><li>Il phishing raggiunge i dipendenti</li><li>Una password o un account potrebbe essere esposto</li><li>Backup, accessi o patching non sono chiari</li><li>Assicurazione cyber, clienti o partner fanno domande di sicurezza</li></ul></section>
-  <section><h2>Cosa ricevete</h2><ul><li>Breve riepilogo dei risultati</li><li>Lista di azioni prioritarizzata</li><li>Quick win e miglioramenti a medio termine</li><li>Spiegazione dell’impatto aziendale</li><li>Supporto opzionale per coordinare l’implementazione</li></ul></section>
-</div>
-
----
-
-## Cosa può essere revisionato
-
-<div class="review-area-grid">
-  <section><h3>Resilienza email e phishing</h3><ul><li>configurazione SPF, DKIM e DMARC</li><li>revisione di email sospette e header</li><li>esposizione al phishing e gap di consapevolezza</li><li>raccomandazioni per la protezione account</li></ul></section>
-  <section><h3>Accessi e identità</h3><ul><li>password e autenticazione multifattore</li><li>gestione degli account privilegiati</li><li>priorità per la revisione degli accessi</li><li>rischi di recupero account</li></ul></section>
-  <section><h3>Sistemi, patching e configurazione</h3><ul><li>patching di sistemi e applicazioni</li><li>hardening di sito web o server</li><li>servizi esposti e accessi inutili</li><li>crittografia e certificati</li></ul></section>
-  <section><h3>Backup e recovery</h3><ul><li>presenza e separazione dei backup</li><li>capacità di ripristino</li><li>priorità contro ransomware</li><li>documentazione pratica di recovery</li></ul></section>
-  <section><h3>Prioritizzazione per il management</h3><ul><li>quali rischi contano di più</li><li>cosa correggere rapidamente</li><li>cosa pianificare dopo</li><li>dove può servire supporto specialistico o di fornitori</li></ul></section>
-</div>
-
----
-
-## Iniziare con una breve conversazione
-
-Se non siete sicuri che questa revisione sia adatta alla vostra situazione, iniziate con una prima conversazione gratuita.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Prenota una prima conversazione gratuita</a>
-
-</div>
+<section class="section" aria-labelledby="review-cta-title">
+  <div class="container cta-band">
+    <h2 id="review-cta-title">Iniziare con una breve conversazione</h2>
+    <p>Possiamo individuare insieme la priorità più probabile e decidere se una revisione mirata sia il passo successivo giusto.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Prenota un incontro</a>
+    </div>
+  </div>
+</section>

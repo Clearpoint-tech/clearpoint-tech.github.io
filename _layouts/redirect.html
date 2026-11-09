@@ -1,0 +1,23 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- if page.redirect_to == "booking" -%}
+  {%- assign target = site.booking_url -%}
+{%- elsif page.redirect_to contains "://" -%}
+  {%- assign target = page.redirect_to -%}
+{%- else -%}
+  {%- assign target = page.redirect_to | absolute_url -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, follow">
+  <meta http-equiv="refresh" content="0; url={{ target }}">
+  <link rel="canonical" href="{{ target }}">
+  <title>{{ site.title }}</title>
+</head>
+<body>
+  <p>{{ t.redirect_note }} <a href="{{ target }}">{{ t.redirect_link }}</a></p>
+  <script>window.location.replace({{ target | jsonify }});</script>
+</body>
+</html>

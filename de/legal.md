@@ -8,33 +8,52 @@ description: "Rechtliche Hinweise, Datenschutzinformationen, Disclaimer und Copy
 
 ## Impressum
 
-**Clearpoint**  
-Unabhängige Dienstleistungen in den Bereichen Cybersicherheit, Automatisierung und technische Beratung  
-Betrieb in der Schweiz
+**Clearpoint**<br>
+Unabhängige Beratung in Cybersicherheit, KI und Automatisierung sowie technischer Projektumsetzung<br>
+Betrieben von Philip Ritter, Schweiz
 
-**Kontakt**  
-contact@clearpoint.ch
+**Kontakt**<br>
+[contact@clearpoint.ch](mailto:contact@clearpoint.ch)
 
 ---
 
 ## Datenschutz
 
+### Verantwortliche Person
+
+Philip Ritter betreibt Clearpoint von der Schweiz aus und ist für die hier beschriebene Bearbeitung von Personendaten verantwortlich. Für Fragen oder Anliegen zum Datenschutz schreiben Sie bitte an [contact@clearpoint.ch](mailto:contact@clearpoint.ch).
+
+### Diese Website
+
 Diese Website verwendet keine Tracking-Cookies oder Analysetools.
 
-Personenbezogene Daten können verarbeitet werden, wenn Nutzer Clearpoint per E-Mail kontaktieren, ein Erstgespräch buchen oder ein Formular für eine Serviceanfrage einreichen. Diese Daten werden ausschliesslich verwendet, um Anfragen zu beantworten, Dienstleistungen vorzubereiten oder zu erbringen und die damit verbundene Kommunikation zu bearbeiten.
+### Hosting
 
-Einige Anfrage-, Buchungs- oder zahlungsbezogene Abläufe können über externe Dienstleister wie Tally, Google Calendar, Stripe oder vergleichbare Tools bereitgestellt werden, sofern anwendbar. Informationen, die über diese Dienste übermittelt werden, werden vom jeweiligen Anbieter zur Formularbereitstellung, Terminplanung, Zahlungsabwicklung und Bearbeitung der Einreichung verarbeitet.
+Diese Website wird über GitHub Pages gehostet. Beim Aufruf der Website kann GitHub technische Verbindungsdaten wie Ihre IP-Adresse und Anfrageinformationen bearbeiten, um den Dienst bereitzustellen und abzusichern. Diese Bearbeitung richtet sich nach der [Datenschutzerklärung von GitHub](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement) und kann ausserhalb der Schweiz stattfinden.
 
-Bitte übermitteln Sie keine Passwörter, API-Schlüssel, vertraulichen Dateien, Kundendaten, Mailbox-Exporte, Logs, Screenshots oder andere sensible Informationen über Standardformulare oder Buchungstools. Wenn sensible Informationen später benötigt werden, kann eine sicherere Vorgehensweise separat vereinbart werden.
+### E-Mail und Terminbuchung
 
-Personenbezogene Daten werden gemäss dem Schweizer Datenschutzgesetz (DSG) behandelt.
+Sie können Clearpoint per E-Mail kontaktieren oder über eine externe [Google-Calendar-Buchungsseite]({{ site.booking_url }}) ein Gespräch vereinbaren. In beiden Fällen erhält Clearpoint die Kontakt- und Termindaten, die Sie angeben, etwa Ihren Namen, Ihre E-Mail-Adresse, Ihre Organisation, den gewünschten Termin und eine allfällige Nachricht. Diese Angaben werden ausschliesslich verwendet, um Ihre Anfrage zu beantworten und Gespräche zu vereinbaren und vorzubereiten.
+
+Terminbuchungen werden von Google gemäss den eigenen Datenschutzbestimmungen abgewickelt. Google kann diese Daten ausserhalb der Schweiz bearbeiten.
+
+### Aufbewahrung
+
+Personendaten werden nur so lange aufbewahrt, wie es für Ihre Anfrage oder eine daraus entstehende Zusammenarbeit nötig ist, oder länger, soweit geltende gesetzliche Pflichten dies verlangen.
+
+### Ihre Rechte
+
+Nach dem Schweizer Datenschutzgesetz (DSG) können Sie Auskunft darüber verlangen, welche Personendaten Clearpoint über Sie bearbeitet, und deren Berichtigung oder Löschung verlangen, im Rahmen der gesetzlichen Bestimmungen. Bitte richten Sie solche Anfragen an [contact@clearpoint.ch](mailto:contact@clearpoint.ch).
+
+### Sensible Informationen
+
+Bitte übermitteln Sie keine Passwörter, API-Schlüssel, vertraulichen Dateien, Kundendaten, Mailbox-Exporte, Logs, Screenshots oder andere sensible Informationen per E-Mail oder über das Buchungstool. Wenn sensible Informationen später benötigt werden, kann eine sicherere Vorgehensweise separat vereinbart werden.
 
 ---
 
 ## Haftungsausschluss
 
-Die auf dieser Website bereitgestellten Informationen dienen ausschliesslich allgemeinen Informationszwecken.
-Clearpoint übernimmt keine Gewähr für die Vollständigkeit oder Richtigkeit der Informationen.
+Die auf dieser Website bereitgestellten Informationen dienen ausschliesslich allgemeinen Informationszwecken. Clearpoint übernimmt keine Gewähr für die Vollständigkeit oder Richtigkeit der Informationen.
 
 Externe Links dienen zur Orientierung. Clearpoint übernimmt keine Verantwortung für den Inhalt von Drittanbieter-Websites.
 
@@ -42,5 +61,4 @@ Externe Links dienen zur Orientierung. Clearpoint übernimmt keine Verantwortung
 
 ## Urheberrecht
 
-Copyright © 2026 Clearpoint  
-Alle Rechte vorbehalten.
+Copyright © {{ site.time | date: '%Y' }} Clearpoint. Alle Rechte vorbehalten.

@@ -1,91 +1,38 @@
+<a class="skip-link" href="#main">{{ t.skip }}</a>
+
 <header class="site-header">
-  <div class="wrapper">
-
-    {% assign l = page.lang | default: 'en' %}
-    {% if l == 'fr' %}
-      {% assign nav_services = 'Services' %}
-      {% assign nav_email = 'Check email' %}
-      {% assign nav_ai = 'IA & automatisation' %}
-      {% assign nav_cyber = 'Revue cyber PME' %}
-      {% assign nav_about = 'À propos' %}
-      {% assign nav_legal = 'Mentions légales' %}
-      {% assign lp = '/fr' %}
-    {% elsif l == 'de' %}
-      {% assign nav_services = 'Leistungen' %}
-      {% assign nav_email = 'E-Mail-Check' %}
-      {% assign nav_ai = 'KI & Automatisierung' %}
-      {% assign nav_cyber = 'KMU Cyber-Review' %}
-      {% assign nav_about = 'Über mich' %}
-      {% assign nav_legal = 'Rechtliches' %}
-      {% assign lp = '/de' %}
-    {% elsif l == 'it' %}
-      {% assign nav_services = 'Servizi' %}
-      {% assign nav_email = 'Check email' %}
-      {% assign nav_ai = 'IA & automazione' %}
-      {% assign nav_cyber = 'Review cyber PMI' %}
-      {% assign nav_about = 'Chi sono' %}
-      {% assign nav_legal = 'Legale' %}
-      {% assign lp = '/it' %}
-    {% else %}
-      {% assign nav_services = 'Services' %}
-      {% assign nav_email = 'Email Check' %}
-      {% assign nav_ai = 'AI & Automation' %}
-      {% assign nav_cyber = 'SME Cyber Review' %}
-      {% assign nav_about = 'About' %}
-      {% assign nav_legal = 'Legal' %}
-      {% assign lp = '' %}
-    {% endif %}
-
-    {% assign raw_path = page.url | remove_first: '/fr' | remove_first: '/de' | remove_first: '/it' %}
-    {% if raw_path == '' %}{% assign raw_path = '/' %}{% endif %}
-
-    <a class="site-title" href="{{ lp }}/">
-      <img class="site-logo" src="/assets/logo/clearpoint_logo.svg" alt="Clearpoint">
-      <span>{{ site.title }}</span>
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ t.prefix }}/" aria-label="{{ t.home_label }}">
+      <img class="brand__logo" src="{{ '/assets/logo/clearpoint_logo.svg' | relative_url }}" alt="" width="30" height="30">
+      <span class="brand__name">{{ site.title }}</span>
     </a>
 
-    <!-- Desktop Navigation -->
-    <nav class="desktop-nav">
-      <a href="{{ lp }}/services/">{{ nav_services }}</a>
-      <a href="{{ lp }}/services/email-security-health-check/">{{ nav_email }}</a>
-      <a href="{{ lp }}/services/ai-automation-security-review/">{{ nav_ai }}</a>
-      <a href="{{ lp }}/services/sme-cybersecurity-review/">{{ nav_cyber }}</a>
-      <a href="{{ lp }}/about/">{{ nav_about }}</a>
-      <a href="{{ lp }}/legal/">{{ nav_legal }}</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+      <span class="nav-toggle__label">{{ t.menu }}</span>
+    </button>
 
-      {% unless page.multilingual == false %}
-        <div class="lang-switcher">
-          <button class="lang-btn">{{ l | upcase }} ▾</button>
-          <div class="lang-dropdown">
-            {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
-            {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
-            {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
-            {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
-          </div>
-        </div>
-      {% endunless %}
-    </nav>
-
-    <!-- Mobile Navigation -->
-    <details class="mobile-menu">
-      <summary><span></span></summary>
-      <ul>
-        <li><a href="{{ lp }}/services/">{{ nav_services }}</a></li>
-        <li><a href="{{ lp }}/services/email-security-health-check/">{{ nav_email }}</a></li>
-        <li><a href="{{ lp }}/services/ai-automation-security-review/">{{ nav_ai }}</a></li>
-        <li><a href="{{ lp }}/services/sme-cybersecurity-review/">{{ nav_cyber }}</a></li>
-        <li><a href="{{ lp }}/about/">{{ nav_about }}</a></li>
-        <li><a href="{{ lp }}/legal/">{{ nav_legal }}</a></li>
-        {% unless page.multilingual == false %}
-          <li class="lang-mobile-row">
-            {% if l != 'en' %}<a href="{{ raw_path }}">EN</a>{% endif %}
-            {% if l != 'fr' %}<a href="/fr{{ raw_path }}">FR</a>{% endif %}
-            {% if l != 'de' %}<a href="/de{{ raw_path }}">DE</a>{% endif %}
-            {% if l != 'it' %}<a href="/it{{ raw_path }}">IT</a>{% endif %}
-          </li>
-        {% endunless %}
+    {%- assign expertise_path = t.prefix | append: '/services/' -%}
+    {%- assign about_path = t.prefix | append: '/about/' %}
+    <nav class="site-nav" id="site-nav" aria-label="{{ t.nav_label }}">
+      <ul class="site-nav__links">
+        <li><a href="{{ expertise_path }}"{% if page.url contains expertise_path %} class="is-active"{% if page.url == expertise_path %} aria-current="page"{% endif %}{% endif %}>{{ t.nav_expertise }}</a></li>
+        <li><a href="{{ about_path }}"{% if page.url == about_path %} class="is-active" aria-current="page"{% endif %}>{{ t.nav_about }}</a></li>
       </ul>
-    </details>
-
+      <a class="button button--quiet button--small site-nav__cta" href="{{ site.booking_url }}">{{ t.nav_contact }}</a>
+      {%- unless page.multilingual == false %}
+      <details class="lang-menu">
+        <summary class="lang-menu__toggle">
+          <span class="visually-hidden">{{ t.lang_label }}: {{ t.name }}</span>
+          <span aria-hidden="true">{{ lang | upcase }}</span>
+        </summary>
+        <ul class="lang-menu__list" aria-label="{{ t.lang_label }}">
+          {%- for entry in site.data.i18n %}
+          <li><a href="{{ entry[1].prefix }}{{ raw_path }}" data-lang-link lang="{{ entry[0] }}" hreflang="{{ entry[0] }}"{% if entry[0] == lang %} aria-current="true"{% endif %}>{{ entry[1].name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </details>
+      {%- endunless %}
+    </nav>
   </div>
 </header>

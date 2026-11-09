@@ -2,48 +2,81 @@
 layout: page
 lang: fr
 title: Revue de cybersécurité PME
-description: "Une revue de cybersécurité pratique pour les PME suisses qui ont besoin de priorités claires, de systèmes plus sûrs et d’un plan d’action compréhensible par le management."
 permalink: /fr/services/sme-cybersecurity-review/
+description: "Une revue de cybersécurité pratique pour les PME suisses qui ont besoin de priorités claires, de systèmes plus sûrs et d’un plan d’action compréhensible par la direction."
+back_url: /fr/services/#cybersecurity
+back_label: Expertise
+kicker: Cybersécurité · Revue ciblée
+heading: Revue de cybersécurité PME
+lead: "Comprendre vos principaux risques de sécurité, corriger les fondamentaux et repartir avec un plan d’action clair, sans lancer un vaste programme d’audit."
+prose: false
 ---
 
-<div class="cyber-review-page" markdown="1">
+<section class="section">
+  <div class="container">
+    <p class="section-head">Clearpoint examine des domaines prioritaires convenus, comme les accès et les identités, les mises à jour, les systèmes exposés, les sauvegardes et la résilience face au phishing, puis transforme les constats en prochaines étapes concrètes.</p>
+    <div class="split">
+      <div>
+        <h2>Quand c’est utile</h2>
+        <ul class="plain-list">
+          <li>Vous ne savez pas où se situent vos principaux risques de sécurité.</li>
+          <li>Les systèmes ont évolué sans revue de sécurité récente.</li>
+          <li>Du phishing atteint vos collaborateurs, ou un compte a peut-être été exposé.</li>
+          <li>Les sauvegardes, les droits d’accès ou les mises à jour ne sont pas clairs.</li>
+          <li>Des clients, partenaires ou assureurs posent des questions de sécurité.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Ce que vous recevez</h2>
+        <ul class="plain-list">
+          <li>Un résumé concis des constats</li>
+          <li>Une liste d’actions priorisée</li>
+          <li>Des gains rapides et des améliorations à moyen terme</li>
+          <li>Une explication de l’impact compréhensible pour la direction</li>
+          <li>Un accompagnement optionnel pour coordonner la mise en œuvre</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="cyber-review-hero" markdown="1">
+<section class="section" aria-labelledby="scope-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="scope-title">Ce qui peut être examiné</h2>
+      <p>Le périmètre est convenu au départ et reste proportionné à l’organisation.</p>
+    </div>
+    <dl class="rows">
+      <div>
+        <dt>Accès et identités</dt>
+        <dd>Pratiques en matière de mots de passe et d’authentification multifacteur, comptes à privilèges, priorités de revue des accès utilisateurs et risques liés à la récupération de comptes.</dd>
+      </div>
+      <div>
+        <dt>Systèmes, mises à jour et configuration</dt>
+        <dd>Pratiques de mise à jour, durcissement de base des sites web et des serveurs, services exposés, et configuration du chiffrement et des certificats.</dd>
+      </div>
+      <div>
+        <dt>Sauvegardes et restauration</dt>
+        <dd>Existence et séparation des sauvegardes, capacité de restauration, résilience face aux ransomwares et lacunes de la documentation de reprise.</dd>
+      </div>
+      <div>
+        <dt>Résilience face au phishing</dt>
+        <dd>Traitement des messages suspects, exposition au phishing, lacunes de sensibilisation et mesures de protection des comptes.</dd>
+      </div>
+      <div>
+        <dt>Priorités pour la direction</dt>
+        <dd>Quels risques comptent le plus, ce qui peut être corrigé rapidement, ce qu’il faut planifier ensuite, et où un spécialiste ou un fournisseur peut être utile.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
 
-## Revue de cybersécurité PME pour les PME suisses
-
-Comprendre les principaux risques, corriger les bases et recevoir un plan d’action clair sans lancer un grand programme d’audit.
-
-Clearpoint revoit les priorités convenues : protection email, accès et identité, correctifs, systèmes exposés, sauvegardes et priorités compréhensibles par le management.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Réserver une première conversation gratuite</a>
-
-</div>
-
-<div class="cyber-compact-grid">
-  <section><h2>Pour qui</h2><ul><li>PME qui ne savent pas où se situent leurs principaux risques</li><li>Systèmes qui ont évolué sans revue récente</li><li>Emails suspects, phishing ou activité de compte inhabituelle</li><li>Management qui veut des priorités claires avant d’acheter des outils ou lancer un projet</li></ul></section>
-  <section><h2>Déclencheurs typiques</h2><ul><li>Un email de phishing atteint les employés</li><li>Un mot de passe ou un compte pourrait être exposé</li><li>Sauvegardes, accès ou correctifs ne sont pas clairs</li><li>Assurance cyber, clients ou partenaires posent des questions de sécurité</li></ul></section>
-  <section><h2>Ce que vous recevez</h2><ul><li>Résumé court des constats</li><li>Liste d’actions priorisée</li><li>Quick wins et améliorations à moyen terme</li><li>Explication de l’impact métier</li><li>Support optionnel pour coordonner l’implémentation</li></ul></section>
-</div>
-
----
-
-## Ce qui peut être revu
-
-<div class="review-area-grid">
-  <section><h3>Résilience email et phishing</h3><ul><li>configuration SPF, DKIM et DMARC</li><li>revue d’emails suspects et en-têtes</li><li>exposition au phishing et lacunes de sensibilisation</li><li>recommandations de protection des comptes</li></ul></section>
-  <section><h3>Accès et identité</h3><ul><li>mots de passe et authentification multifactorielle</li><li>gestion des comptes privilégiés</li><li>priorités de revue des accès utilisateurs</li><li>risques de récupération de compte</li></ul></section>
-  <section><h3>Systèmes, correctifs et configuration</h3><ul><li>mise à jour des systèmes et applications</li><li>durcissement site web ou serveur</li><li>services exposés et accès inutiles</li><li>chiffrement et certificats</li></ul></section>
-  <section><h3>Sauvegardes et récupération</h3><ul><li>présence et séparation des sauvegardes</li><li>capacité de restauration</li><li>priorités face aux ransomwares</li><li>documentation pratique de récupération</li></ul></section>
-  <section><h3>Priorisation management</h3><ul><li>quels risques comptent le plus</li><li>ce qui peut être corrigé rapidement</li><li>ce qui doit être planifié ensuite</li><li>où un spécialiste ou fournisseur peut être utile</li></ul></section>
-</div>
-
----
-
-## Commencer par une courte conversation
-
-Si vous ne savez pas si cette revue correspond à votre situation, commencez par une première conversation gratuite.
-
-<a href="https://calendar.app.google/vsrnZMvv2QyYiyjH6" class="cta-button" target="_blank">Réserver une première conversation gratuite</a>
-
-</div>
+<section class="section" aria-labelledby="review-cta-title">
+  <div class="container cta-band">
+    <h2 id="review-cta-title">Commencer par un court échange</h2>
+    <p>Nous pouvons identifier ensemble la priorité probable et décider si une revue ciblée est la bonne prochaine étape.</p>
+    <div class="actions">
+      <a class="button" href="{{ site.booking_url }}">Prendre contact</a>
+    </div>
+  </div>
+</section>

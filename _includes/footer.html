@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <a class="brand" href="{{ t.prefix }}/" aria-label="{{ t.home_label }}">
+        <img class="brand__logo" src="{{ '/assets/logo/clearpoint_logo.svg' | relative_url }}" alt="" width="26" height="26">
+        <span class="brand__name">{{ site.title }}</span>
+      </a>
+      <p>{{ t.tagline }}</p>
+    </div>
+
+    <nav class="site-footer__col" aria-label="{{ t.footer_explore }}">
+      <h2 class="site-footer__heading">{{ t.footer_explore }}</h2>
+      <ul>
+        <li><a href="{{ t.prefix }}/services/">{{ t.nav_expertise }}</a></li>
+        <li><a href="{{ t.prefix }}/about/">{{ t.nav_about }}</a></li>
+        <li><a href="{{ t.prefix }}/legal/">{{ t.nav_legal }}</a></li>
+      </ul>
+    </nav>
+
+    <div class="site-footer__col">
+      <h2 class="site-footer__heading">{{ t.footer_contact }}</h2>
+      <ul>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><a href="{{ site.linkedin_url }}" rel="me">LinkedIn</a></li>
+        <li><a href="{{ site.booking_url }}">{{ t.footer_book }}</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container site-footer__base">
+    <p>© {{ site.time | date: '%Y' }} {{ site.title }} · {{ t.footer_place }} · {{ t.rights }}</p>
+  </div>
+</footer>
